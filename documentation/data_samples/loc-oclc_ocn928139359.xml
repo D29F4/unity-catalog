@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><mods xmlns="http://www.loc.gov/mods/v3" xmlns:zs="http://docs.oasis-open.org/ns/search-ws/sruResponse" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="3.7" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-7.xsd">
+  <titleInfo>
+    <title>Discreet music</title>
+  </titleInfo>
+  <titleInfo nameTitleGroup="1" type="uniform">
+    <title>Discreet music; arranged</title>
+  </titleInfo>
+  <name nameTitleGroup="1" type="personal" usage="primary">
+    <namePart>Eno, Brian,</namePart>
+    <namePart type="date">1948-</namePart>
+    <role>
+      <roleTerm type="text">composer</roleTerm>
+    </role>
+  </name>
+  <name type="personal">
+    <namePart>Pergolesi, Jerry,</namePart>
+    <role>
+      <roleTerm type="text">arranger of music</roleTerm>
+    </role>
+    <role>
+      <roleTerm type="text">instrumentalist</roleTerm>
+    </role>
+    <role>
+      <roleTerm type="text">producer</roleTerm>
+    </role>
+  </name>
+  <name type="personal">
+    <namePart>Elkinson, Emma Zoe,</namePart>
+    <role>
+      <roleTerm type="text">instrumentalist</roleTerm>
+    </role>
+  </name>
+  <name type="personal">
+    <namePart>Kurtis-Pomeroy, Dean,</namePart>
+    <role>
+      <roleTerm type="text">instrumentalist</roleTerm>
+    </role>
+  </name>
+  <name type="corporate">
+    <namePart>Contact (Musical group : Jerry Pergolesi),</namePart>
+    <role>
+      <roleTerm type="text">performer</roleTerm>
+    </role>
+  </name>
+  <typeOfResource>sound recording-musical</typeOfResource>
+  <genre authority="rdacontent">performed music</genre>
+  <genre authority="fast">New Age music.</genre>
+  <genre authority="lcgft">Chamber music.</genre>
+  <genre authority="lcgft">Ambient music (Electronica)</genre>
+  <genre authority="lcgft">Arrangements (Music)</genre>
+  <genre authority="lcgft">New Age music.</genre>
+  <genre authority="fast">Arrangements (Music)</genre>
+  <genre authority="fast">Background music.</genre>
+  <genre authority="fast">Chamber music.</genre>
+  <originInfo>
+    <place>
+      <placeTerm authority="marccountry" type="code">nyu</placeTerm>
+    </place>
+    <dateIssued encoding="marc">2015</dateIssued>
+    <issuance>monographic</issuance>
+    <dateCaptured encoding="iso8601">20110819</dateCaptured>
+  </originInfo>
+  <originInfo eventType="publisher">
+    <place>
+      <placeTerm type="text">Brooklyn, NY :</placeTerm>
+    </place>
+    <publisher>Cantaloupe Music,</publisher>
+    <dateIssued>[2015]</dateIssued>
+  </originInfo>
+  <language>
+    <languageTerm authority="iso639-2b" type="code">zxx</languageTerm>
+  </language>
+  <language objectPart="accompanying material">
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+  </language>
+  <physicalDescription>
+    <form authority="marccategory">sound recording</form>
+    <form authority="marcsmd">sound disc</form>
+    <form authority="rdamedia" type="media">audio</form>
+    <form authority="rdacarrier" type="carrier">audio disc</form>
+    <extent>1 audio disc (60:00) : digital, CD audio ; 4 3/4 in.</extent>
+  </physicalDescription>
+  <tableOfContents displayLabel="Contents">Part I (9:44) -- Part II (10:36) -- Part III (5:24) -- Part IV (7:08) -- Part V (7:29) -- Part VI (8:00) -- Part VII (11:37).</tableOfContents>
+  <note type="statement of responsibility">composed by Brian Eno.</note>
+  <note>Ambient music ; arranged by Jerry Pergolesi.</note>
+  <note>Title from container.</note>
+  <note>Notes in English inserted in container.</note>
+  <note type="creation/production credits">Produced by Jerry Pergolsei and João Carvalho ; engineered by Rhonda Bruce ; Jason Dufour, assistant engineer ; edited by Bryan Lowe and Tony Smith ; mixed and mastered by João Carvalho.</note>
+  <note type="performers">Performed by Contact (Mary-Katherine Finch, cello ; Sarah Fraser Raff, violin ; Wallace Halladay, soprano saxophone ; Rob MacDonald, electric guitar ; Peter Pavlovsky, double bass ; Jerry Pergolesi, vibraphone ; Allison Wiebe Benstead, piano) ; with Emma Zoe Elkinson, flute ; Dean Kurtis-Pomery, gongs.</note>
+  <note type="venue">Recorded 2011 August 19, Revolution Recording, Toronto.</note>
+  <subject authority="lcsh">
+    <topic>Instrumental ensembles, Arranged</topic>
+  </subject>
+  <subject authority="lcsh">
+    <topic>Ambient music</topic>
+  </subject>
+  <subject authority="lcsh">
+    <topic>New Age music</topic>
+  </subject>
+  <subject xmlns:xlink="http://www.w3.org/1999/xlink" authority="fast" xlink:href="(OCoLC)fst01740635">
+    <topic>Ambient music</topic>
+  </subject>
+  <subject xmlns:xlink="http://www.w3.org/1999/xlink" authority="fast" xlink:href="(OCoLC)fst00974413">
+    <topic>Instrumental ensembles, Arranged</topic>
+  </subject>
+  <subject xmlns:xlink="http://www.w3.org/1999/xlink" authority="fast" xlink:href="(OCoLC)fst01036703">
+    <topic>New Age music</topic>
+  </subject>
+  <classification authority="lcc">SDD 36336</classification>
+  <classification authority="ddc" edition="23">780.905</classification>
+  <identifier type="lccn">2020619538</identifier>
+  <identifier type="issue number">CA21114 Cantaloupe Music</identifier>
+  <identifier type="oclc">ocn928139359</identifier>
+  <identifier type="upc">713746311421</identifier>
+  <recordInfo>
+    <descriptionStandard>rda</descriptionStandard>
+    <recordContentSource authority="marcorg">BTCTA</recordContentSource>
+    <recordCreationDate encoding="marc">200428</recordCreationDate>
+    <recordChangeDate encoding="iso8601">20210405082615.0</recordChangeDate>
+    <recordIdentifier>21514731</recordIdentifier>
+    <recordOrigin>Converted from MARCXML to MODS version 3.7 using MARC21slim2MODS3-7.xsl
+        (Revision 1.140 20200717)</recordOrigin>
+    <languageOfCataloging>
+      <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+    </languageOfCataloging>
+  </recordInfo>
+</mods>
+<!--
+Other system no.: (OCoLC)ocn928139359
+Type of material: Music Recording
+Content type:     performed music
+Media type:       audio
+Carrier type:     audio disc
+-->

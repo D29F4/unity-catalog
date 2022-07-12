@@ -1,0 +1,154 @@
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods version="3.7" xmlns="http://www.loc.gov/mods/v3" xmlns:h="http://copac.ac.uk/schemas/holdings/v1" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<recordInfo>
+		<recordIdentifier source="UkMaC">54358830</recordIdentifier>
+		<recordCreationDate encoding="iso8601">20220707</recordCreationDate>
+	</recordInfo>
+	<typeOfResource collection="yes">text</typeOfResource>
+	<originInfo>
+		<issuance>monographic</issuance>
+	</originInfo>
+	<originInfo>
+		<dateIssued encoding="marc">1842</dateIssued>
+		<place>
+			<placeTerm authority="marccountry" type="code">enk</placeTerm>
+		</place>
+	</originInfo>
+	<name type="personal">
+		<namePart>Beattie, William.</namePart>
+		<role>
+			<roleTerm type="text">creator</roleTerm>
+		</role>
+	</name>
+	<titleInfo>
+		<title>
+			<nonSort>The </nonSort>castles and abbeys of England. By William Beattie, M.D., grad. of Edin. ; memb. of the Coll. of Phys., London ; of the Hist. Instit. of France ; author of &quot;Switzerland,' &quot;Scotland,&quot; &quot;The Waldenses,&quot; &quot;Residence at the courts of Germany,&quot; etc. etc. Volume the first. Illustrated by upwards of two hundred views taken on the spot.</title>
+	</titleInfo>
+	<originInfo eventType="publisher">
+		<place>
+			<placeTerm type="text">London</placeTerm>
+		</place>
+		<publisher>J. Mortimer; Tilt and Bogue; George Virtue</publisher>
+		<dateIssued>MDCCCXLII [1842]</dateIssued>
+	</originInfo>
+	<physicalDescription>
+		<extent>xvi, 352 p. : ill. ; 28 cm.</extent>
+	</physicalDescription>
+	<subject authority="lcsh">
+		<topic>Historic buildings</topic>
+		<geographic>England.</geographic>
+	</subject>
+	<subject>
+		<hierarchicalGeographic>
+			<country>Great Britain</country>
+			<state>England</state>
+			<city>London.</city>
+		</hierarchicalGeographic>
+	</subject>
+	<relatedItem>
+		<location>
+			<url note="The record you are viewing is part of our Phase1 retro-cataloguing work. Visit the Lighting the Past project webpage to read more about the current project to record all our rare books">http://www.st-andrews.ac.uk/library/specialcollections/collections/rarebooks/projects/lightingthepast/</url>
+		</location>
+	</relatedItem>
+	<extension>
+		<modsCollection>
+			<mods version="3.7">
+				<recordInfo>
+					<recordIdentifier source="UkMaC">54358830</recordIdentifier>
+					<recordIdentifier source="StSaUL">.b20307202</recordIdentifier>
+					<recordCreationDate encoding="iso8601">20220707</recordCreationDate>
+				</recordInfo>
+				<typeOfResource collection="yes">text</typeOfResource>
+				<originInfo>
+					<issuance>monographic</issuance>
+				</originInfo>
+				<recordInfo>
+					<descriptionStandard>aacr</descriptionStandard>
+				</recordInfo>
+				<originInfo>
+					<dateIssued encoding="marc">1842</dateIssued>
+					<place>
+						<placeTerm authority="marccountry" type="code">enk</placeTerm>
+					</place>
+				</originInfo>
+				<recordInfo>
+					<recordContentSource authority="marcorg">StSaUL</recordContentSource>
+				</recordInfo>
+				<name type="personal">
+					<namePart>Beattie, William.</namePart>
+					<role>
+						<roleTerm type="text">creator</roleTerm>
+					</role>
+				</name>
+				<titleInfo>
+					<title>
+						<nonSort>The </nonSort>castles and abbeys of England. By William Beattie, M.D., grad. of Edin. ; memb. of the Coll. of Phys., London ; of the Hist. Instit. of France ; author of &quot;Switzerland,' &quot;Scotland,&quot; &quot;The Waldenses,&quot; &quot;Residence at the courts of Germany,&quot; etc. etc. Volume the first. Illustrated by upwards of two hundred views taken on the spot.</title>
+				</titleInfo>
+				<originInfo eventType="publisher">
+					<place>
+						<placeTerm type="text">London</placeTerm>
+					</place>
+					<publisher>J. Mortimer; Tilt and Bogue; George Virtue</publisher>
+					<dateIssued>MDCCCXLII [1842]</dateIssued>
+				</originInfo>
+				<physicalDescription>
+					<extent>xvi, 352 p. : ill. ; 28 cm.</extent>
+				</physicalDescription>
+				<subject authority="lcsh">
+					<topic>Historic buildings</topic>
+					<geographic>England.</geographic>
+				</subject>
+				<subject>
+					<hierarchicalGeographic>
+						<country>Great Britain</country>
+						<state>England</state>
+						<city>London.</city>
+					</hierarchicalGeographic>
+				</subject>
+				<relatedItem>
+					<location>
+						<url note="The record you are viewing is part of our Phase1 retro-cataloguing work. Visit the Lighting the Past project webpage to read more about the current project to record all our rare books">http://www.st-andrews.ac.uk/library/specialcollections/collections/rarebooks/projects/lightingthepast/</url>
+					</location>
+				</relatedItem>
+				<physicalDescription>
+					<form authority="marcform">print</form>
+				</physicalDescription>
+				<genre>Illustrated</genre>
+				<language>
+					<languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+					<languageTerm type="text">English</languageTerm>
+				</language>
+				<location>
+					<physicalLocation>University of St Andrews Library</physicalLocation>
+					<physicalLocation authority="UkMaC">sta</physicalLocation>
+					<holdingSimple>
+						<copyInformation>
+							<electronicLocator>http://www.st-andrews.ac.uk/library/specialcollections/collections/rarebooks/projects/lightingthepast/</electronicLocator>
+							<note>The record you are viewing is part of our Phase1 retro-cataloguing work. Visit the Lighting the Past project webpage to read more about the current project to record all our rare books</note>
+						</copyInformation>
+						<copyInformation>
+							<subLocation>Special Collections</subLocation>
+							<shelfLocator>DA660.B3 r</shelfLocator>
+						</copyInformation>
+					</holdingSimple>
+				</location>
+				<extension>
+					<cpc:local xmlns:cpc="http://copac.ac.uk/schemas/mods-copac/v1">
+						<name type="corporate">
+							<namePart>University of St Andrews. Library. Reserve Collection.</namePart>
+						</name>
+					</cpc:local>
+				</extension>
+			</mods>
+		</modsCollection>
+	</extension>
+	<physicalDescription>
+		<form authority="marcform">print</form>
+	</physicalDescription>
+	<genre>Illustrated</genre>
+	<language>
+		<languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+		<languageTerm type="text">English</languageTerm>
+	</language>
+</mods>
+</modsCollection>

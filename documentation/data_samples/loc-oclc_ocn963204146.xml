@@ -1,0 +1,276 @@
+<?xml version="1.0"?>
+<zs:searchRetrieveResponse xmlns:zs="http://www.loc.gov/zing/srw/"><zs:version>1.1</zs:version><zs:numberOfRecords>1</zs:numberOfRecords><zs:records><zs:record><zs:recordSchema>mods</zs:recordSchema><zs:recordPacking>xml</zs:recordPacking><zs:recordData><mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.6" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd">
+  <titleInfo>
+    <title>Collected essays on evolution, nature, and the cosmos</title>
+  </titleInfo>
+  <titleInfo type="uniform" nameTitleGroup="1">
+    <title>Essays. Selections</title>
+  </titleInfo>
+  <name type="personal" usage="primary" nameTitleGroup="1">
+    <namePart>Eiseley, Loren C.</namePart>
+    <namePart type="date">1907-1977</namePart>
+    <role>
+      <roleTerm type="text">author.</roleTerm>
+    </role>
+  </name>
+  <name type="personal">
+    <namePart>Cronon, William</namePart>
+    <role>
+      <roleTerm type="text">editor.</roleTerm>
+    </role>
+  </name>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="marcgt">bibliography</genre>
+  <genre authority="rdacontent">text</genre>
+  <genre authority="fast">Essays.</genre>
+  <genre authority="lcgft">Essays.</genre>
+  <originInfo>
+    <place>
+      <placeTerm type="code" authority="marccountry">nyu</placeTerm>
+    </place>
+    <dateIssued encoding="marc">2016</dateIssued>
+    <copyrightDate encoding="marc">2016</copyrightDate>
+    <issuance>monographic</issuance>
+  </originInfo>
+  <originInfo eventType="publication">
+    <place>
+      <placeTerm type="text">New York, N.Y. :</placeTerm>
+    </place>
+    <publisher>The Library Of America,</publisher>
+    <dateIssued>[2016]</dateIssued>
+  </originInfo>
+  <originInfo eventType="distribution">
+    <place>
+      <placeTerm type="text">[New York, N.Y.] :</placeTerm>
+    </place>
+    <publisher>Distributed to the trade in the United States by Penguin Random House Inc.,</publisher>
+    <dateOther type="distribution">[2016]</dateOther>
+  </originInfo>
+  <language>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+  </language>
+  <physicalDescription>
+    <form authority="marcform">print</form>
+    <extent>2 volumes (xii, 500, xii, 489 pages) ; 21 cm.</extent>
+    <form type="media" authority="rdamedia">unmediated</form>
+    <form type="carrier" authority="rdacarrier">volume</form>
+  </physicalDescription>
+  <tableOfContents>volume one. The immense journey -- The firmament of time -- The unexpected universe -- Uncollected prose -- volume two. The invisible pyramid -- The night country -- Essays from The star thrower.</tableOfContents>
+  <note type="statement of responsibility" altRepGroup="00">Loren Eiseley ; William Cronon, editor.</note>
+  <note type="bibliography">Includes bibliographical references and indexes.</note>
+  <subject authority="lcsh">
+    <name type="personal">
+      <namePart>Eiseley, Loren C</namePart>
+      <namePart type="date">1907-1977</namePart>
+    </name>
+  </subject>
+  <subject authority="fast">
+    <name type="personal">
+      <namePart>Eiseley, Loren C</namePart>
+      <namePart type="date">1907-1977</namePart>
+    </name>
+  </subject>
+  <subject authority="fast">
+    <temporal>1900-1999</temporal>
+  </subject>
+  <subject authority="lcsh">
+    <topic>Naturalists</topic>
+    <geographic>United States</geographic>
+    <temporal>20th century</temporal>
+  </subject>
+  <subject authority="lcsh">
+    <topic>Anthropologists</topic>
+    <geographic>United States</geographic>
+    <temporal>20th century</temporal>
+  </subject>
+  <subject authority="lcsh">
+    <topic>Human evolution</topic>
+  </subject>
+  <subject authority="lcsh">
+    <topic>Evolution (Biology)</topic>
+  </subject>
+  <subject authority="lcsh">
+    <topic>Nature</topic>
+  </subject>
+  <subject authority="lcsh">
+    <topic>Science</topic>
+  </subject>
+  <subject authority="lcsh">
+    <topic>Civilization</topic>
+    <topic>Philosophy</topic>
+  </subject>
+  <subject authority="lcsh">
+    <topic>Human ecology</topic>
+  </subject>
+  <subject authority="lcsh">
+    <topic>Social evolution</topic>
+  </subject>
+  <subject authority="lcsh">
+    <topic>Technology and civilization</topic>
+  </subject>
+  <subject authority="lcsh">
+    <topic>Technology</topic>
+    <topic>Social aspects</topic>
+  </subject>
+  <subject authority="lcsh">
+    <topic>Natural history</topic>
+  </subject>
+  <subject authority="fast">
+    <topic>Anthropologists</topic>
+  </subject>
+  <subject authority="fast">
+    <topic>Civilization</topic>
+    <topic>Philosophy</topic>
+  </subject>
+  <subject authority="fast">
+    <topic>Evolution (Biology)</topic>
+  </subject>
+  <subject authority="fast">
+    <topic>Human ecology</topic>
+  </subject>
+  <subject authority="fast">
+    <topic>Human evolution</topic>
+  </subject>
+  <subject authority="fast">
+    <topic>Natural history</topic>
+  </subject>
+  <subject authority="fast">
+    <topic>Naturalists</topic>
+  </subject>
+  <subject authority="fast">
+    <topic>Nature</topic>
+  </subject>
+  <subject authority="fast">
+    <topic>Science</topic>
+  </subject>
+  <subject authority="fast">
+    <topic>Social evolution</topic>
+  </subject>
+  <subject authority="fast">
+    <topic>Technology and civilization</topic>
+  </subject>
+  <subject authority="fast">
+    <topic>Technology</topic>
+    <topic>Social aspects</topic>
+  </subject>
+  <subject authority="ram">
+    <topic>Naturalistes</topic>
+    <geographic>E&#x301;tats-Unis</geographic>
+    <temporal>20e sie&#x300;cle</temporal>
+  </subject>
+  <subject authority="ram">
+    <topic>Anthropologues</topic>
+    <geographic>E&#x301;tats-Unis</geographic>
+    <temporal>20e sie&#x300;cle</temporal>
+  </subject>
+  <subject authority="ram">
+    <topic>Darwinisme</topic>
+  </subject>
+  <subject authority="ram">
+    <topic>Nature</topic>
+  </subject>
+  <subject authority="ram">
+    <topic>Civilisation</topic>
+    <topic>Philosophie</topic>
+  </subject>
+  <subject authority="ram">
+    <topic>E&#x301;cologie humaine</topic>
+  </subject>
+  <subject authority="ram">
+    <topic>E&#x301;volution sociale</topic>
+  </subject>
+  <subject authority="ram">
+    <topic>Technique et civilisation</topic>
+  </subject>
+  <subject authority="ram">
+    <topic>Technologie</topic>
+    <topic>Aspect social</topic>
+  </subject>
+  <subject authority="ram">
+    <topic>Sciences naturelles</topic>
+  </subject>
+  <subject authority="fast">
+    <geographic>United States</geographic>
+  </subject>
+  <classification authority="lcc">PS3555.I78 A6 2016</classification>
+  <classification authority="ddc" edition="23">500</classification>
+  <relatedItem type="constituent">
+    <titleInfo>
+      <title>Immense journey</title>
+    </titleInfo>
+    <name type="personal">
+      <namePart>Eiseley, Loren C.,</namePart>
+      <namePart type="date">1907-1977</namePart>
+    </name>
+  </relatedItem>
+  <relatedItem type="constituent">
+    <titleInfo>
+      <title>Firmament of time</title>
+    </titleInfo>
+    <name type="personal">
+      <namePart>Eiseley, Loren C.,</namePart>
+      <namePart type="date">1907-1977</namePart>
+    </name>
+  </relatedItem>
+  <relatedItem type="constituent">
+    <titleInfo>
+      <title>Unexpected universe</title>
+    </titleInfo>
+    <name type="personal">
+      <namePart>Eiseley, Loren C.,</namePart>
+      <namePart type="date">1907-1977</namePart>
+    </name>
+  </relatedItem>
+  <relatedItem type="constituent">
+    <titleInfo>
+      <title>Invisible pyramid</title>
+    </titleInfo>
+    <name type="personal">
+      <namePart>Eiseley, Loren C.,</namePart>
+      <namePart type="date">1907-1977</namePart>
+    </name>
+  </relatedItem>
+  <relatedItem type="constituent">
+    <titleInfo>
+      <title>Night country</title>
+    </titleInfo>
+    <name type="personal">
+      <namePart>Eiseley, Loren C.,</namePart>
+      <namePart type="date">1907-1977</namePart>
+    </name>
+  </relatedItem>
+  <relatedItem>
+    <titleInfo>
+      <title>Star thrower</title>
+    </titleInfo>
+    <name type="personal">
+      <namePart>Eiseley, Loren C.,</namePart>
+      <namePart type="date">1907-1977</namePart>
+    </name>
+  </relatedItem>
+  <relatedItem type="series">
+    <titleInfo>
+      <title>Library of America ; 285-286</title>
+    </titleInfo>
+  </relatedItem>
+  <identifier type="isbn">9781598535068</identifier>
+  <identifier type="isbn">1598535064</identifier>
+  <identifier type="isbn">9781598535075</identifier>
+  <identifier type="isbn">1598535072</identifier>
+  <identifier type="isbn">9781598535051</identifier>
+  <identifier type="isbn">1598535056</identifier>
+  <identifier type="lccn">2016935164</identifier>
+  <identifier type="oclc">ocn963204146</identifier>
+  <recordInfo>
+    <descriptionStandard>rda</descriptionStandard>
+    <recordContentSource authority="marcorg">OEM</recordContentSource>
+    <recordCreationDate encoding="marc">160303</recordCreationDate>
+    <recordChangeDate encoding="iso8601">20170303190816.0</recordChangeDate>
+    <recordIdentifier>18999913</recordIdentifier>
+    <recordOrigin>Converted from MARCXML to MODS version 3.6 using MARC21slim2MODS3-6.xsl
+				(Revision 1.119 2018/06/21)</recordOrigin>
+    <languageOfCataloging>
+      <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+    </languageOfCataloging>
+  </recordInfo>
+</mods></zs:recordData><zs:recordPosition>1</zs:recordPosition></zs:record></zs:records><zs:echoedSearchRetrieveRequest><zs:version>1.1</zs:version><zs:query>bath.lccn=^2016935164$</zs:query><zs:maximumRecords>1</zs:maximumRecords><zs:recordPacking>xml</zs:recordPacking><zs:recordSchema>mods</zs:recordSchema></zs:echoedSearchRetrieveRequest></zs:searchRetrieveResponse>

@@ -1,0 +1,29 @@
+/* To learn more about this file see: https://angular.io/config/tsconfig. */
+{
+  "extends": "../../tsconfig.json",
+  "compileOnSave": false,
+  "compilerOptions": {
+    "baseUrl": "./",
+    "forceConsistentCasingInFileNames": true,
+    "lib": [
+      "es2020",
+      "dom"
+    ],
+    "module": "es2020",
+    "outDir": "./dist/out-tsc",
+    "paths": {
+      "^interface/*": [
+        "./src/app/core/interface/*",
+        "../../shared/interface/*"
+      ],
+      "^service/*": ["./src/app/core/service/*"]
+    },
+    "target": "es2020"
+  },
+  "angularCompilerOptions": {
+    "enableI18nLegacyMessageIdFormat": false,
+    "strictInjectionParameters": true,
+    "strictInputAccessModifiers": true,
+    "strictTemplates": true
+  }
+}

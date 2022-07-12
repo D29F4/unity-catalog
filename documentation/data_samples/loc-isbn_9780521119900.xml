@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><mods xmlns="http://www.loc.gov/mods/v3" xmlns:zs="http://docs.oasis-open.org/ns/search-ws/sruResponse" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="3.7" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-7.xsd">
+  <titleInfo>
+    <nonSort xml:space="preserve">The </nonSort>
+    <title>archaeology of measurement</title>
+    <subTitle>comprehending Heaven, Earth and time in ancient societies</subTitle>
+  </titleInfo>
+  <titleInfo type="alternative">
+    <title>Comprehending Heaven, Earth and time in ancient societies</title>
+  </titleInfo>
+  <name type="personal">
+    <namePart>Morley, Iain,</namePart>
+    <namePart type="date">1975-</namePart>
+  </name>
+  <name type="personal">
+    <namePart>Renfrew, Colin,</namePart>
+    <namePart type="date">1937-</namePart>
+  </name>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="marcgt">bibliography</genre>
+  <originInfo>
+    <place>
+      <placeTerm authority="marccountry" type="code">enk</placeTerm>
+    </place>
+    <issuance>monographic</issuance>
+    <place>
+      <placeTerm type="text">Cambridge</placeTerm>
+    </place>
+    <place>
+      <placeTerm type="text">New York</placeTerm>
+    </place>
+    <publisher>Cambridge University Press</publisher>
+    <dateIssued>2010</dateIssued>
+  </originInfo>
+  <language>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+  </language>
+  <physicalDescription>
+    <form authority="marcform">print</form>
+    <extent>xv, 267 p. : ill., maps ; 28 cm.</extent>
+  </physicalDescription>
+  <tableOfContents displayLabel="Contents">Number : counting, mathematics and measure. Conceptualising quantification before settlement : activities and issues underlying the conception and use of measurement / Iain Morley ; Measurement in navigation : conceiving distance and time in the Neolithic / Helen Farr ; The token system of the ancient Near East : it's role in counting, writing, the economy and cognition / Denise Schmandt-Besserat ; Grasping the concept of number : how did the sapient mind move beyond approximation? / Lambros Malafouris ; Numerical cognition and the development of 'zero' in Mesoamerica / John Justeson ; Recording measure(ment)s in the Inka khipu / Gary Urton -- Materialising the economy. Measuring by weight in the late Bronze Age Aegean : the people behind the measuring tools / Anna Michailidou ; The concept of weighing during the Bronze Age in the Aegean, the Near East and Europe / Lorenz Rahmstorf ; Measuring the Harappan world : insights into the Indus order and cosmology / J. Mark Kenoyer -- Dimension and belief. Architectural measurements in the Indus cities : the case study of Mohenjo-Daro / Michael Jansen ; Teotihuacan city layout as a cosmogram : preliminary results of the 2007 Measurement Unit Study / Saburo Sagiyama ; Aztec dimensions of holiness / John E. Clark ; Establishing direction in early Egyptian burials and monumental architecture : measurement and the spatial link with the 'other' / Kate Spence -- Calendar and cosmology. The measurement of time and distance in the heavens above Mesopotamia, with brief reference made to other ancient astral sciences / David Brown ; Evolution of the calendar in Shang China / Mark Edward Lewis ; The measure of time in Mesoamerica : from Teotihuacan to the Maya / Anthony F. Aveni ; Measuring time, sacred space, and social place in the Inca Empire / Charles Stanish ; Measuring time in the European Neolithic? The function and meaning of central European circular enclosures / Peter F. Biehl -- The spirituality of measure. The roots of spirituality and the limits of human mensuration / F. LeRon Shultz ; Worldview, meaasurement and 'the roots of spirituality' / Jeremy S. Bagbie.</tableOfContents>
+  <note type="statement of responsibility">edited by Iain Morley, Colin Renfrew.</note>
+  <note type="bibliography">Includes bibliographical references and index.</note>
+  <subject authority="lcsh">
+    <topic>Architecture, Prehistoric</topic>
+  </subject>
+  <subject authority="lcsh">
+    <topic>Measurement</topic>
+    <topic>History</topic>
+  </subject>
+  <subject authority="lcsh">
+    <topic>Antiquities</topic>
+  </subject>
+  <classification authority="lcc">GN799.B8 A73 2010</classification>
+  <classification authority="ddc" edition="22">690.0901</classification>
+  <identifier type="isbn">9780521119900 (hbk.)</identifier>
+  <identifier type="isbn">0521119901 (hbk.)</identifier>
+  <identifier type="isbn">9780521135887 (pbk.)</identifier>
+  <identifier type="isbn">0521135885 (pbk.)</identifier>
+  <identifier type="lccn">2010279304</identifier>
+  <identifier type="oclc">ocn501396677</identifier>
+  <recordInfo>
+    <descriptionStandard>aacr</descriptionStandard>
+    <recordContentSource authority="marcorg">UKM</recordContentSource>
+    <recordCreationDate encoding="marc">100518</recordCreationDate>
+    <recordChangeDate encoding="iso8601">20100712105638.0</recordChangeDate>
+    <recordIdentifier>16240626</recordIdentifier>
+    <recordOrigin>Converted from MARCXML to MODS version 3.7 using MARC21slim2MODS3-7.xsl
+				(Revision 1.140 20200717)</recordOrigin>
+  </recordInfo>
+</mods>

@@ -1,0 +1,357 @@
+{
+ "hits": 2,
+ "next-page": "WzEwMC4wLDE4LjExMDU2OSw1NjAwNzQ4XQ==",
+ "records": [
+  {
+   "bibliographic_data": {
+    "author": [
+     "Maas, Harro.",
+     "Morgan, Mary S."
+    ],
+    "isbn": [
+     "9780822367901 (hbk.)"
+    ],
+    "physical_description": [
+     "vi, 269 p. ; 23 cm."
+    ],
+    "publication_details": [
+     "Durham, N.C. ; London : Duke University Press, 2012."
+    ],
+    "title": [
+     "History of political economy. Suppl. to Vol. 44, Observing the economy : historical perspectives / edited by Harro Maas and Mary S. Morgan."
+    ]
+   },
+   "holdings": [
+    {
+     "document_type": [
+      "book"
+     ],
+     "held_at": [
+      {
+       "institution": {
+        "institution_id": "bat",
+        "name": "University of Bath Library"
+       },
+       "latitude": 51.3804016113281,
+       "location_id": "bat:main",
+       "longitude": -2.32800006866455
+      }
+     ],
+     "item_id": 19641204,
+     "local_id": "991000552039702761",
+     "physical_format": [
+      "print"
+     ]
+    }
+   ],
+   "uri": "https://discover.libraryhub.jisc.ac.uk/search?id=19641204&rn=1"
+  },
+  {
+   "bibliographic_data": {
+    "author": [
+     "Maas, Harro.",
+     "Morgan, Mary S."
+    ],
+    "isbn": [
+     "9780822367901 (hbk.)",
+     "0822367904 (hbk.)"
+    ],
+    "physical_description": [
+     "vi, 269 p. ; 24 cm."
+    ],
+    "publication_details": [
+     "Durham NC ; London : Duke University Press, 2012."
+    ],
+    "series": [
+     "History of political economy. Annual supplement to v. 44"
+    ],
+    "subject": [
+     "Economics History.",
+     "Economics Methodology History."
+    ],
+    "table_of_contents": [
+     "Observation and observing in economics / Harro Maas and Mary S. Morgan -- The space of observation. Cunning observation: US agricultural statistics in the time of laissez-faire / Emmanuel Didier -- Economic observation and measurement in Russia before 1917: surveying typicalities and sampling totalities / Vincent Barnett -- The economist as surveyor: physiocracy in the fields / Loïc Charles and Christine Théré -- The fragile dynamics of trust. Making variety simple : agricultural economists in southern Italy, 1906-9 / Federico D'Onofrio -- Observations in a hostile environment: Morgenstern on the accuracy of economic observations / Marcel Boumans -- Observing attitudes, intentions, and expectations (1945-73) / José M. Edwards -- Navigating the shoals of self-reporting: data collection in US expenditure surveys since 1920 / Thomas A. Stapleford -- Relocating vision. Field, undercover, and participant observers in US labor economics: 1900-1930 / Malcolm Rutherford -- Observation through fiction: Frank Norris and E. M Forster / Craufurd D. Goodwin -- Observing shocks / Pedro Garcia Duarte and Kevin D. Hoover."
+    ],
+    "title": [
+     "Observing the economy : historical perspectives / edited by Harro Maas and Mary S. Morgan."
+    ]
+   },
+   "holdings": [
+    {
+     "document_type": [
+      "book"
+     ],
+     "held_at": [
+      {
+       "institution": {
+        "institution_id": "edi",
+        "name": "University of Edinburgh Libraries"
+       },
+       "latitude": 55.942798614502,
+       "location_id": "edi:Main",
+       "longitude": -3.18933010101318
+      }
+     ],
+     "item_id": 20738514,
+     "local_id": "9920393663502466",
+     "physical_format": [
+      "print"
+     ]
+    },
+    {
+     "document_type": [
+      "book"
+     ],
+     "held_at": [
+      {
+       "institution": {
+        "institution_id": "dur",
+        "name": "Durham University Library"
+       },
+       "latitude": 54.7681999206543,
+       "location_id": "dur:bryson",
+       "longitude": -1.57331001758575
+      }
+     ],
+     "item_id": 23014209,
+     "local_id": ".b27379565",
+     "physical_format": [
+      "print"
+     ]
+    },
+    {
+     "document_type": [
+      "book"
+     ],
+     "held_at": [
+      {
+       "institution": {
+        "institution_id": "tcd",
+        "name": "Trinity College Dublin Library"
+       },
+       "latitude": 53.3436012268066,
+       "location_id": "tcd:tcl",
+       "longitude": -6.25604009628296
+      }
+     ],
+     "item_id": 26744559,
+     "local_id": ".b152152362",
+     "physical_format": [
+      "print"
+     ]
+    },
+    {
+     "document_type": [
+      "book"
+     ],
+     "held_at": [
+      {
+       "institution": {
+        "institution_id": "lse",
+        "name": "LSE Library"
+       },
+       "latitude": 51.5147018432617,
+       "location_id": "lse:lse",
+       "longitude": -0.115696996450424
+      }
+     ],
+     "item_id": 28784686,
+     "local_id": "99138468610302021",
+     "physical_format": [
+      "print"
+     ]
+    },
+    {
+     "document_type": [
+      "book"
+     ],
+     "held_at": [
+      {
+       "institution": {
+        "institution_id": "oxf",
+        "name": "University of Oxford Libraries"
+       },
+       "latitude": 51.7570991516113,
+       "location_id": "oxf:SSLBL",
+       "longitude": -1.24663996696472
+      }
+     ],
+     "item_id": 40584815,
+     "local_id": "019452836",
+     "physical_format": [
+      "print"
+     ]
+    },
+    {
+     "document_type": [
+      "book"
+     ],
+     "held_at": [
+      {
+       "institution": {
+        "institution_id": "sta",
+        "name": "University of St Andrews Library"
+       },
+       "latitude": 56.3419990539551,
+       "location_id": "sta:ml",
+       "longitude": -2.79607009887695
+      }
+     ],
+     "item_id": 54324394,
+     "local_id": ".b19554370",
+     "physical_format": [
+      "print"
+     ]
+    },
+    {
+     "document_type": [
+      "book"
+     ],
+     "held_at": [
+      {
+       "institution": {
+        "institution_id": "bir",
+        "name": "University of Birmingham Libraries"
+       },
+       "latitude": 52.4515991210938,
+       "location_id": "bir:main",
+       "longitude": -1.93145000934601
+      }
+     ],
+     "item_id": 103826253,
+     "local_id": "990032542010204871",
+     "physical_format": [
+      "print"
+     ]
+    },
+    {
+     "document_type": [
+      "book"
+     ],
+     "held_at": [
+      {
+       "institution": {
+        "institution_id": "qub",
+        "name": "Queen's University Belfast"
+       },
+       "latitude": 54.5838012695312,
+       "location_id": "qub:qm",
+       "longitude": -5.93261003494263
+      }
+     ],
+     "item_id": 143267469,
+     "local_id": ".b17469806",
+     "physical_format": [
+      "print"
+     ]
+    },
+    {
+     "document_type": [
+      "book"
+     ],
+     "held_at": [
+      {
+       "institution": {
+        "institution_id": "gla",
+        "name": "University of Glasgow Library"
+       },
+       "latitude": 55.8736000061035,
+       "location_id": "gla:main",
+       "longitude": -4.28856992721558
+      }
+     ],
+     "item_id": 150198713,
+     "local_id": ".b29652674",
+     "physical_format": [
+      "print"
+     ]
+    },
+    {
+     "document_type": [
+      "book"
+     ],
+     "held_at": [
+      {
+       "institution": {
+        "institution_id": "ext",
+        "name": "University of Exeter Library"
+       },
+       "latitude": 50.7355003356934,
+       "location_id": "ext:main",
+       "longitude": -3.53328990936279
+      }
+     ],
+     "item_id": 151586216,
+     "local_id": ".b25672368",
+     "physical_format": [
+      "print"
+     ]
+    },
+    {
+     "document_type": [
+      "book"
+     ],
+     "held_at": [
+      {
+       "institution": {
+        "institution_id": "hll",
+        "name": "University of Hull"
+       },
+       "latitude": 53.771800994873,
+       "location_id": "hll:main",
+       "longitude": -0.366383999586105
+      }
+     ],
+     "item_id": 155493597,
+     "local_id": ".b2281470x",
+     "physical_format": [
+      "print"
+     ]
+    },
+    {
+     "document_type": [
+      "book"
+     ],
+     "held_at": [
+      {
+       "institution": {
+        "institution_id": "sur",
+        "name": "University of Surrey"
+       },
+       "latitude": 51.2425994873047,
+       "location_id": "sur:main",
+       "longitude": -0.58950001001358
+      }
+     ],
+     "item_id": 166932588,
+     "local_id": "9923464002346",
+     "physical_format": [
+      "print"
+     ]
+    },
+    {
+     "document_type": [
+      "book"
+     ],
+     "held_at": [
+      {
+       "institution": {
+        "institution_id": "lee",
+        "name": "University of Leeds Library"
+       },
+       "latitude": 53.8064002990723,
+       "location_id": "lee:ebl",
+       "longitude": -1.55458998680115
+      }
+     ],
+     "item_id": 341329389,
+     "local_id": "991005456659705181",
+     "physical_format": [
+      "print"
+     ]
+    }
+   ],
+   "uri": "https://discover.libraryhub.jisc.ac.uk/search?id=20738514&rn=1"
+  }
+ ]
+}

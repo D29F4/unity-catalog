@@ -1,0 +1,3815 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zs:searchRetrieveResponse xmlns:zs="http://www.loc.gov/zing/srw/"><zs:version>1.1</zs:version><zs:numberOfRecords>1</zs:numberOfRecords><zs:records><zs:record><zs:recordSchema/><zs:recordPacking>xml</zs:recordPacking><zs:recordData><mods xmlns="http://www.loc.gov/mods/v3" xmlns:h="http://copac.ac.uk/schemas/holdings/v1" xmlns:xlink="http://www.w3.org/1999/xlink" version="3.7">
+	<recordInfo>
+		<recordIdentifier source="UkMaC">4623876</recordIdentifier>
+		<recordCreationDate encoding="iso8601">20220707</recordCreationDate>
+	</recordInfo>
+	<typeOfResource>text</typeOfResource>
+	<originInfo>
+		<issuance>single unit</issuance>
+	</originInfo>
+	<originInfo>
+		<dateIssued encoding="marc">2010</dateIssued>
+	</originInfo>
+	<identifier type="lccn">2010-279304</identifier>
+	<identifier type="isbn">0-511-76082-5</identifier>
+	<classification authority="lcc">GN799.B8 A73 2010</classification>
+	<classification authority="ddc">690.0901</classification>
+	<classification authority="22">930.10287</classification>
+	<name>
+		<namePart>Morley, Iain</namePart>
+		<role>
+			<roleTerm type="text">creator</roleTerm>
+		</role>
+	</name>
+	<titleInfo>
+		<title>
+			<nonSort>The </nonSort>archaeology of measurement : comprehending Heaven, Earth and time in ancient societies</title>
+	</titleInfo>
+	<titleInfo type="alternative">
+		<title>Archaeology of Measurement</title>
+	</titleInfo>
+	<originInfo eventType="publisher">
+		<place>
+			<placeTerm type="text">Cambridge</placeTerm>
+		</place>
+		<publisher>Cambridge University Press</publisher>
+		<dateIssued>2010</dateIssued>
+	</originInfo>
+	<physicalDescription>
+		<extent>1 online resource (xv, 267 pages) : digital, PDF file(s).</extent>
+	</physicalDescription>
+	<note type="general">Bibliographic Level Mode of Issuance: Monograph</note>
+	<note type="bibliography">Includes bibliographical references and index.</note>
+	<tableOfContents displayLabel="Contents">Number : counting, mathematics and measure -- Conceptualising quantification before settlement : activities and issues underlying the conception and use of measurement / Iain Morley -- Measurement in navigation : conceiving distance and time in the Neolithic / Helen Farr -- The token system of the ancient Near East : it's role in counting, writing, the economy and cognition / Denise Schmandt-Besserat -- Grasping the concept of number : how did the sapient mind move beyond approximation? / Lambros Malafouris -- Numerical cognition and the development of 'zero' in Mesoamerica / John Justeson -- Recording measure(ment)s in the Inka khipu / Gary Urton -- Materialising the economy -- Measuring by weight in the late Bronze Age Aegean : the people behind the measuring tools / Anna Michailidou -- The concept of weighing during the Bronze Age in the Aegean, the Near East and Europe / Lorenz Rahmstorf -- Measuring the Harappan world : insights into the Indus order and cosmology / J. Mark Kenoyer -- Dimension and belief -- Architectural measurements in the Indus cities : the case study of Mohenjo-Daro / Michael Jansen --dtTeotihuacan city layout as a cosmogram : preliminary results of the 2007 Measurement Unit Study / Saburo Sagiyama -- Aztec dimensions of holiness / John E. Clark -- Establishing direction in early Egyptian burials and monumental architecture : measurement and the spatial link with the 'other' / Kate Spence -- Calendar and cosmology -- The measurement of time and distance in the heavens above Mesopotamia, with brief reference made to other ancient astral sciences / David Brown -- Evolution of the calendar in Shang China / Mark Edward Lewis -- The measure of time in Mesoamerica : from Teotihuacan to the Maya / Anthony F. Aveni -- Measuring time, sacred space, and social place in the Inca Empire / Charles Stanish -- Measuring time in the European Neolithic? The function and meaning of central European circular enclosures / Peter F. Biehl -- The spirituality of measure -- The roots of spirituality and the limits of human mensuration / F. LeRon Shultz -- Worldview, measurement and 'the roots of spirituality' / Jeremy S. Bagbie.</tableOfContents>
+	<note type="data quality">Exemplar amb les pàgines 79 a 110 incompletes.</note>
+	<abstract displayLabel="Summary">The construction of formal measurement systems underlies the development of science, technology, economy and new ways of understanding and explaining the world. Human societies have developed such systems in different ways, in different places and at different times, and recent archaeological investigations highlight the importance of these activities for fundamental aspects of human life. Measurement systems have provided the structure for addressing key concerns of cosmological belief systems, as well as the means for articulating relationships between the human form, human action, and the world. The Archaeology of Measurement explores the archaeological evidence for the development of measuring activities in numerous ancient societies, as well as the implications of these discoveries for an understanding of their worlds and beliefs. Featuring contributions from a cast of internationally renowned scholars, it analyses the relationships between measurement, economy, architecture, symbolism, time, cosmology, ritual, and religion among prehistoric and early historic societies.</abstract>
+	<note type="system details">Mode of access: World Wide Web</note>
+	<note type="language">English</note>
+	<subject authority="lcsh">
+		<topic>Architecture, Prehistoric</topic>
+		<topic>History</topic>
+	</subject>
+	<subject authority="lcsh">
+		<topic>Measurement</topic>
+	</subject>
+	<subject authority="lcsh">
+		<topic>Antiquities</topic>
+	</subject>
+	<subject authority="HILCC">
+		<topic>Anthropology</topic>
+	</subject>
+	<subject authority="HILCC">
+		<topic>Social Sciences</topic>
+	</subject>
+	<subject authority="HILCC">
+		<topic>Prehistoric Anthropology</topic>
+	</subject>
+	<subject authority="lcsh">
+		<topic>Architecture, Prehistoric.</topic>
+	</subject>
+	<subject authority="lcsh">
+		<topic>Measurement</topic>
+		<topic>History.</topic>
+	</subject>
+	<subject authority="lcsh">
+		<topic>Antiquities.</topic>
+	</subject>
+	<subject authority="lcsh">
+		<topic>Measurement</topic>
+		<topic>History</topic>
+		<genre>Congresses.</genre>
+	</subject>
+	<subject authority="lcsh">
+		<topic>Metrology</topic>
+		<topic>History</topic>
+		<genre>Congresses.</genre>
+	</subject>
+	<subject authority="lcsh">
+		<topic>Architecture, Prehistoric</topic>
+		<genre>Congresses.</genre>
+	</subject>
+	<subject authority="lcsh">
+		<topic>Archaeoastronomy</topic>
+		<genre>Congresses.</genre>
+	</subject>
+	<subject authority="lcsh">
+		<topic>Chronology</topic>
+		<topic>History</topic>
+		<genre>Congresses.</genre>
+	</subject>
+	<subject authority="lcsh">
+		<topic>Antiquities</topic>
+		<genre>Congresses.</genre>
+	</subject>
+	<subject authority="lcsh">
+		<topic>Archaeoastronomy</topic>
+	</subject>
+	<subject authority="lcsh">
+		<topic>Architecture, Prehistoric.</topic>
+	</subject>
+	<subject authority="lcsh">
+		<topic>Architecture, Prehistoric.</topic>
+	</subject>
+	<subject authority="lcsh">
+		<topic>Measurement</topic>
+		<topic>History.</topic>
+	</subject>
+	<subject>
+		<topic>Pesos i mesures</topic>
+		<topic>Història.</topic>
+	</subject>
+	<subject>
+		<topic>Mesurament</topic>
+		<topic>Història.</topic>
+	</subject>
+	<subject>
+		<topic>Arqueologia</topic>
+		<topic>Metodologia.</topic>
+	</subject>
+	<subject>
+		<topic>Arqueologia prehistòrica.</topic>
+	</subject>
+	<subject>
+		<topic>LAB GC.</topic>
+	</subject>
+	<subject>
+		<topic>Metrology : archaeology.</topic>
+	</subject>
+	<subject authority="bcl">
+		<topic>15.30 archaeology: general.</topic>
+	</subject>
+	<subject authority="bncf">
+		<topic>Misurazione</topic>
+		<topic>Antichità</topic>
+	</subject>
+	<subject authority="fast">
+		<topic>Antiquities.</topic>
+	</subject>
+	<subject authority="fast">
+		<topic>Archaeoastronomy.</topic>
+	</subject>
+	<subject authority="fast">
+		<topic>Architecture, Prehistoric.</topic>
+	</subject>
+	<subject authority="fast">
+		<topic>Chronology.</topic>
+	</subject>
+	<subject authority="fast">
+		<topic>Measurement.</topic>
+	</subject>
+	<subject authority="fast">
+		<topic>Metrology.</topic>
+	</subject>
+	<subject authority="gnd">
+		<topic>Altertum</topic>
+	</subject>
+	<subject authority="gnd">
+		<topic>Messsystem</topic>
+	</subject>
+	<subject authority="gnd">
+		<topic>Maßeinheit</topic>
+	</subject>
+	<subject authority="gtt">
+		<topic>Measurements.</topic>
+	</subject>
+	<subject authority="gtt">
+		<topic>Measuring methods.</topic>
+	</subject>
+	<subject authority="gtt">
+		<topic>Archaeology.</topic>
+	</subject>
+	<subject authority="idsbb">
+		<topic>Messung</topic>
+		<temporal>Geschichte Altertum.</temporal>
+	</subject>
+	<subject authority="idsbb">
+		<topic>Mathematik</topic>
+		<temporal>Geschichte Altertum.</temporal>
+	</subject>
+	<subject authority="idsbb">
+		<topic>Astronomie</topic>
+		<temporal>Geschichte Altertum.</temporal>
+	</subject>
+	<subject authority="idsbb">
+		<topic>Kalender</topic>
+		<temporal>Geschichte Altertum.</temporal>
+	</subject>
+	<subject authority="idsbb">
+		<topic>Kosmologie</topic>
+		<temporal>Geschichte Altertum.</temporal>
+	</subject>
+	<subject authority="idszbz">
+		<topic>Metrologie.</topic>
+	</subject>
+	<subject authority="idszbz">
+		<topic>Maßeinheit.</topic>
+	</subject>
+	<subject authority="idszbz">
+		<topic>Zeitmessung.</topic>
+	</subject>
+	<subject authority="lcsh">
+		<topic>Mensuration</topic>
+		<topic>History.</topic>
+	</subject>
+	<subject authority="lcsh">
+		<topic>Measurement</topic>
+		<topic>History</topic>
+		<genre>Congresses.</genre>
+	</subject>
+	<subject authority="lcsh">
+		<topic>Metrology</topic>
+		<topic>History</topic>
+		<genre>Congresses.</genre>
+	</subject>
+	<subject authority="lcsh">
+		<topic>Architecture, Prehistoric</topic>
+		<genre>Congresses.</genre>
+	</subject>
+	<subject authority="lcsh">
+		<topic>Archaeoastronomy</topic>
+		<genre>Congresses.</genre>
+	</subject>
+	<subject authority="lcsh">
+		<topic>Chronology</topic>
+		<topic>History</topic>
+		<genre>Congresses.</genre>
+	</subject>
+	<subject authority="lcsh">
+		<topic>Antiquities</topic>
+		<genre>Congresses.</genre>
+	</subject>
+	<subject authority="lcsh">
+		<topic>Antiquities.</topic>
+	</subject>
+	<name>
+		<namePart>Renfrew, Colin</namePart>
+		<role>
+			<roleTerm type="text">Contributor</roleTerm>
+		</role>
+	</name>
+	<name>
+		<namePart>Morley, Iain</namePart>
+		<role>
+			<roleTerm type="text">Contributor</roleTerm>
+		</role>
+	</name>
+	<name type="corporate">
+		<namePart>McDonald Institute for Archaeological Research</namePart>
+		<role>
+			<roleTerm type="text">issuing body</roleTerm>
+		</role>
+	</name>
+	<relatedItem type="otherFormat">
+		<identifier type="isbn">0-521-13588-5</identifier>
+	</relatedItem>
+	<relatedItem type="otherFormat">
+		<identifier type="isbn">0-521-11990-1</identifier>
+	</relatedItem>
+	<relatedItem type="series">
+		<titleInfo type="uniform">
+			<title>Online access with EBA: Cambridge Books Online.</title>
+		</titleInfo>
+	</relatedItem>
+	<location>
+		<url>http://ed-primo.hosted.exlibrisgroup.com/openurl/44UOE/44UOE_services_page?u.ignore_date_coverage=true&amp;rft.mms_id=9923933236202466</url>
+	</location>
+	<relatedItem>
+		<location>
+			<url note="Reading advice (software, printing, accessibility, privacy)">http://libanswers.liverpool.ac.uk/faq/182315</url>
+		</location>
+	</relatedItem>
+	<location>
+		<url note="Cambridge Core All Books">https://birmingham-primo.hosted.exlibrisgroup.com/openurl/44BIR/44BIR_VU1?u.ignore_date_coverage=true&amp;rft.mms_id=9933655869104871</url>
+	</location>
+	<location>
+		<url displayLabel="Cambridge">https://doi.org/10.1017/CBO9780511760822</url>
+	</location>
+	<location>
+		<url note="Cambridge eBooks and Partner Presses All Books">https://locate.coventry.ac.uk/openurl/COV/COV_VU1?u.ignore_date_coverage=true&amp;rft.mms_id=996910590202011</url>
+	</location>
+	<extension>
+		<modsCollection>
+			<mods version="3.7">
+				<recordInfo>
+					<recordIdentifier source="UkMaC">105195181</recordIdentifier>
+					<recordIdentifier source="UkBU">9933655869104871</recordIdentifier>
+					<recordCreationDate encoding="iso8601">20220707</recordCreationDate>
+				</recordInfo>
+				<typeOfResource>text</typeOfResource>
+				<originInfo>
+					<issuance>single unit</issuance>
+				</originInfo>
+				<originInfo>
+					<dateIssued encoding="marc">2010</dateIssued>
+				</originInfo>
+				<identifier type="isbn">0-511-76082-5</identifier>
+				<recordInfo>
+					<recordContentSource authority="marcorg">PQKB</recordContentSource>
+				</recordInfo>
+				<classification authority="lcc">GN799.B8 A73 2010</classification>
+				<classification authority="ddc">690.0901</classification>
+				<titleInfo>
+					<title>
+						<nonSort>The </nonSort>archaeology of measurement : comprehending Heaven, Earth and time in ancient societies</title>
+				</titleInfo>
+				<titleInfo type="alternative">
+					<title>Archaeology of Measurement</title>
+				</titleInfo>
+				<originInfo eventType="publisher">
+					<place>
+						<placeTerm type="text">Cambridge</placeTerm>
+					</place>
+					<publisher>Cambridge University Press</publisher>
+					<dateIssued>2010</dateIssued>
+				</originInfo>
+				<physicalDescription>
+					<extent>1 online resource (xv, 267 pages) : digital, PDF file(s).</extent>
+				</physicalDescription>
+				<note type="general">Bibliographic Level Mode of Issuance: Monograph</note>
+				<note type="language">English</note>
+				<tableOfContents displayLabel="Contents">Number : counting, mathematics and measure -- Conceptualising quantification before settlement : activities and issues underlying the conception and use of measurement / Iain Morley -- Measurement in navigation : conceiving distance and time in the Neolithic / Helen Farr -- The token system of the ancient Near East : it's role in counting, writing, the economy and cognition / Denise Schmandt-Besserat -- Grasping the concept of number : how did the sapient mind move beyond approximation? / Lambros Malafouris -- Numerical cognition and the development of 'zero' in Mesoamerica / John Justeson -- Recording measure(ment)s in the Inka khipu / Gary Urton -- Materialising the economy -- Measuring by weight in the late Bronze Age Aegean : the people behind the measuring tools / Anna Michailidou -- The concept of weighing during the Bronze Age in the Aegean, the Near East and Europe / Lorenz Rahmstorf -- Measuring the Harappan world : insights into the Indus order and cosmology / J. Mark Kenoyer -- Dimension and belief -- Architectural measurements in the Indus cities : the case study of Mohenjo-Daro / Michael Jansen --dtTeotihuacan city layout as a cosmogram : preliminary results of the 2007 Measurement Unit Study / Saburo Sagiyama -- Aztec dimensions of holiness / John E. Clark -- Establishing direction in early Egyptian burials and monumental architecture : measurement and the spatial link with the 'other' / Kate Spence -- Calendar and cosmology -- The measurement of time and distance in the heavens above Mesopotamia, with brief reference made to other ancient astral sciences / David Brown -- Evolution of the calendar in Shang China / Mark Edward Lewis -- The measure of time in Mesoamerica : from Teotihuacan to the Maya / Anthony F. Aveni -- Measuring time, sacred space, and social place in the Inca Empire / Charles Stanish -- Measuring time in the European Neolithic? The function and meaning of central European circular enclosures / Peter F. Biehl -- The spirituality of measure -- The roots of spirituality and the limits of human mensuration / F. LeRon Shultz -- Worldview, measurement and 'the roots of spirituality' / Jeremy S. Bagbie.</tableOfContents>
+				<abstract displayLabel="Summary">The construction of formal measurement systems underlies the development of science, technology, economy and new ways of understanding and explaining the world. Human societies have developed such systems in different ways, in different places and at different times, and recent archaeological investigations highlight the importance of these activities for fundamental aspects of human life. Measurement systems have provided the structure for addressing key concerns of cosmological belief systems, as well as the means for articulating relationships between the human form, human action, and the world. The Archaeology of Measurement explores the archaeological evidence for the development of measuring activities in numerous ancient societies, as well as the implications of these discoveries for an understanding of their worlds and beliefs. Featuring contributions from a cast of internationally renowned scholars, it analyses the relationships between measurement, economy, architecture, symbolism, time, cosmology, ritual, and religion among prehistoric and early historic societies.</abstract>
+				<subject authority="lcsh">
+					<topic>Architecture, Prehistoric</topic>
+					<topic>History</topic>
+				</subject>
+				<subject authority="lcsh">
+					<topic>Measurement</topic>
+				</subject>
+				<subject authority="lcsh">
+					<topic>Antiquities</topic>
+				</subject>
+				<subject authority="HILCC">
+					<topic>Anthropology</topic>
+				</subject>
+				<subject authority="HILCC">
+					<topic>Social Sciences</topic>
+				</subject>
+				<subject authority="HILCC">
+					<topic>Prehistoric Anthropology</topic>
+				</subject>
+				<name>
+					<namePart>Renfrew, Colin</namePart>
+					<role>
+						<roleTerm type="text">Contributor</roleTerm>
+					</role>
+				</name>
+				<name>
+					<namePart>Morley, Iain</namePart>
+					<role>
+						<roleTerm type="text">Contributor</roleTerm>
+					</role>
+				</name>
+				<name type="corporate">
+					<namePart>McDonald Institute for Archaeological Research</namePart>
+					<role>
+						<roleTerm type="text">issuing body</roleTerm>
+					</role>
+				</name>
+				<relatedItem type="otherFormat">
+					<identifier type="isbn">0-521-13588-5</identifier>
+				</relatedItem>
+				<relatedItem type="otherFormat">
+					<identifier type="isbn">0-521-11990-1</identifier>
+				</relatedItem>
+				<location>
+					<url note="Cambridge Core All Books">https://birmingham-primo.hosted.exlibrisgroup.com/openurl/44BIR/44BIR_VU1?u.ignore_date_coverage=true&amp;rft.mms_id=9933655869104871</url>
+				</location>
+				<physicalDescription>
+					<form type="media">computer</form>
+					<form authority="marccategory">electronic resource</form>
+					<form authority="marcform">online</form>
+					<form type="carrier">online resource</form>
+					<form authority="marcsmd">remote</form>
+				</physicalDescription>
+				<genre>text</genre>
+				<language>
+					<languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+					<languageTerm type="text">English</languageTerm>
+				</language>
+				<location>
+					<physicalLocation>University of Birmingham Libraries</physicalLocation>
+					<physicalLocation authority="UkMaC">bir</physicalLocation>
+					<holdingSimple>
+						<copyInformation>
+							<electronicLocator>https://birmingham-primo.hosted.exlibrisgroup.com/openurl/44BIR/44BIR_VU1?u.ignore_date_coverage=true&amp;rft.mms_id=9933655869104871</electronicLocator>
+							<note>Cambridge Core All Books</note>
+						</copyInformation>
+					</holdingSimple>
+				</location>
+			</mods>
+			<mods version="3.7">
+				<recordInfo>
+					<recordIdentifier source="UkMaC">71023240</recordIdentifier>
+					<recordIdentifier source="Uk">015468150</recordIdentifier>
+					<recordCreationDate encoding="iso8601">20220707</recordCreationDate>
+				</recordInfo>
+				<typeOfResource>text</typeOfResource>
+				<originInfo>
+					<issuance>single unit</issuance>
+				</originInfo>
+				<recordInfo>
+					<descriptionStandard>aacr</descriptionStandard>
+				</recordInfo>
+				<originInfo>
+					<dateIssued encoding="marc">2010</dateIssued>
+					<place>
+						<placeTerm authority="marccountry" type="code">enk</placeTerm>
+					</place>
+				</originInfo>
+				<identifier type="lccn">  2010279304</identifier>
+				<identifier displayLabel="National Bibliography Number" type="bnb">GBB006755</identifier>
+				<identifier type="isbn">9780521119900 (hbk.)</identifier>
+				<identifier type="isbn">0521119901 (hbk.)</identifier>
+				<identifier type="isbn">9780521135887 (pbk.)</identifier>
+				<identifier type="isbn">0521135885 (pbk.)</identifier>
+				<recordInfo>
+					<recordContentSource authority="marcorg">StDuBDS</recordContentSource>
+					<languageOfCataloging>
+						<languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+					</languageOfCataloging>
+				</recordInfo>
+				<classification authority="lcc">GN799.B8 A73 2010</classification>
+				<classification authority="ddc" edition="22">690.0901</classification>
+				<titleInfo>
+					<title>
+						<nonSort>The </nonSort>archaeology of measurement</title>
+					<subTitle>comprehending Heaven, Earth and time in ancient societies</subTitle>
+				</titleInfo>
+				<note type="statement of responsibility">edited by Iain Morley, Colin Renfrew.</note>
+				<titleInfo type="alternative">
+					<title>Comprehending Heaven, Earth and time in ancient societies</title>
+				</titleInfo>
+				<originInfo eventType="publisher">
+					<place>
+						<placeTerm type="text">Cambridge</placeTerm>
+					</place>
+					<publisher>Cambridge University Press</publisher>
+					<dateIssued>2010</dateIssued>
+				</originInfo>
+				<physicalDescription>
+					<extent>xv, 267 p. : ill., maps ; 28 cm.</extent>
+				</physicalDescription>
+				<note type="bibliography">Includes bibliographical references and index.The spirituality of measure. The roots of spirituality and the limits of human mensuration / F. LeRon Shultz ; Worldview, meaasurement and 'the roots of spirituality' / Jeremy S. Bagbie.</note>
+				<subject authority="lcsh">
+					<topic>Architecture, Prehistoric.</topic>
+				</subject>
+				<subject authority="lcsh">
+					<topic>Measurement</topic>
+					<topic>History.</topic>
+				</subject>
+				<subject authority="lcsh">
+					<topic>Antiquities.</topic>
+				</subject>
+				<name type="personal">
+					<namePart>Morley, Iain</namePart>
+					<namePart type="date">1975-</namePart>
+				</name>
+				<name type="personal">
+					<namePart>Renfrew, Colin</namePart>
+					<namePart type="date">1937-</namePart>
+				</name>
+				<physicalDescription>
+					<form authority="marcform">print</form>
+					<form authority="rdamedia" type="media">unmediated</form>
+					<form authority="rdacarrier" type="carrier">volume</form>
+				</physicalDescription>
+				<genre>Bibliography</genre>
+				<genre>Illustrated</genre>
+				<genre authority="rdacontent">text</genre>
+				<language>
+					<languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+					<languageTerm type="text">English</languageTerm>
+				</language>
+				<location>
+					<physicalLocation>British Library</physicalLocation>
+					<physicalLocation authority="UkMaC">bli</physicalLocation>
+					<holdingSimple>
+						<copyInformation>
+							<subLocation>General Reference Collection, St Pancras Reading Rooms</subLocation>
+							<shelfLocator>YC.2011.b.1394</shelfLocator>
+						</copyInformation>
+					</holdingSimple>
+				</location>
+				<extension>
+					<cpc:local xmlns:cpc="http://copac.ac.uk/schemas/mods-copac/v1">
+						<note type="general">Formerly CIP.</note>
+					</cpc:local>
+				</extension>
+			</mods>
+			<mods version="3.7">
+				<recordInfo>
+					<recordIdentifier source="UkMaC">160389241</recordIdentifier>
+					<recordIdentifier source="UkBfUB">.b17812756</recordIdentifier>
+					<recordCreationDate encoding="iso8601">20220707</recordCreationDate>
+				</recordInfo>
+				<typeOfResource>text</typeOfResource>
+				<originInfo>
+					<issuance>single unit</issuance>
+				</originInfo>
+				<recordInfo>
+					<descriptionStandard>aacr</descriptionStandard>
+				</recordInfo>
+				<originInfo>
+					<dateIssued encoding="marc">2010</dateIssued>
+					<place>
+						<placeTerm authority="marccountry" type="code">enk</placeTerm>
+					</place>
+				</originInfo>
+				<identifier type="lccn">  2010279304</identifier>
+				<identifier displayLabel="National Bibliography Number" type="bnb">GBB006755</identifier>
+				<identifier type="isbn">9780521135887 (pbk.)</identifier>
+				<identifier type="isbn">9780521135887 (hbk.)</identifier>
+				<recordInfo>
+					<recordContentSource authority="marcorg">UKM</recordContentSource>
+				</recordInfo>
+				<recordInfo>
+					<descriptionStandard>rda</descriptionStandard>
+				</recordInfo>
+				<classification authority="ddc" edition="22">690.0901</classification>
+				<titleInfo>
+					<title>
+						<nonSort>The </nonSort>archaeology of measurement</title>
+					<subTitle>comprehending Heaven, Earth and time in ancient societies</subTitle>
+				</titleInfo>
+				<note type="statement of responsibility">edited by Iain Morley, Colin Renfrew.</note>
+				<titleInfo type="alternative">
+					<title>Comprehending Heaven, Earth and time in ancient societies</title>
+				</titleInfo>
+				<originInfo eventType="publisher">
+					<place>
+						<placeTerm type="text">Cambridge</placeTerm>
+					</place>
+					<publisher>Cambridge University Press</publisher>
+					<dateIssued>[2010]</dateIssued>
+				</originInfo>
+				<physicalDescription>
+					<extent>xv, 267 pages : illustrations, maps ; 28 cm</extent>
+				</physicalDescription>
+				<note type="bibliography">Includes bibliographical references and index.</note>
+				<tableOfContents displayLabel="Contents">Number : counting, mathematics and measure. Conceptualising quantification before settlement : activities and issues underlying the conception and use of measurement / Iain Morley ; Measurement in navigation : conceiving distance and time in the Neolithic / Helen Farr ; The token system of the ancient Near East : it's role in counting, writing, the economy and cognition / Denise Schmandt-Besserat ; Grasping the concept of number : how did the sapient mind move beyond approximation? / Lambros Malafouris ; Numerical cognition and the development of 'zero' in Mesoamerica / John Justeson ; Recording measure(ment)s in the Inka khipu / Gary Urton -- Materialising the economy. Measuring by weight in the late Bronze Age Aegean : the people behind the measuring tools / Anna Michailidou ; The concept of weighing during the Bronze Age in the Aegean, the Near East and Europe / Lorenz Rahmstorf ; Measuring the Harappan world : insights into the Indus order and cosmology / J. Mark Kenoyer -- Dimension and belief. Architectural measurements in the Indus cities : the case study of Mohenjo-Daro / Michael Jansen ; Teotihuacan city layout as a cosmogram : preliminary results of the 2007 Measurement Unit Study / Saburo Sagiyama ; Aztec dimensions of holiness / John E. Clark ; Establishing direction in early Egyptian burials and monumental architecture : measurement and the spatial link with the 'other' / Kate Spence -- Calendar and cosmology. The measurement of time and distance in the heavens above Mesopotamia, with brief reference made to other ancient astral sciences / David Brown ; Evolution of the calendar in Shang China / Mark Edward Lewis ; The measure of time in Mesoamerica : from Teotihuacan to the Maya / Anthony F. Aveni ; Measuring time, sacred space, and social place in the Inca Empire / Charles Stanish ; Measuring time in the European Neolithic? The function and meaning of central European circular enclosures / Peter F. Biehl -- The spirituality of measure. The roots of spirituality and the limits of human mensuration / F. LeRon Shultz ; Worldview, meaasurement and 'the roots of spirituality' / Jeremy S. Bagbie.</tableOfContents>
+				<subject authority="lcsh">
+					<topic>Architecture, Prehistoric.</topic>
+				</subject>
+				<subject authority="lcsh">
+					<topic>Measurement</topic>
+					<topic>History.</topic>
+				</subject>
+				<subject authority="lcsh">
+					<topic>Antiquities.</topic>
+				</subject>
+				<name type="personal">
+					<namePart>Morley, Iain</namePart>
+					<namePart type="date">1975-</namePart>
+					<role>
+						<roleTerm type="text">editor</roleTerm>
+					</role>
+				</name>
+				<name type="personal">
+					<namePart>Renfrew, Colin</namePart>
+					<namePart type="date">1937-</namePart>
+					<role>
+						<roleTerm type="text">editor</roleTerm>
+					</role>
+				</name>
+				<physicalDescription>
+					<form authority="marcform">print</form>
+					<form authority="rdamedia" type="media">unmediated</form>
+					<form authority="rdacarrier" type="carrier">volume</form>
+				</physicalDescription>
+				<genre>Bibliography</genre>
+				<genre>Illustrated</genre>
+				<genre authority="rdacontent">still image</genre>
+				<genre authority="rdacontent">text</genre>
+				<language>
+					<languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+					<languageTerm type="text">English</languageTerm>
+				</language>
+				<location>
+					<physicalLocation>University of Bradford</physicalLocation>
+					<physicalLocation authority="UkMaC">bra</physicalLocation>
+					<holdingSimple>
+						<copyInformation>
+							<subLocation>J B Priestley Library - Floor 2 </subLocation>
+							<shelfLocator>530.809 MOR</shelfLocator>
+						</copyInformation>
+					</holdingSimple>
+				</location>
+			</mods>
+			<mods version="3.7">
+				<recordInfo>
+					<recordIdentifier source="UkMaC">440366108</recordIdentifier>
+					<recordIdentifier source="GR-AtBSA">000253959</recordIdentifier>
+					<recordCreationDate encoding="iso8601">20220707</recordCreationDate>
+				</recordInfo>
+				<typeOfResource>text</typeOfResource>
+				<originInfo>
+					<issuance>single unit</issuance>
+				</originInfo>
+				<recordInfo>
+					<descriptionStandard>aacr</descriptionStandard>
+				</recordInfo>
+				<originInfo>
+					<dateIssued encoding="marc">2010</dateIssued>
+					<place>
+						<placeTerm authority="marccountry" type="code">enk</placeTerm>
+					</place>
+				</originInfo>
+				<identifier type="isbn">9780521119900 (hbk.)</identifier>
+				<identifier type="isbn">9780521135887 (pbk.)</identifier>
+				<recordInfo>
+					<recordContentSource authority="marcorg">UKM</recordContentSource>
+					<languageOfCataloging>
+						<languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+					</languageOfCataloging>
+				</recordInfo>
+				<classification authority="lcc">GN799.B8 A73 2010</classification>
+				<titleInfo>
+					<title>
+						<nonSort>The </nonSort>archaeology of measurement</title>
+					<subTitle>comprehending heaven, earth and time in ancient societies</subTitle>
+				</titleInfo>
+				<note type="statement of responsibility">edited by Iain Morley, Colin Renfrew.</note>
+				<titleInfo type="alternative">
+					<title>Comprehending heaven, harth and time in ancient societies</title>
+				</titleInfo>
+				<originInfo eventType="publisher">
+					<place>
+						<placeTerm type="text">Cambridge ; New York</placeTerm>
+					</place>
+					<publisher>Cambridge University Press</publisher>
+					<dateIssued>2010</dateIssued>
+				</originInfo>
+				<physicalDescription>
+					<extent>xv, 267 p. : ill., maps ; 28 cm.</extent>
+				</physicalDescription>
+				<note type="bibliography">Includes bibliographical references and index.</note>
+				<tableOfContents displayLabel="Contents">Number : counting, mathematics and measure. Conceptualising quantification before settlement : activities and issues underlying the conception and use of measurement / Iain Morley ; Measurement in navigation : conceiving distance and time in the Neolithic / Helen Farr ; The token system of the ancient Near East : it's role in counting, writing, the economy and cognition / Denise Schmandt-Besserat ; Grasping the concept of number : how did the sapient mind move beyond approximation? / Lambros Malafouris ; Numerical cognition and the development of 'zero' in Mesoamerica / John Justeson ; Recording measure(ment)s in the Inka khipu / Gary Urton -- Materialising the economy. Measuring by weight in the late Bronze Age Aegean : the people behind the measuring tools / Anna Michailidou ; The concept of weighing during the Bronze Age in the Aegean, the Near East and Europe / Lorenz Rahmstorf ; Measuring the Harappan world : insights into the Indus order and cosmology / J. Mark Kenoyer -- Dimension and belief. Architectural measurements in the Indus cities : the case study of Mohenjo-Daro / Michael Jansen ; Teotihuacan city layout as a cosmogram : preliminary results of the 2007 Measurement Unit Study / Saburo Sagiyama ; Aztec dimensions of holiness / John E. Clark ; Establishing direction in early Egyptian burials and monumental architecture : measurement and the spatial link with the 'other' / Kate Spence -- Calendar and cosmology. The measurement of time and distance in the heavens above Mesopotamia, with brief reference made to other ancient astral sciences / David Brown ; Evolution of the calendar in Shang China / Mark Edward Lewis ; The measure of time in Mesoamerica : from Teotihuacan to the Maya / Anthony F. Aveni ; Measuring time, sacred space, and social place in the Inca Empire / Charles Stanish ; Measuring time in the European Neolithic? The function and meaning of central European circular enclosures / Peter F. Biehl -- The spirituality of measure.</tableOfContents>
+				<tableOfContents displayLabel="Contents">The roots of spirituality and the limits of human mensuration / F. LeRon Shultz ; Worldview, meaasurement and 'the roots of spirituality' / Jeremy S. Bagbie.</tableOfContents>
+				<subject authority="lcsh">
+					<topic>Architecture, Prehistoric</topic>
+				</subject>
+				<subject authority="lcsh">
+					<topic>Measurement</topic>
+					<topic>History</topic>
+				</subject>
+				<subject authority="lcsh">
+					<topic>Antiquities</topic>
+				</subject>
+				<subject authority="lcsh">
+					<topic>Archaeoastronomy</topic>
+				</subject>
+				<name type="personal">
+					<namePart>Morley, Iain</namePart>
+					<namePart type="date">1975-</namePart>
+				</name>
+				<name type="personal">
+					<namePart>Renfrew, Colin</namePart>
+					<namePart type="date">1937-</namePart>
+				</name>
+				<physicalDescription>
+					<form authority="marcform">print</form>
+				</physicalDescription>
+				<genre>Illustrated</genre>
+				<language>
+					<languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+					<languageTerm type="text">English</languageTerm>
+				</language>
+				<location>
+					<physicalLocation>British School at Athens</physicalLocation>
+					<physicalLocation authority="UkMaC">bsa</physicalLocation>
+					<holdingSimple>
+						<copyInformation>
+							<subLocation>British School Library</subLocation>
+							<shelfLocator>R 85.9</shelfLocator>
+						</copyInformation>
+					</holdingSimple>
+				</location>
+			</mods>
+			<mods version="3.7">
+				<recordInfo>
+					<recordIdentifier source="UkMaC">138146507</recordIdentifier>
+					<recordIdentifier source="UkCU">991001232509703606</recordIdentifier>
+					<recordCreationDate encoding="iso8601">20220707</recordCreationDate>
+				</recordInfo>
+				<typeOfResource>text</typeOfResource>
+				<originInfo>
+					<issuance>single unit</issuance>
+				</originInfo>
+				<recordInfo>
+					<descriptionStandard>aacr</descriptionStandard>
+				</recordInfo>
+				<originInfo>
+					<dateIssued encoding="marc">2010</dateIssued>
+					<place>
+						<placeTerm authority="marccountry" type="code">enk</placeTerm>
+					</place>
+				</originInfo>
+				<identifier type="lccn">  2010279304</identifier>
+				<recordInfo>
+					<recordContentSource authority="marcorg">UKM</recordContentSource>
+				</recordInfo>
+				<identifier displayLabel="National Bibliography Number" type="bnb">GBB006755</identifier>
+				<identifier type="isbn">9780521119900</identifier>
+				<identifier type="isbn">0521119901</identifier>
+				<identifier type="isbn">9780521135887</identifier>
+				<identifier type="isbn">0521135885</identifier>
+				<classification authority="lcc">GN799.M43 A73 2010</classification>
+				<classification authority="lcc">GN799.B8 A73 2010</classification>
+				<classification authority="ddc" edition="22">690.0901</classification>
+				<titleInfo>
+					<title>
+						<nonSort>The </nonSort>archaeology of measurement</title>
+					<subTitle>comprehending Heaven, Earth and time in ancient societies</subTitle>
+				</titleInfo>
+				<note type="statement of responsibility">edited by Iain Morley, Colin Renfrew.</note>
+				<titleInfo type="alternative">
+					<title>Comprehending Heaven, Earth and time in ancient societies</title>
+				</titleInfo>
+				<originInfo eventType="publisher">
+					<place>
+						<placeTerm type="text">Cambridge</placeTerm>
+					</place>
+					<publisher>Cambridge University Press</publisher>
+					<dateIssued>2010</dateIssued>
+				</originInfo>
+				<physicalDescription>
+					<extent>xv, 267 p. : ill., maps ; 28 cm.</extent>
+				</physicalDescription>
+				<note type="bibliography">Includes bibliographical references and index.The spirituality of measure. The roots of spirituality and the limits of human mensuration / F. LeRon Shultz ; Worldview, meaasurement and 'the roots of spirituality' / Jeremy S. Bagbie.</note>
+				<note type="data quality">Exemplar amb les pàgines 79 a 110 incompletes.</note>
+				<subject>
+					<topic>Pesos i mesures</topic>
+					<topic>Història.</topic>
+				</subject>
+				<subject>
+					<topic>Mesurament</topic>
+					<topic>Història.</topic>
+				</subject>
+				<subject>
+					<topic>Arqueologia</topic>
+					<topic>Metodologia.</topic>
+				</subject>
+				<subject>
+					<topic>Arqueologia prehistòrica.</topic>
+				</subject>
+				<subject>
+					<topic>LAB GC.</topic>
+				</subject>
+				<subject>
+					<topic>Metrology : archaeology.</topic>
+				</subject>
+				<subject authority="lcsh">
+					<topic>Architecture, Prehistoric.</topic>
+				</subject>
+				<subject authority="lcsh">
+					<topic>Measurement</topic>
+					<topic>History.</topic>
+				</subject>
+				<subject authority="lcsh">
+					<topic>Antiquities.</topic>
+				</subject>
+				<name type="personal">
+					<namePart>Morley, Iain</namePart>
+					<namePart type="date">1975-</namePart>
+				</name>
+				<name type="personal">
+					<namePart>Renfrew, Colin</namePart>
+					<namePart type="date">1937-</namePart>
+				</name>
+				<physicalDescription>
+					<form authority="marcform">print</form>
+				</physicalDescription>
+				<genre>Bibliography</genre>
+				<genre>Illustrated</genre>
+				<language>
+					<languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+					<languageTerm type="text">English</languageTerm>
+				</language>
+				<location>
+					<physicalLocation>University of Cambridge Libraries</physicalLocation>
+					<physicalLocation authority="UkMaC">cam</physicalLocation>
+					<holdingSimple>
+						<copyInformation>
+							<subLocation>Darwin College Library: Main Library</subLocation>
+							<shelfLocator>690.09 MOR</shelfLocator>
+						</copyInformation>
+						<copyInformation>
+							<subLocation>University Library: South Front 4 follow signs to South Staircase, Fourth Floor</subLocation>
+							<shelfLocator>352:4.b.201.1</shelfLocator>
+						</copyInformation>
+						<copyInformation>
+							<subLocation>Asian and Middle Eastern Studies Library: Main Library</subLocation>
+							<shelfLocator>G 571.27</shelfLocator>
+						</copyInformation>
+						<copyInformation>
+							<subLocation>Haddon Library: Main Library</subLocation>
+							<shelfLocator>LAB GC [mor]</shelfLocator>
+						</copyInformation>
+						<copyInformation>
+							<subLocation>Whipple Library: Main Library</subLocation>
+							<shelfLocator>L1.MOR 1</shelfLocator>
+						</copyInformation>
+					</holdingSimple>
+				</location>
+				<extension>
+					<cpc:local xmlns:cpc="http://copac.ac.uk/schemas/mods-copac/v1">
+						<note type="general">Formerly CIP.</note>
+						<note type="acquisition">The author Donation</note>
+					</cpc:local>
+				</extension>
+			</mods>
+			<mods version="3.7">
+				<recordInfo>
+					<recordIdentifier source="UkMaC">139157629</recordIdentifier>
+					<recordIdentifier source="UkCU">997534313503606</recordIdentifier>
+					<recordCreationDate encoding="iso8601">20220707</recordCreationDate>
+				</recordInfo>
+				<typeOfResource>text</typeOfResource>
+				<originInfo>
+					<issuance>single unit</issuance>
+				</originInfo>
+				<recordInfo>
+					<descriptionStandard>aacr</descriptionStandard>
+				</recordInfo>
+				<originInfo>
+					<dateIssued encoding="marc">2010</dateIssued>
+					<place>
+						<placeTerm authority="marccountry" type="code">enk</placeTerm>
+					</place>
+				</originInfo>
+				<identifier type="isbn">9780521135887</identifier>
+				<identifier type="isbn">0521135885</identifier>
+				<identifier type="isbn">9780521119900</identifier>
+				<identifier type="isbn">0521119901</identifier>
+				<classification authority="lcc">GN799.B8 A73 2010</classification>
+				<classification authority="ddc" edition="22">690.0901</classification>
+				<titleInfo>
+					<title>
+						<nonSort>The </nonSort>archaeology of measurement</title>
+					<subTitle>comprehending heaven, earth and time in ancient societies</subTitle>
+				</titleInfo>
+				<note type="statement of responsibility">edited by Iain Morley, Colin Renfrew.</note>
+				<titleInfo type="alternative">
+					<title>Comprehending heaven, earth and time in ancient societies</title>
+				</titleInfo>
+				<originInfo eventType="publisher">
+					<place>
+						<placeTerm type="text">Cambridge</placeTerm>
+					</place>
+					<publisher>Cambridge University Press</publisher>
+					<dateIssued>2010</dateIssued>
+				</originInfo>
+				<physicalDescription>
+					<extent>xv, [3], 267 p. : ill., maps ; 28 cm.</extent>
+				</physicalDescription>
+				<note type="bibliography">Includes bibliographical references and index.</note>
+				<subject authority="lcsh">
+					<topic>Architecture, Prehistoric.</topic>
+				</subject>
+				<subject authority="lcsh">
+					<topic>Measurement</topic>
+					<topic>History.</topic>
+				</subject>
+				<subject authority="lcsh">
+					<topic>Antiquities.</topic>
+				</subject>
+				<name type="personal">
+					<namePart>Morley, Iain</namePart>
+					<namePart type="date">1975-</namePart>
+				</name>
+				<name type="personal">
+					<namePart>Renfrew, Colin</namePart>
+					<namePart type="date">1937-</namePart>
+				</name>
+				<physicalDescription>
+					<form authority="marcform">print</form>
+				</physicalDescription>
+				<genre>Bibliography</genre>
+				<genre>Illustrated</genre>
+				<language>
+					<languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+					<languageTerm type="text">English</languageTerm>
+				</language>
+				<location>
+					<physicalLocation>University of Cambridge Libraries</physicalLocation>
+					<physicalLocation authority="UkMaC">cam</physicalLocation>
+					<holdingSimple>
+						<copyInformation>
+							<subLocation>Magdalene College Library: Main Library</subLocation>
+							<shelfLocator>1.A.421</shelfLocator>
+						</copyInformation>
+					</holdingSimple>
+				</location>
+			</mods>
+			<mods version="3.7">
+				<recordInfo>
+					<recordIdentifier source="UkMaC">31224186</recordIdentifier>
+					<recordIdentifier source="UkLoCU">.b21440128</recordIdentifier>
+					<recordCreationDate encoding="iso8601">20220707</recordCreationDate>
+				</recordInfo>
+				<typeOfResource>text</typeOfResource>
+				<originInfo>
+					<issuance>single unit</issuance>
+				</originInfo>
+				<recordInfo>
+					<descriptionStandard>aacr</descriptionStandard>
+				</recordInfo>
+				<originInfo>
+					<dateIssued encoding="marc">2010</dateIssued>
+					<place>
+						<placeTerm authority="marccountry" type="code">enk</placeTerm>
+					</place>
+				</originInfo>
+				<identifier type="isbn">9780511760822 (ebook)</identifier>
+				<identifier invalid="yes" type="isbn">9780521119900 (hardback)</identifier>
+				<identifier invalid="yes" type="isbn">9780521135887 (paperback)</identifier>
+				<recordInfo>
+					<recordContentSource authority="marcorg">UkCbUP</recordContentSource>
+					<descriptionStandard>rda</descriptionStandard>
+				</recordInfo>
+				<classification authority="lcc">GN799.B8  A73 2010</classification>
+				<titleInfo>
+					<title>
+						<nonSort>The </nonSort>Archaeology of Measurement</title>
+					<subTitle>Comprehending Heaven, Earth and Time in Ancient Societies</subTitle>
+				</titleInfo>
+				<note type="statement of responsibility">Edited by Iain Morley, Colin Renfrew.</note>
+				<originInfo eventType="publisher">
+					<place>
+						<placeTerm type="text">Cambridge</placeTerm>
+					</place>
+					<publisher>Cambridge University Press</publisher>
+					<dateIssued>2010</dateIssued>
+				</originInfo>
+				<physicalDescription>
+					<extent>1 online resource (296 pages) : digital, PDF file(s).</extent>
+				</physicalDescription>
+				<note type="general">Title from publisher's bibliographic system (viewed on 14 Sep 2015).</note>
+				<abstract displayLabel="Summary">The construction of formal measurement systems underlies the development of science, technology, economy and new ways of understanding and explaining the world. Human societies have developed such systems in different ways, in different places and at different times, and recent archaeological investigations highlight the importance of these activities for fundamental aspects of human life. Measurement systems have provided the structure for addressing key concerns of cosmological belief systems, as well as the means for articulating relationships between the human form, human action, and the world. The Archaeology of Measurement explores the archaeological evidence for the development of measuring activities in numerous ancient societies, as well as the implications of these discoveries for an understanding of their worlds and beliefs. Featuring contributions from a cast of internationally renowned scholars, it analyses the relationships between measurement, economy, architecture, symbolism, time, cosmology, ritual, and religion among prehistoric and early historic societies.</abstract>
+				<subject authority="lcsh">
+					<topic>Architecture, Prehistoric.</topic>
+				</subject>
+				<subject authority="lcsh">
+					<topic>Measurement</topic>
+					<topic>History.</topic>
+				</subject>
+				<subject authority="lcsh">
+					<topic>Antiquities.</topic>
+				</subject>
+				<name type="personal">
+					<namePart>Morley, Iain</namePart>
+					<role>
+						<roleTerm type="text">editor of compilation</roleTerm>
+					</role>
+				</name>
+				<name type="personal">
+					<namePart>Renfrew, Colin</namePart>
+					<role>
+						<roleTerm type="text">editor of compilation</roleTerm>
+					</role>
+				</name>
+				<relatedItem displayLabel="Print version: " type="otherFormat">
+					<identifier type="isbn">9780521119900.</identifier>
+				</relatedItem>
+				<location>
+					<url note="Open ebook">https://go.openathens.net/redirector/city.ac.uk?url=https://doi.org/10.1017/CBO9780511760822</url>
+				</location>
+				<physicalDescription>
+					<form authority="rdamedia." type="media">computer</form>
+					<form authority="marcform">electronic</form>
+					<form authority="marccategory">electronic resource</form>
+					<form authority="rdacarrier." type="carrier">online resource</form>
+					<form authority="marcsmd">remote</form>
+				</physicalDescription>
+				<genre authority="rdacontent.">text</genre>
+				<language>
+					<languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+					<languageTerm type="text">English</languageTerm>
+				</language>
+				<location>
+					<physicalLocation>City, University of London</physicalLocation>
+					<physicalLocation authority="UkMaC">cul</physicalLocation>
+					<holdingSimple>
+						<copyInformation>
+							<electronicLocator>https://go.openathens.net/redirector/city.ac.uk?url=https://doi.org/10.1017/CBO9780511760822</electronicLocator>
+							<note>Open ebook</note>
+						</copyInformation>
+					</holdingSimple>
+				</location>
+				<extension>
+					<cpc:local xmlns:cpc="http://copac.ac.uk/schemas/mods-copac/v1">
+						<accessCondition type="restrictionsOnAccess">Access for current City University students and staff only.</accessCondition>
+					</cpc:local>
+				</extension>
+			</mods>
+			<mods version="3.7">
+				<recordInfo>
+					<recordIdentifier source="UkMaC">387289743</recordIdentifier>
+					<recordIdentifier source="UkCvUL">996910590202011</recordIdentifier>
+					<recordCreationDate encoding="iso8601">20220707</recordCreationDate>
+				</recordInfo>
+				<typeOfResource>text</typeOfResource>
+				<originInfo>
+					<issuance>single unit</issuance>
+				</originInfo>
+				<originInfo>
+					<dateIssued encoding="marc">2010</dateIssued>
+					<place>
+						<placeTerm authority="marccountry" type="code">enk</placeTerm>
+					</place>
+				</originInfo>
+				<identifier type="isbn">0-511-76082-5</identifier>
+				<recordInfo>
+					<recordContentSource authority="marcorg">UkCbUP</recordContentSource>
+					<languageOfCataloging>
+						<languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+					</languageOfCataloging>
+					<descriptionStandard>rda</descriptionStandard>
+				</recordInfo>
+				<classification authority="lcc">GN799.B8 A73 2010</classification>
+				<classification authority="ddc" edition="22">690.0901</classification>
+				<titleInfo>
+					<title>
+						<nonSort>The </nonSort>archaeology of measurement</title>
+					<subTitle>comprehending Heaven, Earth and time in ancient societies</subTitle>
+				</titleInfo>
+				<note type="statement of responsibility">edited by Iain Morley, Colin Renfrew.</note>
+				<originInfo eventType="publisher">
+					<place>
+						<placeTerm type="text">Cambridge</placeTerm>
+					</place>
+					<publisher>Cambridge University Press</publisher>
+					<dateIssued>2010</dateIssued>
+				</originInfo>
+				<physicalDescription>
+					<extent>1 online resource (xv, 267 pages) : digital, PDF file(s).</extent>
+				</physicalDescription>
+				<note type="language">English</note>
+				<note type="general">Title from publisher's bibliographic system (viewed on 05 Oct 2015).</note>
+				<tableOfContents displayLabel="Contents">Number : counting, mathematics and measure -- Conceptualising quantification before settlement : activities and issues underlying the conception and use of measurement / Iain Morley -- Measurement in navigation : conceiving distance and time in the Neolithic / Helen Farr -- The token system of the ancient Near East : it's role in counting, writing, the economy and cognition / Denise Schmandt-Besserat -- Grasping the concept of number : how did the sapient mind move beyond approximation? / Lambros Malafouris -- Numerical cognition and the development of 'zero' in Mesoamerica / John Justeson -- Recording measure(ment)s in the Inka khipu / Gary Urton -- Materialising the economy -- Measuring by weight in the late Bronze Age Aegean : the people behind the measuring tools / Anna Michailidou -- The concept of weighing during the Bronze Age in the Aegean, the Near East and Europe / Lorenz Rahmstorf -- Measuring the Harappan world : insights into the Indus order and cosmology / J. Mark Kenoyer -- Dimension and belief -- Architectural measurements in the Indus cities : the case study of Mohenjo-Daro / Michael Jansen --dtTeotihuacan city layout as a cosmogram : preliminary results of the 2007 Measurement Unit Study / Saburo Sagiyama -- Aztec dimensions of holiness / John E. Clark -- Establishing direction in early Egyptian burials and monumental architecture : measurement and the spatial link with the 'other' / Kate Spence -- Calendar and cosmology -- The measurement of time and distance in the heavens above Mesopotamia, with brief reference made to other ancient astral sciences / David Brown -- Evolution of the calendar in Shang China / Mark Edward Lewis -- The measure of time in Mesoamerica : from Teotihuacan to the Maya / Anthony F. Aveni -- Measuring time, sacred space, and social place in the Inca Empire / Charles Stanish -- Measuring time in the European Neolithic? The function and meaning of central European circular enclosures / Peter F. Biehl -- The spirituality of measure -- The roots of spirituality and the limits of human mensuration / F. LeRon Shultz -- Worldview, measurement and 'the roots of spirituality' / Jeremy S. Bagbie.</tableOfContents>
+				<abstract displayLabel="Summary">The construction of formal measurement systems underlies the development of science, technology, economy and new ways of understanding and explaining the world. Human societies have developed such systems in different ways, in different places and at different times, and recent archaeological investigations highlight the importance of these activities for fundamental aspects of human life. Measurement systems have provided the structure for addressing key concerns of cosmological belief systems, as well as the means for articulating relationships between the human form, human action, and the world. The Archaeology of Measurement explores the archaeological evidence for the development of measuring activities in numerous ancient societies, as well as the implications of these discoveries for an understanding of their worlds and beliefs. Featuring contributions from a cast of internationally renowned scholars, it analyses the relationships between measurement, economy, architecture, symbolism, time, cosmology, ritual, and religion among prehistoric and early historic societies.</abstract>
+				<subject authority="lcsh">
+					<topic>Measurement</topic>
+					<topic>History</topic>
+					<genre>Congresses.</genre>
+				</subject>
+				<subject authority="lcsh">
+					<topic>Metrology</topic>
+					<topic>History</topic>
+					<genre>Congresses.</genre>
+				</subject>
+				<subject authority="lcsh">
+					<topic>Architecture, Prehistoric</topic>
+					<genre>Congresses.</genre>
+				</subject>
+				<subject authority="lcsh">
+					<topic>Archaeoastronomy</topic>
+					<genre>Congresses.</genre>
+				</subject>
+				<subject authority="lcsh">
+					<topic>Chronology</topic>
+					<topic>History</topic>
+					<genre>Congresses.</genre>
+				</subject>
+				<subject authority="lcsh">
+					<topic>Antiquities</topic>
+					<genre>Congresses.</genre>
+				</subject>
+				<relatedItem type="otherFormat">
+					<identifier type="isbn">0-521-13588-5</identifier>
+				</relatedItem>
+				<relatedItem type="otherFormat">
+					<identifier type="isbn">0-521-11990-1</identifier>
+				</relatedItem>
+				<name type="personal">
+					<namePart>Morley, Iain</namePart>
+					<namePart type="date">1975-</namePart>
+					<role>
+						<roleTerm type="text">editor</roleTerm>
+					</role>
+				</name>
+				<name type="personal">
+					<namePart>Renfrew, Colin</namePart>
+					<namePart type="date">1937-</namePart>
+					<role>
+						<roleTerm type="text">editor</roleTerm>
+					</role>
+				</name>
+				<name type="corporate">
+					<namePart>McDonald Institute for Archaeological Research</namePart>
+					<role>
+						<roleTerm type="text">issuing body</roleTerm>
+					</role>
+				</name>
+				<location>
+					<url note="Cambridge eBooks and Partner Presses All Books">https://locate.coventry.ac.uk/openurl/COV/COV_VU1?u.ignore_date_coverage=true&amp;rft.mms_id=996910590202011</url>
+				</location>
+				<physicalDescription>
+					<form authority="rdamedia" type="media">computer</form>
+					<form authority="marccategory">electronic resource</form>
+					<form authority="marcform">online</form>
+					<form authority="rdacarrier" type="carrier">online resource</form>
+					<form authority="marcsmd">remote</form>
+				</physicalDescription>
+				<genre authority="rdacontent">text</genre>
+				<language>
+					<languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+					<languageTerm type="text">English</languageTerm>
+				</language>
+				<location>
+					<physicalLocation>Coventry University</physicalLocation>
+					<physicalLocation authority="UkMaC">cvn</physicalLocation>
+					<holdingSimple>
+						<copyInformation>
+							<electronicLocator>https://locate.coventry.ac.uk/openurl/COV/COV_VU1?u.ignore_date_coverage=true&amp;rft.mms_id=996910590202011</electronicLocator>
+							<note>Cambridge eBooks and Partner Presses All Books</note>
+						</copyInformation>
+					</holdingSimple>
+				</location>
+			</mods>
+			<mods version="3.7">
+				<recordInfo>
+					<recordIdentifier source="UkMaC">22887083</recordIdentifier>
+					<recordIdentifier source="UkDhU">.b26269363</recordIdentifier>
+					<recordCreationDate encoding="iso8601">20220707</recordCreationDate>
+				</recordInfo>
+				<typeOfResource>text</typeOfResource>
+				<originInfo>
+					<issuance>single unit</issuance>
+				</originInfo>
+				<recordInfo>
+					<descriptionStandard>aacr</descriptionStandard>
+				</recordInfo>
+				<originInfo>
+					<dateIssued encoding="marc">2010</dateIssued>
+					<place>
+						<placeTerm authority="marccountry" type="code">enk</placeTerm>
+					</place>
+				</originInfo>
+				<identifier type="lccn">2010279304</identifier>
+				<identifier displayLabel="National Bibliography Number" type="bnb">GBB006755</identifier>
+				<identifier type="isbn">9780521135887 (pbk.)</identifier>
+				<identifier type="isbn">0521135885 (pbk.)</identifier>
+				<identifier type="isbn">9780521119900 (hbk.)</identifier>
+				<identifier type="isbn">0521119901 (hbk.)</identifier>
+				<recordInfo>
+					<recordContentSource authority="marcorg">UKM</recordContentSource>
+				</recordInfo>
+				<classification authority="22">930.10287</classification>
+				<titleInfo>
+					<title>
+						<nonSort>The </nonSort>archaeology of measurement</title>
+					<subTitle>comprehending Heaven, Earth and time in ancient societies</subTitle>
+				</titleInfo>
+				<note type="statement of responsibility">edited by Iain Morley, Colin Renfrew.</note>
+				<titleInfo type="alternative">
+					<title>Comprehending Heaven, Earth and time in ancient societies</title>
+				</titleInfo>
+				<originInfo eventType="publisher">
+					<place>
+						<placeTerm type="text">Cambridge</placeTerm>
+					</place>
+					<publisher>Cambridge University Press</publisher>
+					<dateIssued>2010</dateIssued>
+				</originInfo>
+				<physicalDescription>
+					<extent>xv, 267 p. : ill., maps ; 28 cm.</extent>
+				</physicalDescription>
+				<subject authority="lcsh">
+					<topic>Architecture, Prehistoric.</topic>
+				</subject>
+				<subject authority="lcsh">
+					<topic>Measurement</topic>
+					<topic>History.</topic>
+				</subject>
+				<subject authority="lcsh">
+					<topic>Antiquities.</topic>
+				</subject>
+				<name type="personal">
+					<namePart>Morley, Iain</namePart>
+					<namePart type="date">1975-</namePart>
+				</name>
+				<name type="personal">
+					<namePart>Renfrew, Colin</namePart>
+					<namePart type="date">1937-</namePart>
+				</name>
+				<physicalDescription>
+					<form authority="marcform">print</form>
+				</physicalDescription>
+				<genre>Bibliography</genre>
+				<genre>Illustrated</genre>
+				<language>
+					<languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+					<languageTerm type="text">English</languageTerm>
+				</language>
+				<location>
+					<physicalLocation>Durham University Library</physicalLocation>
+					<physicalLocation authority="UkMaC">dur</physicalLocation>
+					<holdingSimple>
+						<copyInformation>
+							<subLocation>Bill Bryson Library, Level 1</subLocation>
+							<shelfLocator>930.10287 ARC</shelfLocator>
+						</copyInformation>
+					</holdingSimple>
+				</location>
+			</mods>
+			<mods version="3.7">
+				<recordInfo>
+					<recordIdentifier source="UkMaC">227016841</recordIdentifier>
+					<recordIdentifier source="StEdU">9923933236202466</recordIdentifier>
+					<recordCreationDate encoding="iso8601">20220707</recordCreationDate>
+				</recordInfo>
+				<typeOfResource>text</typeOfResource>
+				<originInfo>
+					<issuance>single unit</issuance>
+				</originInfo>
+				<originInfo>
+					<dateIssued encoding="marc">2010</dateIssued>
+					<place>
+						<placeTerm authority="marccountry" type="code">enk</placeTerm>
+					</place>
+				</originInfo>
+				<identifier type="isbn">9780511760822 (ebook)</identifier>
+				<identifier invalid="yes" type="isbn">9780521119900 (hardback)</identifier>
+				<identifier invalid="yes" type="isbn">9780521135887 (paperback)</identifier>
+				<recordInfo>
+					<recordContentSource authority="marcorg">UkCbUP</recordContentSource>
+					<languageOfCataloging>
+						<languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+					</languageOfCataloging>
+					<descriptionStandard>rda</descriptionStandard>
+				</recordInfo>
+				<classification authority="lcc">GN799.B8 A73 2010</classification>
+				<classification authority="ddc" edition="22">690.0901</classification>
+				<titleInfo>
+					<title>
+						<nonSort>The </nonSort>Archaeology of Measurement</title>
+					<subTitle>Comprehending Heaven, Earth and Time in Ancient Societies</subTitle>
+				</titleInfo>
+				<note type="statement of responsibility">Edited by Iain Morley, Colin Renfrew.</note>
+				<originInfo eventType="publisher">
+					<place>
+						<placeTerm type="text">Cambridge</placeTerm>
+					</place>
+					<publisher>Cambridge University Press</publisher>
+					<dateIssued>2010</dateIssued>
+				</originInfo>
+				<physicalDescription>
+					<extent>1 online resource (296 pages) : digital, PDF file(s).</extent>
+				</physicalDescription>
+				<note type="general">Title from publisher's bibliographic system (viewed on 24 Feb 2016).</note>
+				<note type="system details">Mode of access: World Wide Web</note>
+				<subject authority="lcsh">
+					<topic>Architecture, Prehistoric.</topic>
+				</subject>
+				<subject authority="lcsh">
+					<topic>Antiquities.</topic>
+				</subject>
+				<name type="personal">
+					<namePart>Morley, Iain</namePart>
+					<role>
+						<roleTerm type="text">editor</roleTerm>
+					</role>
+				</name>
+				<name type="personal">
+					<namePart>Renfrew, Colin</namePart>
+					<role>
+						<roleTerm type="text">editor</roleTerm>
+					</role>
+				</name>
+				<relatedItem displayLabel="Print version: " type="otherFormat">
+					<identifier type="isbn">9780521119900</identifier>
+				</relatedItem>
+				<location>
+					<url>http://www.ezproxy.is.ed.ac.uk/login?url=http://dx.doi.org/10.1017/CBO9780511760822</url>
+				</location>
+				<location>
+					<url>http://ed-primo.hosted.exlibrisgroup.com/openurl/44UOE/44UOE_services_page?u.ignore_date_coverage=true&amp;rft.mms_id=9923933236202466</url>
+				</location>
+				<physicalDescription>
+					<form authority="rdamedia" type="media">computer</form>
+					<form authority="marccategory">electronic resource</form>
+					<form authority="marcform">online</form>
+					<form authority="rdacarrier" type="carrier">online resource</form>
+					<form authority="marcsmd">remote</form>
+				</physicalDescription>
+				<genre authority="rdacontent">text</genre>
+				<language>
+					<languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+					<languageTerm type="text">English</languageTerm>
+				</language>
+				<location>
+					<physicalLocation>University of Edinburgh Libraries</physicalLocation>
+					<physicalLocation authority="UkMaC">edi</physicalLocation>
+					<holdingSimple>
+						<copyInformation>
+							<electronicLocator>http://www.ezproxy.is.ed.ac.uk/login?url=http://dx.doi.org/10.1017/CBO9780511760822</electronicLocator>
+						</copyInformation>
+						<copyInformation>
+							<electronicLocator>http://ed-primo.hosted.exlibrisgroup.com/openurl/44UOE/44UOE_services_page?u.ignore_date_coverage=true&amp;rft.mms_id=9923933236202466</electronicLocator>
+						</copyInformation>
+					</holdingSimple>
+				</location>
+				<extension>
+					<cpc:local xmlns:cpc="http://copac.ac.uk/schemas/mods-copac/v1">
+						<accessCondition type="restrictionsOnAccess">Access may be restricted to authorized University of Edinburgh users</accessCondition>
+					</cpc:local>
+				</extension>
+			</mods>
+			<mods version="3.7">
+				<recordInfo>
+					<recordIdentifier source="UkMaC">150111019</recordIdentifier>
+					<recordIdentifier source="StGlU">.b27681191</recordIdentifier>
+					<recordCreationDate encoding="iso8601">20220707</recordCreationDate>
+				</recordInfo>
+				<typeOfResource>text</typeOfResource>
+				<originInfo>
+					<issuance>single unit</issuance>
+				</originInfo>
+				<recordInfo>
+					<descriptionStandard>aacr</descriptionStandard>
+				</recordInfo>
+				<originInfo>
+					<dateIssued encoding="marc">2010</dateIssued>
+					<place>
+						<placeTerm authority="marccountry" type="code">enk</placeTerm>
+					</place>
+				</originInfo>
+				<identifier type="lccn">2010279304</identifier>
+				<identifier displayLabel="National Bibliography Number" type="bnb">GBB006755</identifier>
+				<identifier type="isbn">9780521119900 (hbk.)</identifier>
+				<identifier type="isbn">0521119901 (hbk.)</identifier>
+				<identifier type="isbn">9780521135887 (pbk.)</identifier>
+				<identifier type="isbn">0521135885 (pbk.)</identifier>
+				<recordInfo>
+					<recordContentSource authority="marcorg">UKM</recordContentSource>
+				</recordInfo>
+				<classification authority="lcc">GN799.B8 A73 2010</classification>
+				<classification authority="ddc" edition="22">690.0901</classification>
+				<titleInfo>
+					<title>
+						<nonSort>The </nonSort>archaeology of measurement</title>
+					<subTitle>comprehending Heaven, Earth and time in ancient societies</subTitle>
+				</titleInfo>
+				<note type="statement of responsibility">edited by Iain Morley, Colin Renfrew.</note>
+				<titleInfo type="alternative">
+					<title>Comprehending Heaven, Earth and time in ancient societies</title>
+				</titleInfo>
+				<originInfo eventType="publisher">
+					<place>
+						<placeTerm type="text">Cambridge</placeTerm>
+					</place>
+					<publisher>Cambridge University Press</publisher>
+					<dateIssued>2010</dateIssued>
+				</originInfo>
+				<physicalDescription>
+					<extent>xv, 267 p. : ill., maps ; 28 cm.</extent>
+				</physicalDescription>
+				<note type="bibliography">Includes bibliographical references and index.</note>
+				<tableOfContents displayLabel="Contents">Number : counting, mathematics and measure. Conceptualising quantification before settlement : activities and issues underlying the conception and use of measurement / Iain Morley ; Measurement in navigation : conceiving distance and time in the Neolithic / Helen Farr ; The token system of the ancient Near East : it's role in counting, writing, the economy and cognition / Denise Schmandt-Besserat ; Grasping the concept of number : how did the sapient mind move beyond approximation? / Lambros Malafouris ; Numerical cognition and the development of 'zero' in Mesoamerica / John Justeson ; Recording measure(ment)s in the Inka khipu / Gary Urton -- Materialising the economy. Measuring by weight in the late Bronze Age Aegean : the people behind the measuring tools / Anna Michailidou ; The concept of weighing during the Bronze Age in the Aegean, the Near East and Europe / Lorenz Rahmstorf ; Measuring the Harappan world : insights into the Indus order and cosmology / J. Mark Kenoyer -- Dimension and belief. Architectural measurements in the Indus cities : the case study of Mohenjo-Daro / Michael Jansen ; Teotihuacan city layout as a cosmogram : preliminary results of the 2007 Measurement Unit Study / Saburo Sagiyama ; Aztec dimensions of holiness / John E. Clark ; Establishing direction in early Egyptian burials and monumental architecture : measurement and the spatial link with the 'other' / Kate Spence -- Calendar and cosmology. The measurement of time and distance in the heavens above Mesopotamia, with brief reference made to other ancient astral sciences / David Brown ; Evolution of the calendar in Shang China / Mark Edward Lewis ; The measure of time in Mesoamerica : from Teotihuacan to the Maya / Anthony F. Aveni ; Measuring time, sacred space, and social place in the Inca Empire / Charles Stanish ; Measuring time in the European Neolithic? The function and meaning of central European circular enclosures / Peter F. Biehl -- The spirituality of measure. The roots of spirituality and the limits of human mensuration / F. LeRon Shultz ; Worldview, meaasurement and 'the roots of spirituality' / Jeremy S. Bagbie.</tableOfContents>
+				<subject authority="lcsh">
+					<topic>Architecture, Prehistoric.</topic>
+				</subject>
+				<subject authority="lcsh">
+					<topic>Measurement</topic>
+					<topic>History.</topic>
+				</subject>
+				<subject authority="lcsh">
+					<topic>Antiquities.</topic>
+				</subject>
+				<name type="personal">
+					<namePart>Morley, Iain</namePart>
+					<namePart type="date">1975-</namePart>
+				</name>
+				<name type="personal">
+					<namePart>Renfrew, Colin</namePart>
+					<namePart type="date">1937-</namePart>
+				</name>
+				<physicalDescription>
+					<form authority="marcform">print</form>
+				</physicalDescription>
+				<genre>Bibliography</genre>
+				<genre>Illustrated</genre>
+				<language>
+					<languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+					<languageTerm type="text">English</languageTerm>
+				</language>
+				<location>
+					<physicalLocation>University of Glasgow Library</physicalLocation>
+					<physicalLocation authority="UkMaC">gla</physicalLocation>
+					<holdingSimple>
+						<copyInformation>
+							<subLocation>University Library Level 8 Annexe</subLocation>
+							<shelfLocator>Archaeology qAC250 ARC5</shelfLocator>
+						</copyInformation>
+					</holdingSimple>
+				</location>
+			</mods>
+			<mods version="3.7">
+				<recordInfo>
+					<recordIdentifier source="UkMaC">142575976</recordIdentifier>
+					<recordIdentifier source="UkSwHE">5154</recordIdentifier>
+					<recordCreationDate encoding="iso8601">20220707</recordCreationDate>
+				</recordInfo>
+				<typeOfResource>text</typeOfResource>
+				<originInfo>
+					<issuance>single unit</issuance>
+				</originInfo>
+				<recordInfo>
+					<descriptionStandard>aacr</descriptionStandard>
+				</recordInfo>
+				<originInfo>
+					<dateIssued encoding="marc">2010</dateIssued>
+				</originInfo>
+				<identifier type="isbn">9780521135887</identifier>
+				<classification authority="lcc">3.0.3/MOR</classification>
+				<name>
+					<namePart>Morley, Iain</namePart>
+					<role>
+						<roleTerm type="text">creator</roleTerm>
+					</role>
+				</name>
+				<titleInfo>
+					<title>
+						<nonSort>The </nonSort>archaeology of measurement</title>
+					<subTitle>comprehending heaven, earth and time in ancient societies</subTitle>
+				</titleInfo>
+				<originInfo eventType="publisher">
+					<place>
+						<placeTerm type="text">Cambridge</placeTerm>
+					</place>
+					<publisher>Cambridge University Press</publisher>
+					<dateIssued>2010</dateIssued>
+				</originInfo>
+				<physicalDescription>
+					<extent>xv, 267 p. : ill.</extent>
+				</physicalDescription>
+				<name>
+					<namePart>Renfrew, Colin</namePart>
+				</name>
+				<location>
+					<physicalLocation>Historic England Library</physicalLocation>
+					<physicalLocation authority="UkMaC">hen</physicalLocation>
+					<holdingSimple>
+						<copyInformation>
+							<subLocation>Swindon Library</subLocation>
+							<shelfLocator>3.0.3/MOR</shelfLocator>
+						</copyInformation>
+					</holdingSimple>
+				</location>
+			</mods>
+			<mods version="3.7">
+				<recordInfo>
+					<recordIdentifier source="UkMaC">252008989</recordIdentifier>
+					<recordIdentifier source="UkLiU">.b56079667</recordIdentifier>
+					<recordCreationDate encoding="iso8601">20220707</recordCreationDate>
+				</recordInfo>
+				<typeOfResource>text</typeOfResource>
+				<originInfo>
+					<issuance>single unit</issuance>
+				</originInfo>
+				<originInfo>
+					<dateIssued encoding="marc">2010</dateIssued>
+					<place>
+						<placeTerm authority="marccountry" type="code">enk</placeTerm>
+					</place>
+				</originInfo>
+				<identifier type="isbn">9780511760822</identifier>
+				<identifier type="isbn">9780521119900</identifier>
+				<identifier type="isbn">9780521135887</identifier>
+				<recordInfo>
+					<recordContentSource authority="marcorg">UkCbUP</recordContentSource>
+					<languageOfCataloging>
+						<languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+					</languageOfCataloging>
+					<descriptionStandard>rda</descriptionStandard>
+				</recordInfo>
+				<classification authority="lcc">GN799.B8 A73 2010</classification>
+				<classification authority="ddc" edition="22">690.0901</classification>
+				<classification>ELECTRONIC BOOK</classification>
+				<titleInfo>
+					<title>
+						<nonSort>The </nonSort>archaeology of measurement</title>
+					<subTitle>comprehending Heaven, Earth and time in ancient societies</subTitle>
+				</titleInfo>
+				<note type="statement of responsibility">edited by Iain Morley, Colin Renfrew.</note>
+				<originInfo eventType="publisher">
+					<place>
+						<placeTerm type="text">Cambridge</placeTerm>
+					</place>
+					<publisher>Cambridge University Press</publisher>
+					<dateIssued>2010</dateIssued>
+				</originInfo>
+				<physicalDescription>
+					<extent>1 online resource (xv, 267 pages) : digital, PDF file(s).</extent>
+				</physicalDescription>
+				<note type="general">Title from publisher's bibliographic system (viewed on 05 Oct 2015).</note>
+				<tableOfContents displayLabel="Contents">Number : counting, mathematics and measure -- Conceptualising quantification before settlement : activities and issues underlying the conception and use of measurement / Iain Morley -- Measurement in navigation : conceiving distance and time in the Neolithic / Helen Farr -- The token system of the ancient Near East : it's role in counting, writing, the economy and cognition / Denise Schmandt-Besserat -- Grasping the concept of number : how did the sapient mind move beyond approximation? / Lambros Malafouris -- Numerical cognition and the development of 'zero' in Mesoamerica / John Justeson -- Recording measure(ment)s in the Inka khipu / Gary Urton -- Materialising the economy -- Measuring by weight in the late Bronze Age Aegean : the people behind the measuring tools / Anna Michailidou -- The concept of weighing during the Bronze Age in the Aegean, the Near East and Europe / Lorenz Rahmstorf -- Measuring the Harappan world : insights into the Indus order and cosmology / J. Mark Kenoyer -- Dimension and belief -- Architectural measurements in the Indus cities : the case study of Mohenjo-Daro / Michael Jansen --dtTeotihuacan city layout as a cosmogram : preliminary results of the 2007 Measurement Unit Study / Saburo Sagiyama -- Aztec dimensions of holiness / John E. Clark -- Establishing direction in early Egyptian burials and monumental architecture : measurement and the spatial link with the 'other' / Kate Spence -- Calendar and cosmology -- The measurement of time and distance in the heavens above Mesopotamia, with brief reference made to other ancient astral sciences / David Brown -- Evolution of the calendar in Shang China / Mark Edward Lewis -- The measure of time in Mesoamerica : from Teotihuacan to the Maya / Anthony F. Aveni -- Measuring time, sacred space, and social place in the Inca Empire / Charles Stanish -- Measuring time in the European Neolithic? The function and meaning of central European circular enclosures / Peter F. Biehl -- The spirituality of measure -- The roots of spirituality and the limits of human mensuration / F. LeRon Shultz -- Worldview, measurement and 'the roots of spirituality' / Jeremy S. Bagbie.</tableOfContents>
+				<abstract displayLabel="Summary">The construction of formal measurement systems underlies the development of science, technology, economy and new ways of understanding and explaining the world. Human societies have developed such systems in different ways, in different places and at different times, and recent archaeological investigations highlight the importance of these activities for fundamental aspects of human life. Measurement systems have provided the structure for addressing key concerns of cosmological belief systems, as well as the means for articulating relationships between the human form, human action, and the world. The Archaeology of Measurement explores the archaeological evidence for the development of measuring activities in numerous ancient societies, as well as the implications of these discoveries for an understanding of their worlds and beliefs. Featuring contributions from a cast of internationally renowned scholars, it analyses the relationships between measurement, economy, architecture, symbolism, time, cosmology, ritual, and religion among prehistoric and early historic societies.</abstract>
+				<subject authority="lcsh">
+					<topic>Measurement</topic>
+					<topic>History</topic>
+					<genre>Congresses.</genre>
+				</subject>
+				<subject authority="lcsh">
+					<topic>Metrology</topic>
+					<topic>History</topic>
+					<genre>Congresses.</genre>
+				</subject>
+				<subject authority="lcsh">
+					<topic>Architecture, Prehistoric</topic>
+					<genre>Congresses.</genre>
+				</subject>
+				<subject authority="lcsh">
+					<topic>Archaeoastronomy</topic>
+					<genre>Congresses.</genre>
+				</subject>
+				<subject authority="lcsh">
+					<topic>Chronology</topic>
+					<topic>History</topic>
+					<genre>Congresses.</genre>
+				</subject>
+				<subject authority="lcsh">
+					<topic>Antiquities</topic>
+					<genre>Congresses.</genre>
+				</subject>
+				<name type="personal">
+					<namePart>Morley, Iain</namePart>
+					<namePart type="date">1975-</namePart>
+				</name>
+				<name type="personal">
+					<namePart>Renfrew, Colin</namePart>
+					<namePart type="date">1937-</namePart>
+				</name>
+				<name type="corporate">
+					<namePart>McDonald Institute for Archaeological Research.</namePart>
+				</name>
+				<relatedItem displayLabel="Print version: " type="otherFormat">
+					<identifier type="isbn">9780521119900.</identifier>
+				</relatedItem>
+				<relatedItem type="series">
+					<titleInfo type="uniform">
+						<title>Online access with EBA: Cambridge Books Online.</title>
+					</titleInfo>
+				</relatedItem>
+				<location>
+					<url note="&lt;img src=&quot;/screens/gifs/go4.gif&quot; alt=&quot;Go button&quot; border=&quot;0&quot; width=&quot;21&quot; height=&quot;21&quot; hspace=&quot;7&quot; align=&quot;middle&quot;&gt; View this e-book online">https://liverpool.idm.oclc.org/login?url=https://doi.org/10.1017/CBO9780511760822</url>
+				</location>
+				<relatedItem>
+					<location>
+						<url note="Reading advice (software, printing, accessibility, privacy)">http://libanswers.liverpool.ac.uk/faq/182315</url>
+					</location>
+				</relatedItem>
+				<physicalDescription>
+					<form authority="rdamedia." type="media">computer</form>
+					<form authority="marccategory">electronic resource</form>
+					<form authority="marcform">online</form>
+					<form authority="rdacarrier." type="carrier">online resource</form>
+					<form authority="marcsmd">remote</form>
+				</physicalDescription>
+				<genre authority="rdacontent.">text</genre>
+				<language>
+					<languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+					<languageTerm type="text">English</languageTerm>
+				</language>
+				<location>
+					<physicalLocation>University of Liverpool Library</physicalLocation>
+					<physicalLocation authority="UkMaC">liv</physicalLocation>
+					<holdingSimple>
+						<copyInformation>
+							<electronicLocator>https://liverpool.idm.oclc.org/login?url=https://doi.org/10.1017/CBO9780511760822</electronicLocator>
+							<note>&lt;img src="/screens/gifs/go4.gif" alt="Go button" border="0" width="21" height="21" hspace="7" align="middle"&gt; View this e-book online</note>
+						</copyInformation>
+						<copyInformation>
+							<electronicLocator>http://libanswers.liverpool.ac.uk/faq/182315</electronicLocator>
+							<note>Reading advice (software, printing, accessibility, privacy)</note>
+						</copyInformation>
+						<copyInformation>
+							<subLocation>Contact University of Liverpool Library</subLocation>
+							<shelfLocator>ELECTRONIC BOOK</shelfLocator>
+							<note>0</note>
+						</copyInformation>
+					</holdingSimple>
+				</location>
+			</mods>
+			<mods version="3.7">
+				<recordInfo>
+					<recordIdentifier source="UkMaC">299504960</recordIdentifier>
+					<recordIdentifier source="UkLiU">.b72045541</recordIdentifier>
+					<recordCreationDate encoding="iso8601">20220707</recordCreationDate>
+				</recordInfo>
+				<typeOfResource>text</typeOfResource>
+				<originInfo>
+					<issuance>single unit</issuance>
+				</originInfo>
+				<originInfo>
+					<dateIssued encoding="marc">2010</dateIssued>
+					<place>
+						<placeTerm authority="marccountry" type="code">enk</placeTerm>
+					</place>
+				</originInfo>
+				<identifier type="isbn">9780511760822</identifier>
+				<identifier invalid="yes" type="isbn">9780521119900</identifier>
+				<identifier type="isbn">9780521135887 (paperback)</identifier>
+				<recordInfo>
+					<recordContentSource authority="marcorg">UkCbUP</recordContentSource>
+					<languageOfCataloging>
+						<languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+					</languageOfCataloging>
+					<descriptionStandard>rda</descriptionStandard>
+				</recordInfo>
+				<classification authority="lcc">GN799.B8 A73 2010</classification>
+				<classification authority="ddc" edition="22">690.0901</classification>
+				<classification>ELECTRONIC BOOK</classification>
+				<titleInfo>
+					<title>
+						<nonSort>The </nonSort>archaeology of measurement</title>
+					<subTitle>comprehending Heaven, Earth and time in ancient societies</subTitle>
+				</titleInfo>
+				<note type="statement of responsibility">edited by Iain Morley, Colin Renfrew.</note>
+				<originInfo eventType="publisher">
+					<place>
+						<placeTerm type="text">Cambridge</placeTerm>
+					</place>
+					<publisher>Cambridge University Press</publisher>
+					<dateIssued>2010</dateIssued>
+				</originInfo>
+				<physicalDescription>
+					<extent>1 online resource (xv, 267 pages) : digital, PDF file(s).</extent>
+				</physicalDescription>
+				<note type="general">Title from publisher's bibliographic system (viewed on 05 Oct 2015).</note>
+				<tableOfContents displayLabel="Contents">Number : counting, mathematics and measure -- Conceptualising quantification before settlement : activities and issues underlying the conception and use of measurement / Iain Morley -- Measurement in navigation : conceiving distance and time in the Neolithic / Helen Farr -- The token system of the ancient Near East : it's role in counting, writing, the economy and cognition / Denise Schmandt-Besserat -- Grasping the concept of number : how did the sapient mind move beyond approximation? / Lambros Malafouris -- Numerical cognition and the development of 'zero' in Mesoamerica / John Justeson -- Recording measure(ment)s in the Inka khipu / Gary Urton -- Materialising the economy -- Measuring by weight in the late Bronze Age Aegean : the people behind the measuring tools / Anna Michailidou -- The concept of weighing during the Bronze Age in the Aegean, the Near East and Europe / Lorenz Rahmstorf -- Measuring the Harappan world : insights into the Indus order and cosmology / J. Mark Kenoyer -- Dimension and belief -- Architectural measurements in the Indus cities : the case study of Mohenjo-Daro / Michael Jansen --dtTeotihuacan city layout as a cosmogram : preliminary results of the 2007 Measurement Unit Study / Saburo Sagiyama -- Aztec dimensions of holiness / John E. Clark -- Establishing direction in early Egyptian burials and monumental architecture : measurement and the spatial link with the 'other' / Kate Spence -- Calendar and cosmology -- The measurement of time and distance in the heavens above Mesopotamia, with brief reference made to other ancient astral sciences / David Brown -- Evolution of the calendar in Shang China / Mark Edward Lewis -- The measure of time in Mesoamerica : from Teotihuacan to the Maya / Anthony F. Aveni -- Measuring time, sacred space, and social place in the Inca Empire / Charles Stanish -- Measuring time in the European Neolithic? The function and meaning of central European circular enclosures / Peter F. Biehl -- The spirituality of measure -- The roots of spirituality and the limits of human mensuration / F. LeRon Shultz -- Worldview, measurement and 'the roots of spirituality' / Jeremy S. Bagbie.</tableOfContents>
+				<abstract displayLabel="Summary">The construction of formal measurement systems underlies the development of science, technology, economy and new ways of understanding and explaining the world. Human societies have developed such systems in different ways, in different places and at different times, and recent archaeological investigations highlight the importance of these activities for fundamental aspects of human life. Measurement systems have provided the structure for addressing key concerns of cosmological belief systems, as well as the means for articulating relationships between the human form, human action, and the world. The Archaeology of Measurement explores the archaeological evidence for the development of measuring activities in numerous ancient societies, as well as the implications of these discoveries for an understanding of their worlds and beliefs. Featuring contributions from a cast of internationally renowned scholars, it analyses the relationships between measurement, economy, architecture, symbolism, time, cosmology, ritual, and religion among prehistoric and early historic societies.</abstract>
+				<subject authority="lcsh">
+					<topic>Measurement</topic>
+					<topic>History</topic>
+					<genre>Congresses.</genre>
+				</subject>
+				<subject authority="lcsh">
+					<topic>Metrology</topic>
+					<topic>History</topic>
+					<genre>Congresses.</genre>
+				</subject>
+				<subject authority="lcsh">
+					<topic>Architecture, Prehistoric</topic>
+					<genre>Congresses.</genre>
+				</subject>
+				<subject authority="lcsh">
+					<topic>Archaeoastronomy</topic>
+					<genre>Congresses.</genre>
+				</subject>
+				<subject authority="lcsh">
+					<topic>Chronology</topic>
+					<topic>History</topic>
+					<genre>Congresses.</genre>
+				</subject>
+				<subject authority="lcsh">
+					<topic>Antiquities</topic>
+					<genre>Congresses.</genre>
+				</subject>
+				<name type="personal">
+					<namePart>Morley, Iain</namePart>
+					<namePart type="date">1975-</namePart>
+					<role>
+						<roleTerm type="text">editor</roleTerm>
+					</role>
+				</name>
+				<name type="personal">
+					<namePart>Renfrew, Colin</namePart>
+					<namePart type="date">1937-</namePart>
+					<role>
+						<roleTerm type="text">editor</roleTerm>
+					</role>
+				</name>
+				<name type="corporate">
+					<namePart>McDonald Institute for Archaeological Research</namePart>
+					<role>
+						<roleTerm type="text">issuing body</roleTerm>
+					</role>
+				</name>
+				<relatedItem displayLabel="Print version: " type="otherFormat">
+					<identifier type="isbn">9780521119900.</identifier>
+				</relatedItem>
+				<location>
+					<url note="&lt;img src=&quot;/screens/gifs/go4.gif&quot; alt=&quot;Go button&quot; border=&quot;0&quot; width=&quot;21&quot; height=&quot;21&quot; hspace=&quot;7&quot; align=&quot;middle&quot;&gt; View this e-book online">https://liverpool.idm.oclc.org/login?url=https://doi.org/10.1017/CBO9780511760822</url>
+				</location>
+				<physicalDescription>
+					<form authority="rdamedia." type="media">computer</form>
+					<form authority="marccategory">electronic resource</form>
+					<form authority="marcform">online</form>
+					<form authority="rdacarrier." type="carrier">online resource</form>
+					<form authority="marcsmd">remote</form>
+				</physicalDescription>
+				<genre authority="rdacontent.">text</genre>
+				<language>
+					<languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+					<languageTerm type="text">English</languageTerm>
+				</language>
+				<location>
+					<physicalLocation>University of Liverpool Library</physicalLocation>
+					<physicalLocation authority="UkMaC">liv</physicalLocation>
+					<holdingSimple>
+						<copyInformation>
+							<electronicLocator>https://liverpool.idm.oclc.org/login?url=https://doi.org/10.1017/CBO9780511760822</electronicLocator>
+							<note>&lt;img src="/screens/gifs/go4.gif" alt="Go button" border="0" width="21" height="21" hspace="7" align="middle"&gt; View this e-book online</note>
+						</copyInformation>
+						<copyInformation>
+							<subLocation>Contact University of Liverpool Library</subLocation>
+							<shelfLocator>ELECTRONIC BOOK</shelfLocator>
+							<note>0</note>
+						</copyInformation>
+					</holdingSimple>
+				</location>
+			</mods>
+			<mods version="3.7">
+				<recordInfo>
+					<recordIdentifier source="UkMaC">91857566</recordIdentifier>
+					<recordIdentifier source="UkMaJRU">9931344824401631</recordIdentifier>
+					<recordCreationDate encoding="iso8601">20220707</recordCreationDate>
+				</recordInfo>
+				<typeOfResource>text</typeOfResource>
+				<originInfo>
+					<issuance>single unit</issuance>
+				</originInfo>
+				<recordInfo>
+					<descriptionStandard>aacr</descriptionStandard>
+				</recordInfo>
+				<originInfo>
+					<dateIssued encoding="marc">2010</dateIssued>
+					<place>
+						<placeTerm authority="marccountry" type="code">enk</placeTerm>
+					</place>
+				</originInfo>
+				<identifier type="lccn">2010279304</identifier>
+				<identifier displayLabel="National Bibliography Number" type="bnb">GBB006755</identifier>
+				<identifier type="isbn">9780521119900 (hbk.)</identifier>
+				<identifier type="isbn">0521119901 (hbk.)</identifier>
+				<identifier type="isbn">9780521135887 (pbk.)</identifier>
+				<identifier type="isbn">0521135885 (pbk.)</identifier>
+				<recordInfo>
+					<recordContentSource authority="marcorg">UKM</recordContentSource>
+				</recordInfo>
+				<classification authority="lcc">GN799.B8 A73 2010</classification>
+				<classification authority="ddc" edition="22">690.0901</classification>
+				<titleInfo>
+					<title>
+						<nonSort>The </nonSort>archaeology of measurement</title>
+					<subTitle>comprehending Heaven, Earth and time in ancient societies</subTitle>
+				</titleInfo>
+				<note type="statement of responsibility">edited by Iain Morley, Colin Renfrew.</note>
+				<titleInfo type="alternative">
+					<title>Comprehending Heaven, Earth and time in ancient societies</title>
+				</titleInfo>
+				<originInfo eventType="publisher">
+					<place>
+						<placeTerm type="text">Cambridge ; New York</placeTerm>
+					</place>
+					<publisher>Cambridge University Press</publisher>
+					<dateIssued>2010</dateIssued>
+				</originInfo>
+				<physicalDescription>
+					<extent>xv, 267 p. : ill., maps ; 28 cm.</extent>
+				</physicalDescription>
+				<note type="bibliography">Includes bibliographical references and index.</note>
+				<tableOfContents displayLabel="Contents">Number : counting, mathematics and measure. Conceptualising quantification before settlement : activities and issues underlying the conception and use of measurement / Iain Morley ; Measurement in navigation : conceiving distance and time in the Neolithic / Helen Farr ; The token system of the ancient Near East : it's role in counting, writing, the economy and cognition / Denise Schmandt-Besserat ; Grasping the concept of number : how did the sapient mind move beyond approximation? / Lambros Malafouris ; Numerical cognition and the development of 'zero' in Mesoamerica / John Justeson ; Recording measure(ment)s in the Inka khipu / Gary Urton -- Materialising the economy. Measuring by weight in the late Bronze Age Aegean : the people behind the measuring tools / Anna Michailidou ; The concept of weighing during the Bronze Age in the Aegean, the Near East and Europe / Lorenz Rahmstorf ; Measuring the Harappan world : insights into the Indus order and cosmology / J. Mark Kenoyer -- Dimension and belief. Architectural measurements in the Indus cities : the case study of Mohenjo-Daro / Michael Jansen ; Teotihuacan city layout as a cosmogram : preliminary results of the 2007 Measurement Unit Study / Saburo Sagiyama ; Aztec dimensions of holiness / John E. Clark ; Establishing direction in early Egyptian burials and monumental architecture : measurement and the spatial link with the 'other' / Kate Spence -- Calendar and cosmology. The measurement of time and distance in the heavens above Mesopotamia, with brief reference made to other ancient astral sciences / David Brown ; Evolution of the calendar in Shang China / Mark Edward Lewis ; The measure of time in Mesoamerica : from Teotihuacan to the Maya / Anthony F. Aveni ; Measuring time, sacred space, and social place in the Inca Empire / Charles Stanish ; Measuring time in the European Neolithic? The function and meaning of central European circular enclosures / Peter F. Biehl -- The spirituality of measure. The roots of spirituality and the limits of human mensuration / F. LeRon Shultz ; Worldview, meaasurement and 'the roots of spirituality' / Jeremy S. Bagbie.</tableOfContents>
+				<abstract displayLabel="Summary">This volume explores the archaeological evidence for the development of measuring activities in numerous ancient societies. It analyses the relationship between measurement, economy, architecture, symbolism, time, cosmology, ritual, and religion among prehistoric and early historic societies throughout the world.</abstract>
+				<subject authority="lcsh">
+					<topic>Architecture, Prehistoric.</topic>
+				</subject>
+				<subject authority="lcsh">
+					<topic>Measurement</topic>
+					<topic>History.</topic>
+				</subject>
+				<subject authority="lcsh">
+					<topic>Antiquities.</topic>
+				</subject>
+				<name type="personal">
+					<namePart>Morley, Iain</namePart>
+					<namePart type="date">1975-</namePart>
+				</name>
+				<name type="personal">
+					<namePart>Renfrew, Colin</namePart>
+					<namePart type="date">1937-</namePart>
+				</name>
+				<physicalDescription>
+					<form authority="marcform">print</form>
+				</physicalDescription>
+				<genre>Bibliography</genre>
+				<genre>Illustrated</genre>
+				<language>
+					<languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+					<languageTerm type="text">English</languageTerm>
+				</language>
+				<location>
+					<physicalLocation>University of Manchester Library</physicalLocation>
+					<physicalLocation authority="UkMaC">man</physicalLocation>
+					<holdingSimple>
+						<copyInformation>
+							<subLocation>Main Library: Blue Area Floor 3</subLocation>
+							<shelfLocator>913.07</shelfLocator>
+						</copyInformation>
+					</holdingSimple>
+				</location>
+			</mods>
+			<mods version="3.7">
+				<recordInfo>
+					<recordIdentifier source="UkMaC">117132354</recordIdentifier>
+					<recordIdentifier source="UkNcU">990008980040102411</recordIdentifier>
+					<recordCreationDate encoding="iso8601">20220707</recordCreationDate>
+				</recordInfo>
+				<typeOfResource>text</typeOfResource>
+				<originInfo>
+					<issuance>single unit</issuance>
+				</originInfo>
+				<recordInfo>
+					<descriptionStandard>aacr</descriptionStandard>
+				</recordInfo>
+				<originInfo>
+					<dateIssued encoding="marc">2010</dateIssued>
+					<place>
+						<placeTerm authority="marccountry" type="code">enk</placeTerm>
+					</place>
+				</originInfo>
+				<identifier type="lccn">2010279304</identifier>
+				<identifier type="isbn">9780521135887 (pbk.)</identifier>
+				<identifier type="isbn">0521135885 (pbk.)</identifier>
+				<identifier type="isbn">9780521119900 (hbk.)</identifier>
+				<identifier type="isbn">0521119901 (hbk.)</identifier>
+				<recordInfo>
+					<recordContentSource authority="marcorg">UKM</recordContentSource>
+				</recordInfo>
+				<classification authority="ddc" edition="22">690.0901</classification>
+				<titleInfo>
+					<title>
+						<nonSort>The </nonSort>archaeology of measurement</title>
+					<subTitle>comprehending Heaven, Earth and time in ancient societies</subTitle>
+				</titleInfo>
+				<note type="statement of responsibility">edited by Iain Morley, Colin Renfrew.</note>
+				<titleInfo type="alternative">
+					<title>Comprehending Heaven, Earth and time in ancient societies</title>
+				</titleInfo>
+				<originInfo eventType="publisher">
+					<place>
+						<placeTerm type="text">Cambridge ; New York</placeTerm>
+					</place>
+					<publisher>Cambridge University Press</publisher>
+					<dateIssued>2010</dateIssued>
+				</originInfo>
+				<physicalDescription>
+					<extent>xv, 267 p. : ill., maps ; 28 cm.</extent>
+				</physicalDescription>
+				<tableOfContents displayLabel="Contents">Number : counting, mathematics and measure. Conceptualising quantification before settlement : activities and issues underlying the conception and use of measurement / Iain Morley ; Measurement in navigation : conceiving distance and time in the Neolithic / Helen Farr ; The token system of the ancient Near East : it's role in counting, writing, the economy and cognition / Denise Schmandt-Besserat ; Grasping the concept of number : how did the sapient mind move beyond approximation? / Lambros Malafouris ; Numerical cognition and the development of 'zero' in Mesoamerica / John Justeson ; Recording measure(ment)s in the Inka khipu / Gary Urton -- Materialising the economy. Measuring by weight in the late Bronze Age Aegean : the people behind the measuring tools / Anna Michailidou ; The concept of weighing during the Bronze Age in the Aegean, the Near East and Europe / Lorenz Rahmstorf ; Measuring the Harappan world : insights into the Indus order and cosmology / J. Mark Kenoyer --</tableOfContents>
+				<tableOfContents displayLabel="Contents">Dimension and belief. Architectural measurements in the Indus cities : the case study of Mohenjo-Daro / Michael Jansen ; Teotihuacan city layout as a cosmogram : preliminary results of the 2007 Measurement Unit Study / Saburo Sagiyama ; Aztec dimensions of holiness / John E. Clark ; Establishing direction in early Egyptian burials and monumental architecture : measurement and the spatial link with the 'other' / Kate Spence -- Calendar and cosmology. The measurement of time and distance in the heavens above Mesopotamia, with brief reference made to other ancient astral sciences / David Brown ; Evolution of the calendar in Shang China / Mark Edward Lewis ; The measure of time in Mesoamerica : from Teotihuacan to the Maya / Anthony F. Aveni ; Measuring time, sacred space, and social place in the Inca Empire / Charles Stanish ; Measuring time in the European Neolithic? The function and meaning of central European circular enclosures / Peter F. Biehl --</tableOfContents>
+				<tableOfContents displayLabel="Contents">The spirituality of measure. The roots of spirituality and the limits of human mensuration / F. LeRon Shultz ; Worldview, meaasurement and 'the roots of spirituality' / Jeremy S. Bagbie.</tableOfContents>
+				<subject authority="lcsh">
+					<topic>Architecture, Prehistoric.</topic>
+				</subject>
+				<subject authority="lcsh">
+					<topic>Measurement</topic>
+					<topic>History.</topic>
+				</subject>
+				<subject authority="lcsh">
+					<topic>Antiquities.</topic>
+				</subject>
+				<name type="personal">
+					<namePart>Morley, Iain</namePart>
+					<namePart type="date">1975-</namePart>
+				</name>
+				<name type="personal">
+					<namePart>Renfrew, Colin</namePart>
+					<namePart type="date">1937-</namePart>
+				</name>
+				<physicalDescription>
+					<form authority="marcform">print</form>
+				</physicalDescription>
+				<genre>Bibliography</genre>
+				<genre>Illustrated</genre>
+				<language>
+					<languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+					<languageTerm type="text">English</languageTerm>
+				</language>
+				<location>
+					<physicalLocation>Newcastle University Libraries</physicalLocation>
+					<physicalLocation authority="UkMaC">ncl</physicalLocation>
+					<holdingSimple>
+						<copyInformation>
+							<subLocation>Philip Robinson Library: Robinson Books Level 4</subLocation>
+							<shelfLocator>930.1 ARC</shelfLocator>
+						</copyInformation>
+					</holdingSimple>
+				</location>
+			</mods>
+			<mods version="3.7">
+				<recordInfo>
+					<recordIdentifier source="UkMaC">208773328</recordIdentifier>
+					<recordIdentifier source="StEdNL">9944014623804341</recordIdentifier>
+					<recordCreationDate encoding="iso8601">20220707</recordCreationDate>
+				</recordInfo>
+				<typeOfResource>text</typeOfResource>
+				<originInfo>
+					<issuance>single unit</issuance>
+				</originInfo>
+				<recordInfo>
+					<descriptionStandard>aacr</descriptionStandard>
+				</recordInfo>
+				<originInfo>
+					<dateIssued encoding="marc">2010</dateIssued>
+					<place>
+						<placeTerm authority="marccountry" type="code">enk</placeTerm>
+					</place>
+				</originInfo>
+				<identifier type="lccn">  2010279304</identifier>
+				<identifier displayLabel="National Bibliography Number" type="bnb">GBB006755</identifier>
+				<identifier type="isbn">9780521119900 (hbk.)</identifier>
+				<identifier type="isbn">0521119901 (hbk.)</identifier>
+				<identifier type="isbn">9780521135887 (pbk.)</identifier>
+				<identifier type="isbn">0521135885 (pbk.)</identifier>
+				<recordInfo>
+					<recordContentSource authority="marcorg">UKM</recordContentSource>
+				</recordInfo>
+				<classification authority="lcc">GN799.B8 A73 2010</classification>
+				<classification authority="ddc" edition="22">690.0901</classification>
+				<titleInfo>
+					<title>
+						<nonSort>The </nonSort>archaeology of measurement</title>
+					<subTitle>comprehending Heaven, Earth and time in ancient societies</subTitle>
+				</titleInfo>
+				<note type="statement of responsibility">edited by Iain Morley, Colin Renfrew.</note>
+				<titleInfo type="alternative">
+					<title>Comprehending Heaven, Earth and time in ancient societies</title>
+				</titleInfo>
+				<originInfo eventType="publisher">
+					<place>
+						<placeTerm type="text">Cambridge</placeTerm>
+					</place>
+					<publisher>Cambridge University Press</publisher>
+					<dateIssued>2010</dateIssued>
+				</originInfo>
+				<physicalDescription>
+					<extent>xv, 267 p. : ill., maps ; 28 cm.</extent>
+				</physicalDescription>
+				<note type="bibliography">Includes bibliographical references and index.</note>
+				<subject authority="lcsh">
+					<topic>Architecture, Prehistoric.</topic>
+				</subject>
+				<subject authority="lcsh">
+					<topic>Measurement</topic>
+					<topic>History.</topic>
+				</subject>
+				<subject authority="lcsh">
+					<topic>Antiquities.</topic>
+				</subject>
+				<name type="personal">
+					<namePart>Morley, Iain</namePart>
+					<namePart type="date">1975-</namePart>
+				</name>
+				<name type="personal">
+					<namePart>Renfrew, Colin</namePart>
+					<namePart type="date">1937-</namePart>
+				</name>
+				<physicalDescription>
+					<form authority="marcform">print</form>
+				</physicalDescription>
+				<genre>Bibliography</genre>
+				<genre>Illustrated</genre>
+				<language>
+					<languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+					<languageTerm type="text">English</languageTerm>
+				</language>
+				<location>
+					<physicalLocation>National Library of Scotland</physicalLocation>
+					<physicalLocation authority="UkMaC">nls</physicalLocation>
+					<holdingSimple>
+						<copyInformation>
+							<subLocation>General Reading Room, Edinburgh (stored offsite)</subLocation>
+							<shelfLocator>HB5.210.7.126</shelfLocator>
+						</copyInformation>
+					</holdingSimple>
+				</location>
+			</mods>
+			<mods version="3.7">
+				<recordInfo>
+					<recordIdentifier source="UkMaC">4623876</recordIdentifier>
+					<recordIdentifier source="WlAbNL">9947411902419</recordIdentifier>
+					<recordCreationDate encoding="iso8601">20220707</recordCreationDate>
+				</recordInfo>
+				<typeOfResource>text</typeOfResource>
+				<originInfo>
+					<issuance>single unit</issuance>
+				</originInfo>
+				<recordInfo>
+					<descriptionStandard>aacr</descriptionStandard>
+				</recordInfo>
+				<originInfo>
+					<dateIssued encoding="marc">2010</dateIssued>
+					<place>
+						<placeTerm authority="marccountry" type="code">enk</placeTerm>
+					</place>
+				</originInfo>
+				<identifier type="lccn">2010-279304</identifier>
+				<identifier displayLabel="National Bibliography Number" type="bnb">GBB006755</identifier>
+				<identifier type="isbn">9780521119900 (hbk.)</identifier>
+				<identifier type="isbn">0521119901 (hbk.)</identifier>
+				<identifier type="isbn">9780521135887 (pbk.)</identifier>
+				<identifier type="isbn">0521135885 (pbk.)</identifier>
+				<recordInfo>
+					<recordContentSource authority="marcorg">UKM</recordContentSource>
+				</recordInfo>
+				<classification authority="lcc">GN799.B8 A73 2010</classification>
+				<classification authority="ddc" edition="22">690.0901</classification>
+				<titleInfo>
+					<title>
+						<nonSort>The </nonSort>archaeology of measurement</title>
+					<subTitle>comprehending Heaven, Earth and time in ancient societies</subTitle>
+				</titleInfo>
+				<note type="statement of responsibility">edited by Iain Morley, Colin Renfrew.</note>
+				<titleInfo type="alternative">
+					<title>Comprehending Heaven, Earth and time in ancient societies</title>
+				</titleInfo>
+				<originInfo eventType="publisher">
+					<place>
+						<placeTerm type="text">Cambridge</placeTerm>
+					</place>
+					<publisher>Cambridge University Press</publisher>
+					<dateIssued>2010</dateIssued>
+				</originInfo>
+				<physicalDescription>
+					<extent>xv, 267 p. : ill., maps ; 28 cm.</extent>
+				</physicalDescription>
+				<note type="bibliography">Includes bibliographical references and index.</note>
+				<tableOfContents displayLabel="Contents">Number : counting, mathematics and measure. Conceptualising quantification before settlement : activities and issues underlying the conception and use of measurement / Iain Morley ; Measurement in navigation : conceiving distance and time in the Neolithic / Helen Farr ; The token system of the ancient Near East : it's role in counting, writing, the economy and cognition / Denise Schmandt-Besserat ; Grasping the concept of number : how did the sapient mind move beyond approximation? / Lambros Malafouris ; Numerical cognition and the development of 'zero' in Mesoamerica / John Justeson ; Recording measure(ment)s in the Inka khipu / Gary Urton -- Materialising the economy. Measuring by weight in the late Bronze Age Aegean : the people behind the measuring tools / Anna Michailidou ; The concept of weighing during the Bronze Age in the Aegean, the Near East and Europe / Lorenz Rahmstorf ; Measuring the Harappan world : insights into the Indus order and cosmology / J. Mark Kenoyer -- Dimension and belief. Architectural measurements in the Indus cities : the case study of Mohenjo-Daro / Michael Jansen ; Teotihuacan city layout as a cosmogram : preliminary results of the 2007 Measurement Unit Study / Saburo Sagiyama ; Aztec dimensions of holiness / John E. Clark ; Establishing direction in early Egyptian burials and monumental architecture : measurement and the spatial link with the 'other' / Kate Spence -- Calendar and cosmology. The measurement of time and distance in the heavens above Mesopotamia, with brief reference made to other ancient astral sciences / David Brown ; Evolution of the calendar in Shang China / Mark Edward Lewis ; The measure of time in Mesoamerica : from Teotihuacan to the Maya / Anthony F. Aveni ; Measuring time, sacred space, and social place in the Inca Empire / Charles Stanish ; Measuring time in the European Neolithic? The function and meaning of central European circular enclosures / Peter F. Biehl -- The spirituality of measure. The roots of spirituality and the limits of human mensuration / F. LeRon Shultz ; Worldview, meaasurement and 'the roots of spirituality' / Jeremy S. Bagbie.</tableOfContents>
+				<subject authority="lcsh">
+					<topic>Architecture, Prehistoric.</topic>
+				</subject>
+				<subject authority="lcsh">
+					<topic>Measurement</topic>
+					<topic>History.</topic>
+				</subject>
+				<subject authority="lcsh">
+					<topic>Antiquities.</topic>
+				</subject>
+				<name type="personal">
+					<namePart>Morley, Iain</namePart>
+					<namePart type="date">1975-</namePart>
+				</name>
+				<name type="personal">
+					<namePart>Renfrew, Colin</namePart>
+					<namePart type="date">1937-</namePart>
+				</name>
+				<physicalDescription>
+					<form authority="marcform">print</form>
+				</physicalDescription>
+				<genre>Bibliography</genre>
+				<genre>Illustrated</genre>
+				<language>
+					<languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+					<languageTerm type="text">English</languageTerm>
+				</language>
+				<location>
+					<physicalLocation>National Library of Wales / Llyfrgell Genedlaethol Cymru</physicalLocation>
+					<physicalLocation authority="UkMaC">nlw</physicalLocation>
+					<holdingSimple>
+						<copyInformation>
+							<subLocation>Contact the National Library of Wales / Llyfrgell Genedlaethol Cymru</subLocation>
+							<shelfLocator>PRINT 2010 MC 16433</shelfLocator>
+						</copyInformation>
+					</holdingSimple>
+				</location>
+			</mods>
+			<mods version="3.7">
+				<recordInfo>
+					<recordIdentifier source="UkMaC">103658960</recordIdentifier>
+					<recordIdentifier source="StEdNML">u181965</recordIdentifier>
+					<recordCreationDate encoding="iso8601">20220707</recordCreationDate>
+				</recordInfo>
+				<typeOfResource>text</typeOfResource>
+				<originInfo>
+					<issuance>single unit</issuance>
+				</originInfo>
+				<originInfo>
+					<dateIssued encoding="marc">2010</dateIssued>
+					<place>
+						<placeTerm authority="marccountry" type="code">enk</placeTerm>
+					</place>
+				</originInfo>
+				<identifier type="isbn">9780521135887</identifier>
+				<identifier type="isbn">9780521119900 (hbk.)</identifier>
+				<recordInfo>
+					<recordContentSource authority="marcorg">StEdNML </recordContentSource>
+					<languageOfCataloging>
+						<languageTerm authority="iso639-2b" type="code"> eng</languageTerm>
+					</languageOfCataloging>
+				</recordInfo>
+				<classification authority="ddc" edition=" 23">620.0044093 </classification>
+				<titleInfo>
+					<title>
+						<nonSort>The </nonSort>archaeology of measurement</title>
+					<subTitle>comprehending Heaven, Earth and time in ancient societies</subTitle>
+				</titleInfo>
+				<note type="statement of responsibility">edited by Iain Morley, Colin Renfrew.</note>
+				<titleInfo type="alternative">
+					<title>Comprehending Heaven, Earth and time in ancient societies</title>
+				</titleInfo>
+				<originInfo eventType="publisher">
+					<place>
+						<placeTerm type="text">Cambridge</placeTerm>
+					</place>
+					<publisher>Cambridge University Press</publisher>
+					<dateIssued>2010</dateIssued>
+				</originInfo>
+				<physicalDescription>
+					<extent>xv, 267 p. : ill., maps ; 28 cm.</extent>
+				</physicalDescription>
+				<note type="general">Papers originally presented at a symposium held at the McDonald Institute for Archaeological Research, Cambridge.</note>
+				<note type="bibliography">Includes bibliographical references and index.</note>
+				<tableOfContents displayLabel="Contents">Number : counting, mathematics and measure. Conceptualising quantification before settlement : activities and issues underlying the conception and use of measurement / Iain Morley ; Measurement in navigation : conceiving distance and time in the Neolithic / Helen Farr ; The token system of the ancient Near East : it's role in counting, writing, the economy and cognition / Denise Schmandt-Besserat ; Grasping the concept of number : how did the sapient mind move beyond approximation? / Lambros Malafouris ; Numerical cognition and the development of 'zero' in Mesoamerica / John Justeson ; Recording measure(ment)s in the Inka khipu / Gary Urton -- Materialising the economy. Measuring by weight in the late Bronze Age Aegean : the people behind the measuring tools / Anna Michailidou ; The concept of weighing during the Bronze Age in the Aegean, the Near East and Europe / Lorenz Rahmstorf ; Measuring the Harappan world : insights into the Indus order and cosmology / J. Mark Kenoyer -- Dimension and belief. Architectural measurements in the Indus cities : the case study of Mohenjo-Daro / Michael Jansen ; Teotihuacan city layout as a cosmogram : preliminary results of the 2007 Measurement Unit Study / Saburo Sagiyama ; Aztec dimensions of holiness / John E. Clark ; Establishing direction in early Egyptian burials and monumental architecture : measurement and the spatial link with the 'other' / Kate Spence -- Calendar and cosmology. The measurement of time and distance in the heavens above Mesopotamia, with brief reference made to other ancient astral sciences / David Brown ; Evolution of the calendar in Shang China / Mark Edward Lewis ; The measure of time in Mesoamerica : from Teotihuacan to the Maya / Anthony F. Aveni ; Measuring time, sacred space, and social place in the Inca Empire / Charles Stanish ; Measuring time in the European Neolithic? The function and meaning of central European circular enclosures / Peter F. Biehl -- The spirituality of measure. The roots of spirituality and the limits of human mensuration / F. LeRon Shultz ; Worldview, meaasurement and 'the roots of spirituality' / Jeremy S. Bagbie.</tableOfContents>
+				<subject authority="lcsh">
+					<topic>Measurement </topic>
+					<topic> History </topic>
+					<genre> Congresses.</genre>
+				</subject>
+				<subject authority="lcsh">
+					<topic>Metrology </topic>
+					<topic> History </topic>
+					<genre> Congresses.</genre>
+				</subject>
+				<subject authority="lcsh">
+					<topic>Archaeoastronomy</topic>
+					<topic>Congresses.</topic>
+				</subject>
+				<subject authority="lcsh">
+					<topic>Architecture, Prehistoric </topic>
+					<genre> Congresses.</genre>
+				</subject>
+				<name type="personal">
+					<namePart>Morley, Iain</namePart>
+					<namePart type="date">1975-</namePart>
+				</name>
+				<name type="personal">
+					<namePart>Renfrew, Colin</namePart>
+					<namePart type="date">1937-</namePart>
+				</name>
+				<physicalDescription>
+					<form authority="marcform">print</form>
+				</physicalDescription>
+				<genre>Conference publication</genre>
+				<genre>Illustrated</genre>
+				<language>
+					<languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+					<languageTerm type="text">English</languageTerm>
+				</language>
+				<location>
+					<physicalLocation>National Museums Scotland Library</physicalLocation>
+					<physicalLocation authority="UkMaC">nms</physicalLocation>
+					<holdingSimple>
+						<copyInformation>
+							<subLocation>West Wing Library - DDC Sequence</subLocation>
+							<shelfLocator>620.0044093 ARC</shelfLocator>
+						</copyInformation>
+					</holdingSimple>
+				</location>
+			</mods>
+			<mods version="3.7">
+				<recordInfo>
+					<recordIdentifier source="UkMaC">173670833</recordIdentifier>
+					<recordIdentifier source="UkNtU">990014283580205561</recordIdentifier>
+					<recordCreationDate encoding="iso8601">20220707</recordCreationDate>
+				</recordInfo>
+				<typeOfResource>text</typeOfResource>
+				<originInfo>
+					<issuance>single unit</issuance>
+				</originInfo>
+				<recordInfo>
+					<descriptionStandard>aacr</descriptionStandard>
+				</recordInfo>
+				<originInfo>
+					<dateIssued encoding="marc">2010</dateIssued>
+					<place>
+						<placeTerm authority="marccountry" type="code">enk</placeTerm>
+					</place>
+				</originInfo>
+				<identifier displayLabel="National Bibliography Number" type="bnb">GBB006755</identifier>
+				<identifier type="isbn">9780521119900 (hbk.)</identifier>
+				<identifier type="isbn">0521119901 (hbk.)</identifier>
+				<identifier type="isbn">9780521135887 (pbk.)</identifier>
+				<identifier type="isbn">0521135885 (pbk.)</identifier>
+				<recordInfo>
+					<recordContentSource authority="marcorg">UKM</recordContentSource>
+				</recordInfo>
+				<classification authority="lcc">GN799.B8 A73 2010</classification>
+				<titleInfo>
+					<title>
+						<nonSort>The </nonSort>archaeology of measurement</title>
+					<subTitle>comprehending Heaven, Earth and time in ancient societies</subTitle>
+				</titleInfo>
+				<note type="statement of responsibility">edited by Iain Morley, Colin Renfrew.</note>
+				<originInfo eventType="publisher">
+					<place>
+						<placeTerm type="text">Cambridge</placeTerm>
+					</place>
+					<publisher>Cambridge University Press</publisher>
+					<dateIssued>c2010</dateIssued>
+				</originInfo>
+				<physicalDescription>
+					<extent>xv, 267 p. : ill., maps ; 28 cm.</extent>
+				</physicalDescription>
+				<note type="bibliography">Includes bibliographical references and index.</note>
+				<subject authority="lcsh">
+					<topic>Architecture, Prehistoric.</topic>
+				</subject>
+				<subject authority="lcsh">
+					<topic>Mensuration</topic>
+					<topic>History.</topic>
+				</subject>
+				<subject authority="lcsh">
+					<topic>Antiquities.</topic>
+				</subject>
+				<name type="personal">
+					<namePart>Morley, Iain</namePart>
+					<namePart type="date">1975-</namePart>
+				</name>
+				<name type="personal">
+					<namePart>Renfrew, Colin</namePart>
+					<namePart type="date">1937-</namePart>
+				</name>
+				<physicalDescription>
+					<form authority="marcform">print</form>
+				</physicalDescription>
+				<genre>Bibliography</genre>
+				<genre>Illustrated</genre>
+				<language>
+					<languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+					<languageTerm type="text">English</languageTerm>
+				</language>
+				<location>
+					<physicalLocation>University of Nottingham Libraries</physicalLocation>
+					<physicalLocation authority="UkMaC">ntm</physicalLocation>
+					<holdingSimple>
+						<copyInformation>
+							<subLocation>Hallward Library</subLocation>
+						</copyInformation>
+					</holdingSimple>
+				</location>
+			</mods>
+			<mods version="3.7">
+				<recordInfo>
+					<recordIdentifier source="UkMaC">40203547</recordIdentifier>
+					<recordIdentifier source="UkOxU">017217887</recordIdentifier>
+					<recordCreationDate encoding="iso8601">20220707</recordCreationDate>
+				</recordInfo>
+				<typeOfResource>text</typeOfResource>
+				<originInfo>
+					<issuance>single unit</issuance>
+				</originInfo>
+				<recordInfo>
+					<descriptionStandard>aacr</descriptionStandard>
+				</recordInfo>
+				<originInfo>
+					<dateIssued encoding="marc">2010</dateIssued>
+					<place>
+						<placeTerm authority="marccountry" type="code">enk</placeTerm>
+					</place>
+				</originInfo>
+				<identifier displayLabel="National Bibliography Number" type="bnb">GBB006755</identifier>
+				<identifier type="isbn">9780521119900 (hbk.)</identifier>
+				<identifier type="isbn">0521119901 (hbk.)</identifier>
+				<identifier type="isbn">9780521135887 (pbk.)</identifier>
+				<identifier type="isbn">0521135885 (pbk.)</identifier>
+				<recordInfo>
+					<recordContentSource authority="marcorg">UKM</recordContentSource>
+				</recordInfo>
+				<classification authority="lcc">GN799.B8 A73 2010</classification>
+				<classification authority="ddc" edition="22">690.0901</classification>
+				<titleInfo>
+					<title>
+						<nonSort>The </nonSort>archaeology of measurement</title>
+					<subTitle>comprehending Heaven, Earth and time in ancient societies</subTitle>
+				</titleInfo>
+				<note type="statement of responsibility">edited by Iain Morley, Colin Renfrew.</note>
+				<originInfo eventType="publisher">
+					<place>
+						<placeTerm type="text">Cambridge ; New York</placeTerm>
+					</place>
+					<publisher>Cambridge University Press</publisher>
+					<dateIssued>2010</dateIssued>
+				</originInfo>
+				<physicalDescription>
+					<extent>xv, 267 p. : ill., maps ; 28 cm.</extent>
+				</physicalDescription>
+				<note type="bibliography">Includes bibliographical references and index.</note>
+				<subject authority="lcsh">
+					<topic>Architecture, Prehistoric.</topic>
+				</subject>
+				<subject authority="lcsh">
+					<topic>Measurement</topic>
+					<topic>History.</topic>
+				</subject>
+				<subject authority="lcsh">
+					<topic>Antiquities.</topic>
+				</subject>
+				<name type="personal">
+					<namePart>Morley, Iain</namePart>
+					<namePart type="date">1975-</namePart>
+				</name>
+				<name type="personal">
+					<namePart>Renfrew, Colin</namePart>
+					<namePart type="date">1937-</namePart>
+				</name>
+				<physicalDescription>
+					<form authority="marcform">print</form>
+				</physicalDescription>
+				<genre>Bibliography</genre>
+				<genre>Illustrated</genre>
+				<language>
+					<languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+					<languageTerm type="text">English</languageTerm>
+				</language>
+				<location>
+					<physicalLocation>University of Oxford Libraries</physicalLocation>
+					<physicalLocation authority="UkMaC">oxf</physicalLocation>
+					<holdingSimple>
+						<copyInformation>
+							<subLocation>Balfour Library (Pitt Rivers Museum)</subLocation>
+							<shelfLocator>Arch 4to 2 mor</shelfLocator>
+						</copyInformation>
+						<copyInformation>
+							<subLocation>Keble College Library</subLocation>
+							<shelfLocator>GO 2 MOR 1</shelfLocator>
+						</copyInformation>
+						<copyInformation>
+							<subLocation>Sackler Library: Lower Ground Floor</subLocation>
+							<shelfLocator>602 Mor</shelfLocator>
+						</copyInformation>
+						<copyInformation>
+							<subLocation>Sackler Library: Lower Ground Floor</subLocation>
+							<shelfLocator>602 Mor</shelfLocator>
+						</copyInformation>
+					</holdingSimple>
+				</location>
+			</mods>
+			<mods version="3.7">
+				<recordInfo>
+					<recordIdentifier source="UkMaC">55448629</recordIdentifier>
+					<recordIdentifier source="UkSAL">112401</recordIdentifier>
+					<recordCreationDate encoding="iso8601">20220707</recordCreationDate>
+				</recordInfo>
+				<typeOfResource>text</typeOfResource>
+				<originInfo>
+					<issuance>single unit</issuance>
+				</originInfo>
+				<recordInfo>
+					<descriptionStandard>aacr</descriptionStandard>
+				</recordInfo>
+				<originInfo>
+					<dateIssued encoding="marc">2010</dateIssued>
+					<place>
+						<placeTerm authority="marccountry" type="code">enk</placeTerm>
+					</place>
+				</originInfo>
+				<identifier type="lccn">  2010279304</identifier>
+				<identifier displayLabel="National Bibliography Number" type="bnb">GBB006755</identifier>
+				<identifier type="isbn">9780521135887 (pbk.)</identifier>
+				<recordInfo>
+					<recordContentSource authority="marcorg">UKM</recordContentSource>
+				</recordInfo>
+				<classification authority="lcc">GN799.B8 A73 2010</classification>
+				<classification authority="ddc" edition="22">690.0901</classification>
+				<titleInfo>
+					<title>
+						<nonSort>The </nonSort>archaeology of measurement</title>
+					<subTitle>comprehending Heaven, Earth and time in ancient societies</subTitle>
+				</titleInfo>
+				<originInfo eventType="publisher">
+					<place>
+						<placeTerm type="text">Cambridge</placeTerm>
+					</place>
+					<publisher>Cambridge University Press</publisher>
+					<dateIssued>2010</dateIssued>
+				</originInfo>
+				<physicalDescription>
+					<extent>xv, 267 p. : ill., maps, plans ; 28 cm.</extent>
+				</physicalDescription>
+				<note type="bibliography">With bibliographies.</note>
+				<tableOfContents displayLabel="Contents">Number : counting, mathematics and measure. Conceptualising quantification before settlement : activities and issues underlying the conception and use of measurement / Iain Morley ; Measurement in navigation : conceiving distance and time in the Neolithic / Helen Farr ; The token system of the ancient Near East : it's role in counting, writing, the economy and cognition / Denise Schmandt-Besserat ; Grasping the concept of number : how did the sapient mind move beyond approximation? / Lambros Malafouris ; Numerical cognition and the development of 'zero' in Mesoamerica / John Justeson ; Recording measure(ment)s in the Inka khipu / Gary Urton -- Materialising the economy. Measuring by weight in the late Bronze Age Aegean : the people behind the measuring tools / Anna Michailidou ; The concept of weighing during the Bronze Age in the Aegean, the Near East and Europe / Lorenz Rahmstorf ; Measuring the Harappan world : insights into the Indus order and cosmology / J. Mark Kenoyer -- Dimension and belief. Architectural measurements in the Indus cities : the case study of Mohenjo-Daro / Michael Jansen ; Teotihuacan city layout as a cosmogram : preliminary results of the 2007 Measurement Unit Study / Saburo Sagiyama ; Aztec dimensions of holiness / John E. Clark ; Establishing direction in early Egyptian burials and monumental architecture : measurement and the spatial link with the 'other' / Kate Spence -- Calendar and cosmology. The measurement of time and distance in the heavens above Mesopotamia, with brief reference made to other ancient astral sciences / David Brown ; Evolution of the calendar in Shang China / Mark Edward Lewis ; The measure of time in Mesoamerica : from Teotihuacan to the Maya / Anthony F. Aveni ; Measuring time, sacred space, and social place in the Inca Empire / Charles Stanish ; Measuring time in the European Neolithic? The function and meaning of central European circular enclosures / Peter F. Biehl -- The spirituality of measure. The roots of spirituality and the limits of human mensuration / F. LeRon Shultz ; Worldview, meaasurement and 'the roots of spirituality' / Jeremy S. Bagbie.</tableOfContents>
+				<subject authority="lcsh">
+					<topic>Architecture, Prehistoric.</topic>
+				</subject>
+				<subject authority="lcsh">
+					<topic>Measurement</topic>
+					<topic>History.</topic>
+				</subject>
+				<subject authority="lcsh">
+					<topic>Antiquities.</topic>
+				</subject>
+				<name type="personal">
+					<namePart>Morley, Iain</namePart>
+					<namePart type="date">1975-</namePart>
+				</name>
+				<name type="personal">
+					<namePart>Renfrew, Colin</namePart>
+					<namePart type="date">1937-</namePart>
+				</name>
+				<physicalDescription>
+					<form authority="marcform">print</form>
+				</physicalDescription>
+				<genre>Bibliography</genre>
+				<genre>Illustrated</genre>
+				<language>
+					<languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+					<languageTerm type="text">English</languageTerm>
+				</language>
+				<location>
+					<physicalLocation>Society of Antiquaries of London Library</physicalLocation>
+					<physicalLocation authority="UkMaC">sal</physicalLocation>
+					<holdingSimple>
+						<copyInformation>
+							<subLocation>Main Library</subLocation>
+							<shelfLocator>59 e</shelfLocator>
+						</copyInformation>
+					</holdingSimple>
+				</location>
+			</mods>
+			<mods version="3.7">
+				<recordInfo>
+					<recordIdentifier source="UkMaC">21975687</recordIdentifier>
+					<recordIdentifier source="UkLS">152687</recordIdentifier>
+					<recordCreationDate encoding="iso8601">20220707</recordCreationDate>
+				</recordInfo>
+				<typeOfResource>text</typeOfResource>
+				<originInfo>
+					<issuance>single unit</issuance>
+				</originInfo>
+				<recordInfo>
+					<descriptionStandard>aacr</descriptionStandard>
+				</recordInfo>
+				<originInfo>
+					<dateIssued encoding="marc">2010</dateIssued>
+					<place>
+						<placeTerm authority="marccountry" type="code">enk</placeTerm>
+					</place>
+				</originInfo>
+				<identifier type="lccn">  2010279304</identifier>
+				<identifier displayLabel="National Bibliography Number" type="bnb">GBB006755</identifier>
+				<identifier type="isbn">9780521119900 (hbk.)</identifier>
+				<identifier type="isbn">0521119901 (hbk.)</identifier>
+				<identifier type="isbn">9780521135887 (pbk.)</identifier>
+				<identifier type="isbn">0521135885 (pbk.)</identifier>
+				<recordInfo>
+					<recordContentSource authority="marcorg">UKM</recordContentSource>
+					<languageOfCataloging>
+						<languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+					</languageOfCataloging>
+				</recordInfo>
+				<classification authority="lcc">QA465 .A73 2010</classification>
+				<classification authority="lcc">GN799.B8 A73 2010</classification>
+				<classification authority="ddc" edition="22">690.0901</classification>
+				<titleInfo>
+					<title>
+						<nonSort>The </nonSort>archaeology of measurement</title>
+					<subTitle>comprehending Heaven, Earth and time in ancient societies</subTitle>
+				</titleInfo>
+				<note type="statement of responsibility">edited by Iain Morley, Colin Renfrew.</note>
+				<titleInfo type="alternative">
+					<title>Comprehending Heaven, Earth and time in ancient societies</title>
+				</titleInfo>
+				<originInfo eventType="publisher">
+					<place>
+						<placeTerm type="text">Cambridge</placeTerm>
+					</place>
+					<publisher>Cambridge University Press</publisher>
+					<dateIssued>c2010</dateIssued>
+				</originInfo>
+				<physicalDescription>
+					<extent>xv, 267 p. : ill., maps, plans ; 28 cm.</extent>
+				</physicalDescription>
+				<note type="general">Papers originally presented at a symposium held at the McDonald Institute for Archaeological Research, Cambridge.</note>
+				<note type="bibliography">Includes bibliographical references and index.</note>
+				<tableOfContents displayLabel="Contents">Number : counting, mathematics and measure -- Conceptualising quantification before settlement : activities and issues underlying the conception and use of measurement / Iain Morley -- Measurement in navigation : conceiving distance and time in the Neolithic / Helen Farr -- The token system of the ancient Near East : it's role in counting, writing, the economy and cognition / Denise Schmandt-Besserat -- Grasping the concept of number : how did the sapient mind move beyond approximation? / Lambros Malafouris --  Numerical cognition and the development of 'zero' in Mesoamerica / John Justeson -- Recording measure(ment)s in the Inka khipu / Gary Urton --  Materialising the economy -- Measuring by weight in the late Bronze Age Aegean : the people behind the measuring tools / Anna Michailidou -- The concept of weighing during the Bronze Age in the Aegean, the Near East and Europe / Lorenz Rahmstorf -- Measuring the Harappan world : insights into the Indus order and cosmology / J. Mark Kenoyer -- Dimension and belief --  Architectural measurements in the Indus cities : the case study of Mohenjo-Daro / Michael Jansen --dtTeotihuacan city layout as a cosmogram : preliminary results of the 2007 Measurement Unit Study / Saburo Sagiyama --  Aztec dimensions of holiness / John E. Clark -- Establishing direction in early Egyptian burials and monumental architecture : measurement and the spatial link with the 'other' / Kate Spence -- Calendar and cosmology -- The measurement of time and distance in the heavens above Mesopotamia, with brief reference made to other ancient astral sciences / David Brown -- Evolution of the calendar in Shang China / Mark Edward Lewis -- The measure of time in Mesoamerica : from Teotihuacan to the Maya / Anthony F. Aveni -- Measuring time, sacred space, and social place in the Inca Empire / Charles Stanish --  Measuring time in the European Neolithic? The function and meaning of central European circular enclosures / Peter F. Biehl -- The spirituality of measure -- The roots of spirituality and the limits of human mensuration / F. LeRon Shultz -- Worldview, measurement and 'the roots of spirituality' / Jeremy S. Bagbie.</tableOfContents>
+				<subject authority="lcsh">
+					<topic>Measurement</topic>
+					<topic>History</topic>
+					<genre>Congresses.</genre>
+				</subject>
+				<subject authority="lcsh">
+					<topic>Metrology</topic>
+					<topic>History</topic>
+					<genre>Congresses.</genre>
+				</subject>
+				<subject authority="lcsh">
+					<topic>Architecture, Prehistoric</topic>
+					<genre>Congresses.</genre>
+				</subject>
+				<subject authority="lcsh">
+					<topic>Archaeoastronomy</topic>
+					<genre>Congresses.</genre>
+				</subject>
+				<subject authority="lcsh">
+					<topic>Chronology</topic>
+					<topic>History</topic>
+					<genre>Congresses.</genre>
+				</subject>
+				<subject authority="lcsh">
+					<topic>Antiquities</topic>
+					<genre>Congresses.</genre>
+				</subject>
+				<name type="personal">
+					<namePart>Morley, Iain</namePart>
+					<namePart type="date">1975-</namePart>
+				</name>
+				<name type="personal">
+					<namePart>Renfrew, Colin</namePart>
+					<namePart type="date">1937-</namePart>
+				</name>
+				<name type="corporate">
+					<namePart>McDonald Institute for Archaeological Research.</namePart>
+				</name>
+				<physicalDescription>
+					<form authority="marcform">print</form>
+				</physicalDescription>
+				<genre>Bibliography</genre>
+				<genre>Conference publication</genre>
+				<genre>Illustrated</genre>
+				<language>
+					<languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+					<languageTerm type="text">English</languageTerm>
+				</language>
+				<location>
+					<physicalLocation>Science Museum Library</physicalLocation>
+					<physicalLocation authority="UkMaC">sci</physicalLocation>
+					<holdingSimple>
+						<copyInformation>
+							<subLocation>Science Museum Library, Wroughton</subLocation>
+							<shelfLocator>53.08:93 ARCHAEOLOGY</shelfLocator>
+						</copyInformation>
+					</holdingSimple>
+				</location>
+			</mods>
+			<mods version="3.7">
+				<recordInfo>
+					<recordIdentifier source="UkMaC">269022769</recordIdentifier>
+					<recordIdentifier source="StSaUL">.b3052751x</recordIdentifier>
+					<recordCreationDate encoding="iso8601">20220707</recordCreationDate>
+				</recordInfo>
+				<typeOfResource>text</typeOfResource>
+				<originInfo>
+					<issuance>single unit</issuance>
+				</originInfo>
+				<originInfo>
+					<dateIssued encoding="marc">2010</dateIssued>
+					<place>
+						<placeTerm authority="marccountry" type="code">enk</placeTerm>
+					</place>
+				</originInfo>
+				<identifier type="isbn">9780511760822</identifier>
+				<identifier invalid="yes" type="isbn">9780521119900 (hardback)</identifier>
+				<identifier invalid="yes" type="isbn">9780521135887 (paperback)</identifier>
+				<recordInfo>
+					<recordContentSource authority="marcorg">UkCbUP</recordContentSource>
+					<languageOfCataloging>
+						<languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+					</languageOfCataloging>
+					<descriptionStandard>rda</descriptionStandard>
+				</recordInfo>
+				<classification authority="lcc">GN799.B8 A73 2010</classification>
+				<classification authority="ddc" edition="22">690.0901</classification>
+				<titleInfo>
+					<title>
+						<nonSort>The </nonSort>archaeology of measurement</title>
+					<subTitle>comprehending Heaven, Earth and time in ancient societies</subTitle>
+				</titleInfo>
+				<note type="statement of responsibility">edited by Iain Morley, Colin Renfrew.</note>
+				<originInfo eventType="publisher">
+					<place>
+						<placeTerm type="text">Cambridge</placeTerm>
+					</place>
+					<publisher>Cambridge University Press</publisher>
+					<dateIssued>2010</dateIssued>
+				</originInfo>
+				<physicalDescription>
+					<extent>1 online resource (xv, 267 pages) : digital, PDF file(s).</extent>
+				</physicalDescription>
+				<note type="general">Title from publisher's bibliographic system (viewed on 05 Oct 2015).</note>
+				<tableOfContents displayLabel="Contents">Number : counting, mathematics and measure -- Conceptualising quantification before settlement : activities and issues underlying the conception and use of measurement / Iain Morley -- Measurement in navigation : conceiving distance and time in the Neolithic / Helen Farr -- The token system of the ancient Near East : it's role in counting, writing, the economy and cognition / Denise Schmandt-Besserat -- Grasping the concept of number : how did the sapient mind move beyond approximation? / Lambros Malafouris -- Numerical cognition and the development of 'zero' in Mesoamerica / John Justeson -- Recording measure(ment)s in the Inka khipu / Gary Urton -- Materialising the economy -- Measuring by weight in the late Bronze Age Aegean : the people behind the measuring tools / Anna Michailidou -- The concept of weighing during the Bronze Age in the Aegean, the Near East and Europe / Lorenz Rahmstorf -- Measuring the Harappan world : insights into the Indus order and cosmology / J. Mark Kenoyer -- Dimension and belief -- Architectural measurements in the Indus cities : the case study of Mohenjo-Daro / Michael Jansen --dtTeotihuacan city layout as a cosmogram : preliminary results of the 2007 Measurement Unit Study / Saburo Sagiyama -- Aztec dimensions of holiness / John E. Clark -- Establishing direction in early Egyptian burials and monumental architecture : measurement and the spatial link with the 'other' / Kate Spence -- Calendar and cosmology -- The measurement of time and distance in the heavens above Mesopotamia, with brief reference made to other ancient astral sciences / David Brown -- Evolution of the calendar in Shang China / Mark Edward Lewis -- The measure of time in Mesoamerica : from Teotihuacan to the Maya / Anthony F. Aveni -- Measuring time, sacred space, and social place in the Inca Empire / Charles Stanish -- Measuring time in the European Neolithic? The function and meaning of central European circular enclosures / Peter F. Biehl -- The spirituality of measure -- The roots of spirituality and the limits of human mensuration / F. LeRon Shultz -- Worldview, measurement and 'the roots of spirituality' / Jeremy S. Bagbie.</tableOfContents>
+				<abstract displayLabel="Summary">The construction of formal measurement systems underlies the development of science, technology, economy and new ways of understanding and explaining the world. Human societies have developed such systems in different ways, in different places and at different times, and recent archaeological investigations highlight the importance of these activities for fundamental aspects of human life. Measurement systems have provided the structure for addressing key concerns of cosmological belief systems, as well as the means for articulating relationships between the human form, human action, and the world. The Archaeology of Measurement explores the archaeological evidence for the development of measuring activities in numerous ancient societies, as well as the implications of these discoveries for an understanding of their worlds and beliefs. Featuring contributions from a cast of internationally renowned scholars, it analyses the relationships between measurement, economy, architecture, symbolism, time, cosmology, ritual, and religion among prehistoric and early historic societies.</abstract>
+				<note type="general">Available through Cambridge books online.</note>
+				<note type="system details">Mode of access: World Wide Web.</note>
+				<subject authority="lcsh">
+					<topic>Measurement</topic>
+					<topic>History</topic>
+					<genre>Congresses.</genre>
+				</subject>
+				<subject authority="lcsh">
+					<topic>Metrology</topic>
+					<topic>History</topic>
+					<genre>Congresses.</genre>
+				</subject>
+				<subject authority="lcsh">
+					<topic>Architecture, Prehistoric</topic>
+					<genre>Congresses.</genre>
+				</subject>
+				<subject authority="lcsh">
+					<topic>Archaeoastronomy</topic>
+					<genre>Congresses.</genre>
+				</subject>
+				<subject authority="lcsh">
+					<topic>Chronology</topic>
+					<topic>History</topic>
+					<genre>Congresses.</genre>
+				</subject>
+				<subject authority="lcsh">
+					<topic>Antiquities</topic>
+					<genre>Congresses.</genre>
+				</subject>
+				<name type="personal">
+					<namePart>Morley, Iain</namePart>
+					<namePart type="date">1975-</namePart>
+					<role>
+						<roleTerm type="text">editor</roleTerm>
+					</role>
+				</name>
+				<name type="personal">
+					<namePart>Renfrew, Colin</namePart>
+					<namePart type="date">1937-</namePart>
+					<role>
+						<roleTerm type="text">editor</roleTerm>
+					</role>
+				</name>
+				<name type="corporate">
+					<namePart>McDonald Institute for Archaeological Research</namePart>
+					<role>
+						<roleTerm type="text">issuing body</roleTerm>
+					</role>
+				</name>
+				<relatedItem displayLabel="Print version: " type="otherFormat">
+					<identifier type="isbn">9780521119900</identifier>
+				</relatedItem>
+				<relatedItem type="series">
+					<titleInfo type="uniform">
+						<title>Cambridge books online.</title>
+					</titleInfo>
+				</relatedItem>
+				<location>
+					<url note="Connect to e-book (CUP Collection purchased by the Library until 31st July 2022)">http://ezproxy.st-andrews.ac.uk/login?url=https://doi.org/10.1017/CBO9780511760822</url>
+				</location>
+				<physicalDescription>
+					<form authority="rdamedia" type="media">computer</form>
+					<form authority="marcform">electronic</form>
+					<form authority="gmd">Electronic book</form>
+					<form authority="marccategory">electronic resource</form>
+					<form authority="rdacarrier" type="carrier">online resource</form>
+					<form authority="marcsmd">remote</form>
+				</physicalDescription>
+				<genre>Bibliography</genre>
+				<genre authority="rdacontent">text</genre>
+				<language>
+					<languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+					<languageTerm type="text">English</languageTerm>
+				</language>
+				<location>
+					<physicalLocation>University of St Andrews Library</physicalLocation>
+					<physicalLocation authority="UkMaC">sta</physicalLocation>
+					<holdingSimple>
+						<copyInformation>
+							<electronicLocator>http://ezproxy.st-andrews.ac.uk/login?url=https://doi.org/10.1017/CBO9780511760822</electronicLocator>
+							<note>Connect to e-book (CUP Collection purchased by the Library until 31st July 2022)</note>
+						</copyInformation>
+					</holdingSimple>
+				</location>
+				<extension>
+					<cpc:local xmlns:cpc="http://copac.ac.uk/schemas/mods-copac/v1">
+						<accessCondition type="restrictionsOnAccess">University staff and students only. Requires University Computer Account login on and off-campus.</accessCondition>
+					</cpc:local>
+				</extension>
+			</mods>
+			<mods version="3.7">
+				<recordInfo>
+					<recordIdentifier source="UkMaC">54419039</recordIdentifier>
+					<recordIdentifier source="StSaUL">.b21057096</recordIdentifier>
+					<recordCreationDate encoding="iso8601">20220707</recordCreationDate>
+				</recordInfo>
+				<typeOfResource>text</typeOfResource>
+				<originInfo>
+					<issuance>single unit</issuance>
+				</originInfo>
+				<recordInfo>
+					<descriptionStandard>aacr</descriptionStandard>
+				</recordInfo>
+				<originInfo>
+					<dateIssued encoding="marc">2010</dateIssued>
+					<place>
+						<placeTerm authority="marccountry" type="code">enk</placeTerm>
+					</place>
+				</originInfo>
+				<identifier type="lccn">2010279304</identifier>
+				<identifier displayLabel="National Bibliography Number" type="bnb">GBB006755</identifier>
+				<identifier type="isbn">9780521119900 (hbk.)</identifier>
+				<identifier type="isbn">0521119901 (hbk.)</identifier>
+				<identifier type="isbn">9780521135887 (pbk.)</identifier>
+				<identifier type="isbn">0521135885 (pbk.)</identifier>
+				<recordInfo>
+					<recordContentSource authority="marcorg">UKM</recordContentSource>
+					<languageOfCataloging>
+						<languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+					</languageOfCataloging>
+				</recordInfo>
+				<classification authority="lcc">QA465 .A73 2010</classification>
+				<classification authority="lcc">GN799.B8 A73 2010</classification>
+				<classification authority="ddc" edition="22">690.0901</classification>
+				<titleInfo>
+					<title>
+						<nonSort>The </nonSort>archaeology of measurement</title>
+					<subTitle>comprehending Heaven, Earth and time in ancient societies</subTitle>
+				</titleInfo>
+				<note type="statement of responsibility">edited by Iain Morley, Colin Renfrew.</note>
+				<originInfo eventType="publisher">
+					<place>
+						<placeTerm type="text">Cambridge [England] ; New York</placeTerm>
+					</place>
+					<publisher>Cambridge University Press</publisher>
+					<dateIssued>2010</dateIssued>
+				</originInfo>
+				<physicalDescription>
+					<extent>xv, 267 p. : ill., maps ; 28 cm.</extent>
+				</physicalDescription>
+				<note type="general">Papers originally presented at a symposium held at the McDonald Institute for Archaeological Research, Cambridge.</note>
+				<note type="bibliography">Includes bibliographical references and index.</note>
+				<tableOfContents displayLabel="Contents">Number : counting, mathematics and measure -- Conceptualising quantification before settlement : activities and issues underlying the conception and use of measurement / Iain Morley -- Measurement in navigation : conceiving distance and time in the Neolithic / Helen Farr -- The token system of the ancient Near East : it's role in counting, writing, the economy and cognition / Denise Schmandt-Besserat -- Grasping the concept of number : how did the sapient mind move beyond approximation? / Lambros Malafouris -- Numerical cognition and the development of 'zero' in Mesoamerica / John Justeson -- Recording measure(ment)s in the Inka khipu / Gary Urton -- Materialising the economy -- Measuring by weight in the late Bronze Age Aegean : the people behind the measuring tools / Anna Michailidou -- The concept of weighing during the Bronze Age in the Aegean, the Near East and Europe / Lorenz Rahmstorf -- Measuring the Harappan world : insights into the Indus order and cosmology / J. Mark Kenoyer -- Dimension and belief -- Architectural measurements in the Indus cities : the case study of Mohenjo-Daro / Michael Jansen --dtTeotihuacan city layout as a cosmogram : preliminary results of the 2007 Measurement Unit Study / Saburo Sagiyama -- Aztec dimensions of holiness / John E. Clark -- Establishing direction in early Egyptian burials and monumental architecture : measurement and the spatial link with the 'other' / Kate Spence -- Calendar and cosmology -- The measurement of time and distance in the heavens above Mesopotamia, with brief reference made to other ancient astral sciences / David Brown -- Evolution of the calendar in Shang China / Mark Edward Lewis -- The measure of time in Mesoamerica : from Teotihuacan to the Maya / Anthony F. Aveni -- Measuring time, sacred space, and social place in the Inca Empire / Charles Stanish -- Measuring time in the European Neolithic? The function and meaning of central European circular enclosures / Peter F. Biehl -- The spirituality of measure -- The roots of spirituality and the limits of human mensuration / F. LeRon Shultz -- Worldview, measurement and 'the roots of spirituality' / Jeremy S. Bagbie.</tableOfContents>
+				<subject authority="lcsh">
+					<topic>Measurement</topic>
+					<topic>History</topic>
+					<genre>Congresses.</genre>
+				</subject>
+				<subject authority="lcsh">
+					<topic>Metrology</topic>
+					<topic>History</topic>
+					<genre>Congresses.</genre>
+				</subject>
+				<subject authority="lcsh">
+					<topic>Architecture, Prehistoric</topic>
+					<genre>Congresses.</genre>
+				</subject>
+				<subject authority="lcsh">
+					<topic>Archaeoastronomy</topic>
+					<genre>Congresses.</genre>
+				</subject>
+				<subject authority="lcsh">
+					<topic>Chronology</topic>
+					<topic>History</topic>
+					<genre>Congresses.</genre>
+				</subject>
+				<subject authority="lcsh">
+					<topic>Antiquities</topic>
+					<genre>Congresses.</genre>
+				</subject>
+				<name type="personal">
+					<namePart>Morley, Iain</namePart>
+					<namePart type="date">1975-</namePart>
+				</name>
+				<name type="personal">
+					<namePart>Renfrew, Colin</namePart>
+					<namePart type="date">1937-</namePart>
+				</name>
+				<name type="corporate">
+					<namePart>McDonald Institute for Archaeological Research.</namePart>
+				</name>
+				<physicalDescription>
+					<form authority="marcform">print</form>
+				</physicalDescription>
+				<genre>Bibliography</genre>
+				<genre>Conference publication</genre>
+				<genre>Illustrated</genre>
+				<language>
+					<languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+					<languageTerm type="text">English</languageTerm>
+				</language>
+				<location>
+					<physicalLocation>University of St Andrews Library</physicalLocation>
+					<physicalLocation authority="UkMaC">sta</physicalLocation>
+					<holdingSimple>
+						<copyInformation>
+							<subLocation>Main Library</subLocation>
+							<shelfLocator>QA465.M78</shelfLocator>
+						</copyInformation>
+					</holdingSimple>
+				</location>
+			</mods>
+			<mods version="3.7">
+				<recordInfo>
+					<recordIdentifier source="UkMaC">191767783</recordIdentifier>
+					<recordIdentifier source="UK-SoUHL">a1907194</recordIdentifier>
+					<recordCreationDate encoding="iso8601">20220707</recordCreationDate>
+				</recordInfo>
+				<typeOfResource>text</typeOfResource>
+				<originInfo>
+					<issuance>single unit</issuance>
+				</originInfo>
+				<originInfo>
+					<dateIssued encoding="marc">2010</dateIssued>
+					<place>
+						<placeTerm authority="marccountry" type="code">enk</placeTerm>
+					</place>
+				</originInfo>
+				<identifier type="isbn">9780511760822 (ebook)</identifier>
+				<identifier invalid="yes" type="isbn">9780521119900 (hardback)</identifier>
+				<identifier invalid="yes" type="isbn">9780521135887 (paperback)</identifier>
+				<recordInfo>
+					<recordContentSource authority="marcorg">UkCbUP</recordContentSource>
+					<languageOfCataloging>
+						<languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+					</languageOfCataloging>
+					<descriptionStandard>rda</descriptionStandard>
+				</recordInfo>
+				<classification authority="lcc">GN799.B8 A73 2010</classification>
+				<classification authority="ddc" edition="22">690.0901</classification>
+				<titleInfo>
+					<title>
+						<nonSort>The </nonSort>archaeology of measurement</title>
+					<subTitle>comprehending Heaven, Earth and time in ancient societies</subTitle>
+				</titleInfo>
+				<note type="statement of responsibility">edited by Iain Morley, Colin Renfrew.</note>
+				<physicalDescription>
+					<extent>1 online resource (xv, 267 pages) : digital, PDF file(s).</extent>
+				</physicalDescription>
+				<note type="general">Title from publisher's bibliographic system (viewed on 05 Oct 2015).</note>
+				<tableOfContents displayLabel="Contents">Number : counting, mathematics and measure -- Conceptualising quantification before settlement : activities and issues underlying the conception and use of measurement / Iain Morley -- Measurement in navigation : conceiving distance and time in the Neolithic / Helen Farr -- The token system of the ancient Near East : it's role in counting, writing, the economy and cognition / Denise Schmandt-Besserat -- Grasping the concept of number : how did the sapient mind move beyond approximation? / Lambros Malafouris -- Numerical cognition and the development of 'zero' in Mesoamerica / John Justeson -- Recording measure(ment)s in the Inka khipu / Gary Urton -- Materialising the economy -- Measuring by weight in the late Bronze Age Aegean : the people behind the measuring tools / Anna Michailidou -- The concept of weighing during the Bronze Age in the Aegean, the Near East and Europe / Lorenz Rahmstorf -- Measuring the Harappan world : insights into the Indus order and cosmology / J. Mark Kenoyer -- Dimension and belief -- Architectural measurements in the Indus cities : the case study of Mohenjo-Daro / Michael Jansen --dtTeotihuacan city layout as a cosmogram : preliminary results of the 2007 Measurement Unit Study / Saburo Sagiyama -- Aztec dimensions of holiness / John E. Clark -- Establishing direction in early Egyptian burials and monumental architecture : measurement and the spatial link with the 'other' / Kate Spence -- Calendar and cosmology -- The measurement of time and distance in the heavens above Mesopotamia, with brief reference made to other ancient astral sciences / David Brown -- Evolution of the calendar in Shang China / Mark Edward Lewis -- The measure of time in Mesoamerica : from Teotihuacan to the Maya / Anthony F. Aveni -- Measuring time, sacred space, and social place in the Inca Empire / Charles Stanish -- Measuring time in the European Neolithic? The function and meaning of central European circular enclosures / Peter F. Biehl -- The spirituality of measure -- The roots of spirituality and the limits of human mensuration / F. LeRon Shultz -- Worldview, measurement and 'the roots of spirituality' / Jeremy S. Bagbie.</tableOfContents>
+				<abstract displayLabel="Summary">The construction of formal measurement systems underlies the development of science, technology, economy and new ways of understanding and explaining the world. Human societies have developed such systems in different ways, in different places and at different times, and recent archaeological investigations highlight the importance of these activities for fundamental aspects of human life. Measurement systems have provided the structure for addressing key concerns of cosmological belief systems, as well as the means for articulating relationships between the human form, human action, and the world. The Archaeology of Measurement explores the archaeological evidence for the development of measuring activities in numerous ancient societies, as well as the implications of these discoveries for an understanding of their worlds and beliefs. Featuring contributions from a cast of internationally renowned scholars, it analyses the relationships between measurement, economy, architecture, symbolism, time, cosmology, ritual, and religion among prehistoric and early historic societies.</abstract>
+				<subject authority="lcsh">
+					<topic>Measurement</topic>
+					<topic>History</topic>
+					<genre>Congresses.</genre>
+				</subject>
+				<subject authority="lcsh">
+					<topic>Metrology</topic>
+					<topic>History</topic>
+					<genre>Congresses.</genre>
+				</subject>
+				<subject authority="lcsh">
+					<topic>Architecture, Prehistoric</topic>
+					<genre>Congresses.</genre>
+				</subject>
+				<subject authority="lcsh">
+					<topic>Archaeoastronomy</topic>
+					<genre>Congresses.</genre>
+				</subject>
+				<subject authority="lcsh">
+					<topic>Chronology</topic>
+					<topic>History</topic>
+					<genre>Congresses.</genre>
+				</subject>
+				<subject authority="lcsh">
+					<topic>Antiquities</topic>
+					<genre>Congresses.</genre>
+				</subject>
+				<name type="personal">
+					<namePart>Morley, Iain</namePart>
+					<namePart type="date">1975-</namePart>
+					<role>
+						<roleTerm type="text">editor</roleTerm>
+					</role>
+				</name>
+				<name type="personal">
+					<namePart>Renfrew, Colin</namePart>
+					<namePart type="date">1937-</namePart>
+					<role>
+						<roleTerm type="text">editor</roleTerm>
+					</role>
+				</name>
+				<name type="corporate">
+					<namePart>McDonald Institute for Archaeological Research</namePart>
+					<role>
+						<roleTerm type="text">issuing body</roleTerm>
+					</role>
+				</name>
+				<relatedItem displayLabel="Print version:" type="otherFormat">
+					<identifier type="isbn">9780521119900</identifier>
+				</relatedItem>
+				<location>
+					<url displayLabel="Cambridge">https://doi.org/10.1017/CBO9780511760822</url>
+				</location>
+				<originInfo eventType="publisher">
+					<place>
+						<placeTerm type="text">Cambridge</placeTerm>
+					</place>
+					<publisher>Cambridge University Press</publisher>
+					<dateIssued>2010</dateIssued>
+				</originInfo>
+				<physicalDescription>
+					<form authority="rdamedia" type="media">computer</form>
+					<form authority="marccategory">electronic resource</form>
+					<form authority="marcform">online</form>
+					<form authority="rdacarrier" type="carrier">online resource</form>
+					<form authority="marcsmd">remote</form>
+				</physicalDescription>
+				<genre authority="rdacontent">text</genre>
+				<language>
+					<languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+					<languageTerm type="text">English</languageTerm>
+				</language>
+				<location>
+					<physicalLocation>University of Southampton Library</physicalLocation>
+					<physicalLocation authority="UkMaC">sth</physicalLocation>
+					<holdingSimple>
+						<copyInformation>
+							<electronicLocator>https://doi.org/10.1017/CBO9780511760822</electronicLocator>
+							<note>Cambridge</note>
+						</copyInformation>
+						<copyInformation>
+							<subLocation>Internet</subLocation>
+							<shelfLocator>Internet</shelfLocator>
+						</copyInformation>
+					</holdingSimple>
+				</location>
+				<extension>
+					<cpc:local xmlns:cpc="http://copac.ac.uk/schemas/mods-copac/v1">
+						<note type="local"/>
+					</cpc:local>
+				</extension>
+			</mods>
+			<mods version="3.7">
+				<recordInfo>
+					<recordIdentifier source="UkMaC">33356981</recordIdentifier>
+					<recordIdentifier source="UK-SoUHL">a1468285</recordIdentifier>
+					<recordCreationDate encoding="iso8601">20220707</recordCreationDate>
+				</recordInfo>
+				<typeOfResource>text</typeOfResource>
+				<originInfo>
+					<issuance>single unit</issuance>
+				</originInfo>
+				<recordInfo>
+					<descriptionStandard>aacr</descriptionStandard>
+				</recordInfo>
+				<originInfo>
+					<dateIssued encoding="marc">2010</dateIssued>
+					<place>
+						<placeTerm authority="marccountry" type="code">enk</placeTerm>
+					</place>
+				</originInfo>
+				<identifier displayLabel="National Bibliography Number" type="bnb">GBB006755</identifier>
+				<identifier type="isbn">9780521119900 (hbk.)</identifier>
+				<identifier type="isbn">0521119901 (hbk.)</identifier>
+				<identifier type="isbn">9780521135887 (pbk.)</identifier>
+				<identifier type="isbn">0521135885 (pbk.)</identifier>
+				<recordInfo>
+					<recordContentSource authority="marcorg">UKM</recordContentSource>
+				</recordInfo>
+				<classification authority="lcc">CC207.M25</classification>
+				<classification authority="ddc" edition="22">690.0901</classification>
+				<titleInfo>
+					<title>
+						<nonSort>The </nonSort>archaeology of measurement</title>
+					<subTitle>comprehending Heaven, Earth and time in ancient societies</subTitle>
+				</titleInfo>
+				<note type="statement of responsibility">edited by Iain Morley, Colin Renfrew.</note>
+				<originInfo eventType="publisher">
+					<place>
+						<placeTerm type="text">Cambridge</placeTerm>
+					</place>
+					<publisher>Cambridge University Press</publisher>
+					<dateIssued>2010</dateIssued>
+				</originInfo>
+				<physicalDescription>
+					<extent>xv, 267 pages : illustrations, maps ; 28 cm.</extent>
+				</physicalDescription>
+				<note type="bibliography">Includes bibliographical references and index.</note>
+				<subject authority="lcsh">
+					<topic>Measurement</topic>
+					<topic>History.</topic>
+				</subject>
+				<subject authority="lcsh">
+					<topic>Architecture, Prehistoric.</topic>
+				</subject>
+				<subject authority="lcsh">
+					<topic>Antiquities.</topic>
+				</subject>
+				<name type="personal">
+					<namePart>Morley, Iain</namePart>
+					<namePart type="date">1975-</namePart>
+				</name>
+				<name type="personal">
+					<namePart>Renfrew, Colin</namePart>
+					<namePart type="date">1937-</namePart>
+				</name>
+				<physicalDescription>
+					<form authority="marcform">print</form>
+					<form authority="rdamedia" type="media">unmediated</form>
+					<form authority="rdacarrier" type="carrier">volume</form>
+				</physicalDescription>
+				<genre>Bibliography</genre>
+				<genre>Illustrated</genre>
+				<genre authority="rdacontent">text</genre>
+				<language>
+					<languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+					<languageTerm type="text">English</languageTerm>
+				</language>
+				<location>
+					<physicalLocation>University of Southampton Library</physicalLocation>
+					<physicalLocation authority="UkMaC">sth</physicalLocation>
+					<holdingSimple>
+						<copyInformation>
+							<subLocation>Hartley Library</subLocation>
+							<shelfLocator>CC 207.M25 MOR</shelfLocator>
+						</copyInformation>
+					</holdingSimple>
+				</location>
+			</mods>
+			<mods version="3.7">
+				<recordInfo>
+					<recordIdentifier source="UkMaC">48469229</recordIdentifier>
+					<recordIdentifier source="WlSwUW">996210723402417</recordIdentifier>
+					<recordCreationDate encoding="iso8601">20220707</recordCreationDate>
+				</recordInfo>
+				<typeOfResource>text</typeOfResource>
+				<originInfo>
+					<issuance>single unit</issuance>
+				</originInfo>
+				<recordInfo>
+					<descriptionStandard>aacr</descriptionStandard>
+				</recordInfo>
+				<originInfo>
+					<dateIssued encoding="marc">2010</dateIssued>
+					<place>
+						<placeTerm authority="marccountry" type="code">enk</placeTerm>
+					</place>
+				</originInfo>
+				<identifier type="isbn">9780521119900 (hbk.)</identifier>
+				<identifier type="isbn">0521119901 (hbk.)</identifier>
+				<identifier type="isbn">9780521135887 (pbk.)</identifier>
+				<identifier type="isbn">0521135885 (pbk.)</identifier>
+				<classification authority="lcc">GN799.B8 A73 2010</classification>
+				<titleInfo>
+					<title>
+						<nonSort>The </nonSort>archaeology of measurement</title>
+					<subTitle>comprehending Heaven, Earth and time in ancient societies</subTitle>
+				</titleInfo>
+				<note type="statement of responsibility">edited by Iain Morley, Colin Renfrew.</note>
+				<titleInfo type="alternative">
+					<title>Comprehending Heaven, Earth and time in ancient societies</title>
+				</titleInfo>
+				<originInfo eventType="publisher">
+					<place>
+						<placeTerm type="text">Cambridge [England] ; New York</placeTerm>
+					</place>
+					<publisher>Cambridge University Press</publisher>
+					<dateIssued>2010</dateIssued>
+				</originInfo>
+				<physicalDescription>
+					<extent>xv, 267 p. : ill., maps ; 28 cm.</extent>
+				</physicalDescription>
+				<note type="general">Papers originally presented at a symposium held at the McDonald Institute for Archaeological Research, Cambridge.</note>
+				<note type="bibliography">Includes bibliographical references and index.</note>
+				<subject authority="lcsh">
+					<topic>Measurement</topic>
+					<topic>History</topic>
+					<genre>Congresses.</genre>
+				</subject>
+				<subject authority="lcsh">
+					<topic>Metrology</topic>
+					<topic>History</topic>
+					<genre>Congresses.</genre>
+				</subject>
+				<subject authority="lcsh">
+					<topic>Architecture, Prehistoric</topic>
+					<genre>Congresses.</genre>
+				</subject>
+				<subject authority="lcsh">
+					<topic>Archaeoastronomy</topic>
+					<genre>Congresses.</genre>
+				</subject>
+				<subject authority="lcsh">
+					<topic>Chronology</topic>
+					<topic>History</topic>
+					<genre>Congresses.</genre>
+				</subject>
+				<subject authority="lcsh">
+					<topic>Antiquities</topic>
+					<genre>Congresses.</genre>
+				</subject>
+				<name type="personal">
+					<namePart>Morley, Iain</namePart>
+					<namePart type="date">1975-</namePart>
+				</name>
+				<name type="personal">
+					<namePart>Renfrew, Colin</namePart>
+					<namePart type="date">1937-</namePart>
+				</name>
+				<name type="corporate">
+					<namePart>McDonald Institute for Archaeological Research.</namePart>
+				</name>
+				<physicalDescription>
+					<form authority="marcform">print</form>
+				</physicalDescription>
+				<genre>Bibliography</genre>
+				<genre>Conference publication</genre>
+				<genre>Illustrated</genre>
+				<language>
+					<languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+					<languageTerm type="text">English</languageTerm>
+				</language>
+				<location>
+					<physicalLocation>Swansea University Libraries</physicalLocation>
+					<physicalLocation authority="UkMaC">swa</physicalLocation>
+					<holdingSimple>
+						<copyInformation>
+							<subLocation>Singleton Park Library : Folios</subLocation>
+							<shelfLocator>GN799.B8 A73 2010</shelfLocator>
+						</copyInformation>
+					</holdingSimple>
+				</location>
+			</mods>
+			<mods version="3.7">
+				<recordInfo>
+					<recordIdentifier source="UkMaC">26503016</recordIdentifier>
+					<recordIdentifier source="IeDuTC">.b140708625</recordIdentifier>
+					<recordCreationDate encoding="iso8601">20220707</recordCreationDate>
+				</recordInfo>
+				<typeOfResource>text</typeOfResource>
+				<originInfo>
+					<issuance>single unit</issuance>
+				</originInfo>
+				<recordInfo>
+					<descriptionStandard>aacr</descriptionStandard>
+				</recordInfo>
+				<originInfo>
+					<dateIssued encoding="marc">2010</dateIssued>
+					<place>
+						<placeTerm authority="marccountry" type="code">enk</placeTerm>
+					</place>
+				</originInfo>
+				<identifier type="lccn">  2010279304</identifier>
+				<identifier displayLabel="National Bibliography Number" type="bnb">GBB006755</identifier>
+				<identifier type="isbn">9780521119900 (hbk.)</identifier>
+				<identifier type="isbn">0521119901 (hbk.)</identifier>
+				<identifier type="isbn">9780521135887 (pbk.)</identifier>
+				<identifier type="isbn">0521135885 (pbk.)</identifier>
+				<recordInfo>
+					<recordContentSource authority="marcorg">StDuBDS</recordContentSource>
+					<languageOfCataloging>
+						<languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+					</languageOfCataloging>
+				</recordInfo>
+				<classification authority="lcc">GN799.B8 A73 2010</classification>
+				<classification authority="ddc" edition="22">690.0901</classification>
+				<titleInfo>
+					<title>
+						<nonSort>The </nonSort>archaeology of measurement</title>
+					<subTitle>comprehending Heaven, Earth and time in ancient societies</subTitle>
+				</titleInfo>
+				<note type="statement of responsibility">edited by Iain Morley, Colin Renfrew.</note>
+				<titleInfo type="alternative">
+					<title>Comprehending Heaven, Earth and time in ancient societies</title>
+				</titleInfo>
+				<originInfo eventType="publisher">
+					<place>
+						<placeTerm type="text">Cambridge</placeTerm>
+					</place>
+					<publisher>Cambridge University Press</publisher>
+					<dateIssued>2010</dateIssued>
+				</originInfo>
+				<physicalDescription>
+					<extent>xv, 267 p. : ill., maps ; 28 cm.</extent>
+				</physicalDescription>
+				<note type="bibliography">Includes bibliographical references and index.The spirituality of measure. The roots of spirituality and the limits of human mensuration / F. LeRon Shultz ; Worldview, meaasurement and 'the roots of spirituality' / Jeremy S. Bagbie.</note>
+				<subject authority="lcsh">
+					<topic>Architecture, Prehistoric.</topic>
+				</subject>
+				<subject authority="lcsh">
+					<topic>Measurement</topic>
+					<topic>History.</topic>
+				</subject>
+				<subject authority="lcsh">
+					<topic>Antiquities.</topic>
+				</subject>
+				<name type="personal">
+					<namePart>Morley, Iain</namePart>
+					<namePart type="date">1975-</namePart>
+				</name>
+				<name type="personal">
+					<namePart>Renfrew, Colin</namePart>
+					<namePart type="date">1937-</namePart>
+				</name>
+				<physicalDescription>
+					<form authority="marcform">print</form>
+				</physicalDescription>
+				<genre>Bibliography</genre>
+				<genre>Illustrated</genre>
+				<language>
+					<languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+					<languageTerm type="text">English</languageTerm>
+				</language>
+				<location>
+					<physicalLocation>Trinity College Dublin Library</physicalLocation>
+					<physicalLocation authority="UkMaC">tcd</physicalLocation>
+					<holdingSimple>
+						<copyInformation>
+							<subLocation>Santry Book Repository</subLocation>
+							<shelfLocator>PX-248-227</shelfLocator>
+						</copyInformation>
+					</holdingSimple>
+				</location>
+				<extension>
+					<cpc:local xmlns:cpc="http://copac.ac.uk/schemas/mods-copac/v1">
+						<note type="general">Formerly CIP.</note>
+					</cpc:local>
+				</extension>
+			</mods>
+			<mods version="3.7">
+				<recordInfo>
+					<recordIdentifier source="UkMaC">258898085</recordIdentifier>
+					<recordIdentifier source="UK-LoUA">232068</recordIdentifier>
+					<recordCreationDate encoding="iso8601">20220707</recordCreationDate>
+				</recordInfo>
+				<typeOfResource>text</typeOfResource>
+				<originInfo>
+					<issuance>single unit</issuance>
+				</originInfo>
+				<originInfo>
+					<dateIssued encoding="marc">2010</dateIssued>
+					<place>
+						<placeTerm authority="marccountry" type="code">enk</placeTerm>
+					</place>
+				</originInfo>
+				<identifier displayLabel="National Bibliography Number" type="bnb">GBB006755</identifier>
+				<identifier type="isbn">9780521119900</identifier>
+				<identifier type="isbn">0521119901</identifier>
+				<identifier type="isbn">9780521135887</identifier>
+				<identifier type="isbn">0521135885</identifier>
+				<recordInfo>
+					<recordContentSource authority="marcorg">UKM</recordContentSource>
+					<languageOfCataloging>
+						<languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+					</languageOfCataloging>
+					<descriptionStandard>rda</descriptionStandard>
+				</recordInfo>
+				<classification authority="ddc" edition="22">530.809</classification>
+				<titleInfo>
+					<title>
+						<nonSort>The </nonSort>archaeology of measurement</title>
+					<subTitle>comprehending Heaven, Earth and time in ancient societies</subTitle>
+				</titleInfo>
+				<note type="statement of responsibility">edited by Iain Morley, Colin Renfrew.</note>
+				<originInfo eventType="publisher">
+					<place>
+						<placeTerm type="text">Cambridge</placeTerm>
+					</place>
+					<publisher>Cambridge University Press</publisher>
+					<dateIssued>2010</dateIssued>
+				</originInfo>
+				<physicalDescription>
+					<extent>xv, 267 pages : illustrations, maps, plans ; 28 cm</extent>
+				</physicalDescription>
+				<note type="bibliography">Includes bibliographical references and index.</note>
+				<subject authority="lcsh">
+					<topic>Measurement</topic>
+					<topic>History.</topic>
+				</subject>
+				<subject authority="lcsh">
+					<topic>Antiquities.</topic>
+				</subject>
+				<name type="personal">
+					<namePart>Morley, Iain</namePart>
+					<namePart type="date">1975-</namePart>
+				</name>
+				<name type="personal">
+					<namePart>Renfrew, Colin</namePart>
+					<namePart type="date">1937-</namePart>
+				</name>
+				<physicalDescription>
+					<form authority="marcform">print</form>
+					<form authority="rdamedia" type="media">unmediated</form>
+					<form authority="rdacarrier" type="carrier">volume</form>
+				</physicalDescription>
+				<genre>Bibliography</genre>
+				<genre>Illustrated</genre>
+				<genre authority="rdacontent">text</genre>
+				<language>
+					<languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+					<languageTerm type="text">English</languageTerm>
+				</language>
+				<location>
+					<physicalLocation>University of the Arts, London</physicalLocation>
+					<physicalLocation authority="UkMaC">ual</physicalLocation>
+					<holdingSimple>
+						<copyInformation>
+							<subLocation>Chelsea College of Arts, Main collection</subLocation>
+							<shelfLocator>530.809 MOR</shelfLocator>
+						</copyInformation>
+					</holdingSimple>
+				</location>
+			</mods>
+			<mods version="3.7">
+				<recordInfo>
+					<recordIdentifier source="UkMaC">115338056</recordIdentifier>
+					<recordIdentifier source="UkLUC">990014599540204761</recordIdentifier>
+					<recordCreationDate encoding="iso8601">20220707</recordCreationDate>
+				</recordInfo>
+				<typeOfResource>text</typeOfResource>
+				<originInfo>
+					<issuance>single unit</issuance>
+				</originInfo>
+				<recordInfo>
+					<descriptionStandard>aacr</descriptionStandard>
+				</recordInfo>
+				<originInfo>
+					<dateIssued encoding="marc">2010</dateIssued>
+					<place>
+						<placeTerm authority="marccountry" type="code">enk</placeTerm>
+					</place>
+				</originInfo>
+				<identifier type="lccn">2010279304</identifier>
+				<identifier displayLabel="National Bibliography Number" type="bnb">GBB006755</identifier>
+				<identifier type="isbn">9780521119900</identifier>
+				<identifier type="isbn">0521119901</identifier>
+				<identifier type="isbn">9780521135887</identifier>
+				<identifier type="isbn">0521135885</identifier>
+				<recordInfo>
+					<recordContentSource authority="marcorg">UKM</recordContentSource>
+				</recordInfo>
+				<classification authority="lcc">GN799.B8 A73 2010</classification>
+				<classification authority="ddc" edition="22">690.0901</classification>
+				<titleInfo>
+					<title>
+						<nonSort>The </nonSort>archaeology of measurement</title>
+					<subTitle>comprehending Heaven, Earth and time in ancient societies</subTitle>
+				</titleInfo>
+				<note type="statement of responsibility">edited by Iain Morley, Colin Renfrew.</note>
+				<originInfo eventType="publisher">
+					<place>
+						<placeTerm type="text">Cambridge</placeTerm>
+					</place>
+					<publisher>Cambridge University Press</publisher>
+					<dateIssued>2010</dateIssued>
+				</originInfo>
+				<physicalDescription>
+					<extent>xv, 267 p. : ill., maps, plans ; 28 cm.</extent>
+				</physicalDescription>
+				<note type="bibliography">Includes bibliographical references and index.</note>
+				<subject authority="lcsh">
+					<topic>Architecture, Prehistoric.</topic>
+				</subject>
+				<subject authority="lcsh">
+					<topic>Measurement</topic>
+					<topic>History.</topic>
+				</subject>
+				<subject authority="lcsh">
+					<topic>Antiquities.</topic>
+				</subject>
+				<name type="personal">
+					<namePart>Morley, Iain</namePart>
+					<namePart type="date">1975-</namePart>
+				</name>
+				<name type="personal">
+					<namePart>Renfrew, Colin</namePart>
+					<namePart type="date">1937-</namePart>
+				</name>
+				<physicalDescription>
+					<form authority="marcform">print</form>
+				</physicalDescription>
+				<genre>Bibliography</genre>
+				<genre>Illustrated</genre>
+				<language>
+					<languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+					<languageTerm type="text">English</languageTerm>
+				</language>
+				<location>
+					<physicalLocation>UCL Library Services</physicalLocation>
+					<physicalLocation authority="UkMaC">ucl</physicalLocation>
+					<holdingSimple>
+						<copyInformation>
+							<subLocation>UCL Institute of Archaeology Library</subLocation>
+							<shelfLocator>INST ARCH JA MOR</shelfLocator>
+						</copyInformation>
+					</holdingSimple>
+				</location>
+			</mods>
+			<mods version="3.7">
+				<recordInfo>
+					<recordIdentifier source="UkMaC">391520820</recordIdentifier>
+					<recordIdentifier source="UkNrUEA">ocn501396677</recordIdentifier>
+					<recordCreationDate encoding="iso8601">20220707</recordCreationDate>
+				</recordInfo>
+				<typeOfResource>text</typeOfResource>
+				<originInfo>
+					<issuance>single unit</issuance>
+				</originInfo>
+				<recordInfo>
+					<descriptionStandard>aacr</descriptionStandard>
+				</recordInfo>
+				<originInfo>
+					<dateIssued encoding="marc">2010</dateIssued>
+					<place>
+						<placeTerm authority="marccountry" type="code">enk</placeTerm>
+					</place>
+				</originInfo>
+				<identifier type="lccn">  2010279304</identifier>
+				<recordInfo>
+					<recordContentSource authority="marcorg">UKM</recordContentSource>
+					<languageOfCataloging>
+						<languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+					</languageOfCataloging>
+				</recordInfo>
+				<identifier displayLabel="National Bibliography Number" type="bnb">GBB006755</identifier>
+				<identifier type="isbn">9780521119900</identifier>
+				<identifier type="isbn">0521119901</identifier>
+				<identifier type="isbn">9780521135887</identifier>
+				<identifier type="isbn">0521135885</identifier>
+				<classification authority="lcc">QA465 .A73 2010</classification>
+				<classification authority="lcc">GN799.B8 A73 2010</classification>
+				<classification authority="ddc" edition="22">690.0901</classification>
+				<classification authority="bcl">15.30</classification>
+				<titleInfo>
+					<title>
+						<nonSort>The </nonSort>archaeology of measurement</title>
+					<subTitle>comprehending Heaven, Earth and time in ancient societies</subTitle>
+				</titleInfo>
+				<note type="statement of responsibility">edited by Iain Morley, Colin Renfrew.</note>
+				<titleInfo type="alternative">
+					<title>Comprehending Heaven, Earth and time in ancient societies</title>
+				</titleInfo>
+				<originInfo eventType="publisher">
+					<place>
+						<placeTerm type="text">Cambridge [England] ; New York</placeTerm>
+					</place>
+					<publisher>Cambridge University Press</publisher>
+					<dateIssued>2010</dateIssued>
+				</originInfo>
+				<physicalDescription>
+					<extent>xv, 267 pages : illustrations, maps ; 28 cm</extent>
+				</physicalDescription>
+				<note type="general">Papers originally presented at a symposium held at the McDonald Institute for Archaeological Research, Cambridge.</note>
+				<note type="bibliography">Includes bibliographical references and index.</note>
+				<tableOfContents displayLabel="Contents">Number : counting, mathematics and measure -- Conceptualising quantification before settlement : activities and issues underlying the conception and use of measurement / Iain Morley -- Measurement in navigation : conceiving distance and time in the Neolithic / Helen Farr -- The token system of the ancient Near East : it's role in counting, writing, the economy and cognition / Denise Schmandt-Besserat -- Grasping the concept of number : how did the sapient mind move beyond approximation? / Lambros Malafouris -- Numerical cognition and the development of 'zero' in Mesoamerica / John Justeson -- Recording measure(ment)s in the Inka khipu / Gary Urton -- Materialising the economy -- Measuring by weight in the late Bronze Age Aegean : the people behind the measuring tools / Anna Michailidou -- The concept of weighing during the Bronze Age in the Aegean, the Near East and Europe / Lorenz Rahmstorf -- Measuring the Harappan world : insights into the Indus order and cosmology / J. Mark Kenoyer -- Dimension and belief -- Architectural measurements in the Indus cities : the case study of Mohenjo-Daro / Michael Jansen --dtTeotihuacan city layout as a cosmogram : preliminary results of the 2007 Measurement Unit Study / Saburo Sagiyama -- Aztec dimensions of holiness / John E. Clark -- Establishing direction in early Egyptian burials and monumental architecture : measurement and the spatial link with the 'other' / Kate Spence -- Calendar and cosmology -- The measurement of time and distance in the heavens above Mesopotamia, with brief reference made to other ancient astral sciences / David Brown -- Evolution of the calendar in Shang China / Mark Edward Lewis -- The measure of time in Mesoamerica : from Teotihuacan to the Maya / Anthony F. Aveni -- Measuring time, sacred space, and social place in the Inca Empire / Charles Stanish -- Measuring time in the European Neolithic? The function and meaning of central European circular enclosures / Peter F. Biehl -- The spirituality of measure -- The roots of spirituality and the limits of human mensuration / F. LeRon Shultz -- Worldview, measurement and 'the roots of spirituality' / Jeremy S. Bagbie.</tableOfContents>
+				<abstract displayLabel="Summary">This volume explores the archaeological evidence for the development of measuring activities in numerous ancient societies. It analyses the relationship between measurement, economy, architecture, symbolism, time, cosmology, ritual, and religion among prehistoric and early historic societies throughout the world.</abstract>
+				<subject authority="lcsh">
+					<topic>Measurement</topic>
+					<topic>History</topic>
+					<genre>Congresses.</genre>
+				</subject>
+				<subject authority="lcsh">
+					<topic>Metrology</topic>
+					<topic>History</topic>
+					<genre>Congresses.</genre>
+				</subject>
+				<subject authority="lcsh">
+					<topic>Architecture, Prehistoric</topic>
+					<genre>Congresses.</genre>
+				</subject>
+				<subject authority="lcsh">
+					<topic>Archaeoastronomy</topic>
+					<genre>Congresses.</genre>
+				</subject>
+				<subject authority="lcsh">
+					<topic>Chronology</topic>
+					<topic>History</topic>
+					<genre>Congresses.</genre>
+				</subject>
+				<subject authority="lcsh">
+					<topic>Antiquities</topic>
+					<genre>Congresses.</genre>
+				</subject>
+				<subject authority="bcl">
+					<topic>15.30 archaeology: general.</topic>
+				</subject>
+				<subject authority="bncf">
+					<topic>Misurazione</topic>
+					<topic>Antichità</topic>
+				</subject>
+				<subject authority="fast">
+					<topic>Antiquities.</topic>
+				</subject>
+				<subject authority="fast">
+					<topic>Archaeoastronomy.</topic>
+				</subject>
+				<subject authority="fast">
+					<topic>Architecture, Prehistoric.</topic>
+				</subject>
+				<subject authority="fast">
+					<topic>Chronology.</topic>
+				</subject>
+				<subject authority="fast">
+					<topic>Measurement.</topic>
+				</subject>
+				<subject authority="fast">
+					<topic>Metrology.</topic>
+				</subject>
+				<subject authority="gnd">
+					<topic>Altertum</topic>
+				</subject>
+				<subject authority="gnd">
+					<topic>Messsystem</topic>
+				</subject>
+				<subject authority="gnd">
+					<topic>Maßeinheit</topic>
+				</subject>
+				<subject authority="gtt">
+					<topic>Measurements.</topic>
+				</subject>
+				<subject authority="gtt">
+					<topic>Measuring methods.</topic>
+				</subject>
+				<subject authority="gtt">
+					<topic>Archaeology.</topic>
+				</subject>
+				<subject authority="idsbb">
+					<topic>Messung</topic>
+					<temporal>Geschichte Altertum.</temporal>
+				</subject>
+				<subject authority="idsbb">
+					<topic>Mathematik</topic>
+					<temporal>Geschichte Altertum.</temporal>
+				</subject>
+				<subject authority="idsbb">
+					<topic>Astronomie</topic>
+					<temporal>Geschichte Altertum.</temporal>
+				</subject>
+				<subject authority="idsbb">
+					<topic>Kalender</topic>
+					<temporal>Geschichte Altertum.</temporal>
+				</subject>
+				<subject authority="idsbb">
+					<topic>Kosmologie</topic>
+					<temporal>Geschichte Altertum.</temporal>
+				</subject>
+				<subject authority="idszbz">
+					<topic>Metrologie.</topic>
+				</subject>
+				<subject authority="idszbz">
+					<topic>Maßeinheit.</topic>
+				</subject>
+				<subject authority="idszbz">
+					<topic>Zeitmessung.</topic>
+				</subject>
+				<name type="personal">
+					<namePart>Morley, Iain</namePart>
+					<namePart type="date">1975-</namePart>
+				</name>
+				<name type="personal">
+					<namePart>Renfrew, Colin</namePart>
+					<namePart type="date">1937-</namePart>
+				</name>
+				<name type="corporate">
+					<namePart>McDonald Institute for Archaeological Research.</namePart>
+				</name>
+				<physicalDescription>
+					<form authority="marcform">print</form>
+					<form authority="rdamedia" type="media">unmediated</form>
+					<form authority="rdacarrier" type="carrier">volume</form>
+				</physicalDescription>
+				<genre>Bibliography</genre>
+				<genre authority="fast">Conference papers and proceedings.</genre>
+				<genre>Conference publication</genre>
+				<genre authority="fast">History.</genre>
+				<genre>Illustrated</genre>
+				<genre authority="rdacontent">text</genre>
+				<language>
+					<languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+					<languageTerm type="text">English</languageTerm>
+				</language>
+				<location>
+					<physicalLocation>University of East Anglia Library</physicalLocation>
+					<physicalLocation authority="UkMaC">uea</physicalLocation>
+					<holdingSimple>
+						<copyInformation>
+							<subLocation>Sainsbury Research Unit Library. SRU Oversize - Normal loan</subLocation>
+							<shelfLocator>NK 2435 MOR</shelfLocator>
+						</copyInformation>
+					</holdingSimple>
+				</location>
+			</mods>
+			<mods version="3.7">
+				<recordInfo>
+					<recordIdentifier source="UkMaC">134242113</recordIdentifier>
+					<recordIdentifier source="UK-CovUW">.b27930452</recordIdentifier>
+					<recordCreationDate encoding="iso8601">20220707</recordCreationDate>
+				</recordInfo>
+				<typeOfResource>text</typeOfResource>
+				<originInfo>
+					<issuance>single unit</issuance>
+				</originInfo>
+				<originInfo>
+					<dateIssued encoding="marc">2010</dateIssued>
+					<place>
+						<placeTerm authority="marccountry" type="code">enk</placeTerm>
+					</place>
+				</originInfo>
+				<identifier type="isbn">9780511760822 (ebook)</identifier>
+				<identifier invalid="yes" type="isbn">9780521119900 (hardback)</identifier>
+				<identifier invalid="yes" type="isbn">9780521135887 (paperback)</identifier>
+				<recordInfo>
+					<recordContentSource authority="marcorg">UkCbUP</recordContentSource>
+					<languageOfCataloging>
+						<languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+					</languageOfCataloging>
+					<descriptionStandard>rda</descriptionStandard>
+				</recordInfo>
+				<classification authority="lcc">GN799.B8 A73 2010</classification>
+				<classification authority="ddc" edition="22">690.0901</classification>
+				<titleInfo>
+					<title>
+						<nonSort>The </nonSort>archaeology of measurement</title>
+					<subTitle>comprehending Heaven, Earth and time in ancient societies</subTitle>
+				</titleInfo>
+				<note type="statement of responsibility">edited by Iain Morley, Colin Renfrew.</note>
+				<originInfo eventType="publisher">
+					<place>
+						<placeTerm type="text">Cambridge</placeTerm>
+					</place>
+					<publisher>Cambridge University Press</publisher>
+					<dateIssued>2010</dateIssued>
+				</originInfo>
+				<physicalDescription>
+					<extent>1 online resource (xv, 267 pages) : digital, PDF file(s).</extent>
+				</physicalDescription>
+				<note type="general">Title from publisher's bibliographic system (viewed on 05 Oct 2015).</note>
+				<tableOfContents displayLabel="Contents">Number : counting, mathematics and measure -- Conceptualising quantification before settlement : activities and issues underlying the conception and use of measurement / Iain Morley -- Measurement in navigation : conceiving distance and time in the Neolithic / Helen Farr -- The token system of the ancient Near East : it's role in counting, writing, the economy and cognition / Denise Schmandt-Besserat -- Grasping the concept of number : how did the sapient mind move beyond approximation? / Lambros Malafouris -- Numerical cognition and the development of 'zero' in Mesoamerica / John Justeson -- Recording measure(ment)s in the Inka khipu / Gary Urton -- Materialising the economy -- Measuring by weight in the late Bronze Age Aegean : the people behind the measuring tools / Anna Michailidou -- The concept of weighing during the Bronze Age in the Aegean, the Near East and Europe / Lorenz Rahmstorf -- Measuring the Harappan world : insights into the Indus order and cosmology / J. Mark Kenoyer -- Dimension and belief -- Architectural measurements in the Indus cities : the case study of Mohenjo-Daro / Michael Jansen --dtTeotihuacan city layout as a cosmogram : preliminary results of the 2007 Measurement Unit Study / Saburo Sagiyama -- Aztec dimensions of holiness / John E. Clark -- Establishing direction in early Egyptian burials and monumental architecture : measurement and the spatial link with the 'other' / Kate Spence -- Calendar and cosmology -- The measurement of time and distance in the heavens above Mesopotamia, with brief reference made to other ancient astral sciences / David Brown -- Evolution of the calendar in Shang China / Mark Edward Lewis -- The measure of time in Mesoamerica : from Teotihuacan to the Maya / Anthony F. Aveni -- Measuring time, sacred space, and social place in the Inca Empire / Charles Stanish -- Measuring time in the European Neolithic? The function and meaning of central European circular enclosures / Peter F. Biehl -- The spirituality of measure -- The roots of spirituality and the limits of human mensuration / F. LeRon Shultz -- Worldview, measurement and 'the roots of spirituality' / Jeremy S. Bagbie.</tableOfContents>
+				<abstract displayLabel="Summary">The construction of formal measurement systems underlies the development of science, technology, economy and new ways of understanding and explaining the world. Human societies have developed such systems in different ways, in different places and at different times, and recent archaeological investigations highlight the importance of these activities for fundamental aspects of human life. Measurement systems have provided the structure for addressing key concerns of cosmological belief systems, as well as the means for articulating relationships between the human form, human action, and the world. The Archaeology of Measurement explores the archaeological evidence for the development of measuring activities in numerous ancient societies, as well as the implications of these discoveries for an understanding of their worlds and beliefs. Featuring contributions from a cast of internationally renowned scholars, it analyses the relationships between measurement, economy, architecture, symbolism, time, cosmology, ritual, and religion among prehistoric and early historic societies.</abstract>
+				<subject authority="lcsh">
+					<topic>Measurement</topic>
+					<topic>History</topic>
+					<genre>Congresses.</genre>
+				</subject>
+				<subject authority="lcsh">
+					<topic>Metrology</topic>
+					<topic>History</topic>
+					<genre>Congresses.</genre>
+				</subject>
+				<subject authority="lcsh">
+					<topic>Architecture, Prehistoric</topic>
+					<genre>Congresses.</genre>
+				</subject>
+				<subject authority="lcsh">
+					<topic>Archaeoastronomy</topic>
+					<genre>Congresses.</genre>
+				</subject>
+				<subject authority="lcsh">
+					<topic>Chronology</topic>
+					<topic>History</topic>
+					<genre>Congresses.</genre>
+				</subject>
+				<subject authority="lcsh">
+					<topic>Antiquities</topic>
+					<genre>Congresses.</genre>
+				</subject>
+				<name type="personal">
+					<namePart>Morley, Iain</namePart>
+					<namePart type="date">1975-</namePart>
+					<role>
+						<roleTerm type="text">editor</roleTerm>
+					</role>
+				</name>
+				<name type="personal">
+					<namePart>Renfrew, Colin</namePart>
+					<namePart type="date">1937-</namePart>
+					<role>
+						<roleTerm type="text">editor</roleTerm>
+					</role>
+				</name>
+				<name type="corporate">
+					<namePart>McDonald Institute for Archaeological Research</namePart>
+					<role>
+						<roleTerm type="text">issuing body</roleTerm>
+					</role>
+				</name>
+				<relatedItem displayLabel="Print version: " type="otherFormat">
+					<identifier type="isbn">9780521119900</identifier>
+				</relatedItem>
+				<location>
+					<url note="Connect to Cambridge e-book">http://0-dx.doi.org.pugwash.lib.warwick.ac.uk/10.1017/CBO9780511760822</url>
+				</location>
+				<physicalDescription>
+					<form authority="rdamedia" type="media">computer</form>
+					<form authority="marccategory">electronic resource</form>
+					<form authority="marcform">online</form>
+					<form authority="rdacarrier" type="carrier">online resource</form>
+					<form authority="marcsmd">remote</form>
+				</physicalDescription>
+				<genre authority="rdacontent">text</genre>
+				<language>
+					<languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+					<languageTerm type="text">English</languageTerm>
+				</language>
+				<location>
+					<physicalLocation>University of Warwick Library</physicalLocation>
+					<physicalLocation authority="UkMaC">war</physicalLocation>
+					<holdingSimple>
+						<copyInformation>
+							<electronicLocator>http://0-dx.doi.org.pugwash.lib.warwick.ac.uk/10.1017/CBO9780511760822</electronicLocator>
+							<note>Connect to Cambridge e-book</note>
+						</copyInformation>
+					</holdingSimple>
+				</location>
+				<extension>
+					<cpc:local xmlns:cpc="http://copac.ac.uk/schemas/mods-copac/v1">
+						<note type="collection"/>
+					</cpc:local>
+				</extension>
+			</mods>
+			<mods version="3.7">
+				<recordInfo>
+					<recordIdentifier source="UkMaC">11739650</recordIdentifier>
+					<recordIdentifier source="UkYoU">9951063540001381</recordIdentifier>
+					<recordCreationDate encoding="iso8601">20220707</recordCreationDate>
+				</recordInfo>
+				<typeOfResource>text</typeOfResource>
+				<originInfo>
+					<issuance>single unit</issuance>
+				</originInfo>
+				<recordInfo>
+					<descriptionStandard>aacr</descriptionStandard>
+				</recordInfo>
+				<originInfo>
+					<dateIssued encoding="marc">2010</dateIssued>
+					<place>
+						<placeTerm authority="marccountry" type="code">enk</placeTerm>
+					</place>
+				</originInfo>
+				<identifier type="lccn">2010279304</identifier>
+				<identifier displayLabel="National Bibliography Number" type="bnb">GBB006755</identifier>
+				<identifier type="isbn">9780521119900 (hbk.)</identifier>
+				<identifier type="isbn">0521119901 (hbk.)</identifier>
+				<identifier type="isbn">9780521135887 (pbk.)</identifier>
+				<identifier type="isbn">0521135885 (pbk.)</identifier>
+				<classification authority="lcc">GN799.B8 A73 2010</classification>
+				<classification authority="ddc" edition="22">690.0901</classification>
+				<titleInfo>
+					<title>
+						<nonSort>The </nonSort>archaeology of measurement</title>
+					<subTitle>comprehending heaven, earth and time in ancient societies</subTitle>
+				</titleInfo>
+				<note type="statement of responsibility">edited by Iain Morley, Colin Renfrew.</note>
+				<originInfo eventType="publisher">
+					<place>
+						<placeTerm type="text">Cambridge</placeTerm>
+					</place>
+					<publisher>Cambridge University Press</publisher>
+					<dateIssued>2010</dateIssued>
+				</originInfo>
+				<physicalDescription>
+					<extent>xv, 267 p. : ill., maps ; 28 cm.</extent>
+				</physicalDescription>
+				<note type="bibliography">Includes bibliographical references and index.</note>
+				<subject authority="lcsh">
+					<topic>Measurement</topic>
+					<topic>History.</topic>
+				</subject>
+				<subject authority="lcsh">
+					<topic>Architecture, Prehistoric</topic>
+				</subject>
+				<subject authority="lcsh">
+					<topic>Measurement</topic>
+					<topic>History.</topic>
+				</subject>
+				<subject authority="lcsh">
+					<topic>Antiquities.</topic>
+				</subject>
+				<name type="personal">
+					<namePart>Morley, Iain</namePart>
+					<namePart type="date">1975-</namePart>
+				</name>
+				<name type="personal">
+					<namePart>Renfrew, Colin</namePart>
+					<namePart type="date">1937-</namePart>
+				</name>
+				<physicalDescription>
+					<form authority="marcform">print</form>
+				</physicalDescription>
+				<genre>Bibliography</genre>
+				<genre>Illustrated</genre>
+				<language>
+					<languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+					<languageTerm type="text">English</languageTerm>
+				</language>
+				<location>
+					<physicalLocation>University of York Libraries</physicalLocation>
+					<physicalLocation authority="UkMaC">yrk</physicalLocation>
+					<holdingSimple>
+						<copyInformation>
+							<subLocation>University Library: Morrell - Quarto [Oversize Books]</subLocation>
+							<shelfLocator>P 0.186 MOR</shelfLocator>
+						</copyInformation>
+					</holdingSimple>
+				</location>
+				<extension>
+					<cpc:local xmlns:cpc="http://copac.ac.uk/schemas/mods-copac/v1">
+						<note type="action">Legacy (2018) (UoY)</note>
+					</cpc:local>
+				</extension>
+			</mods>
+		</modsCollection>
+	</extension>
+	<physicalDescription>
+		<form type="media">computer</form>
+		<form authority="marccategory">electronic resource</form>
+		<form authority="marcform">online</form>
+		<form type="carrier">online resource</form>
+		<form authority="marcsmd">remote</form>
+	</physicalDescription>
+	<genre authority="fast">Conference papers and proceedings.</genre>
+	<genre authority="fast">History.</genre>
+	<genre>text</genre>
+	<language>
+		<languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+		<languageTerm type="text">English</languageTerm>
+	</language>
+</mods></zs:recordData><zs:recordPosition>1</zs:recordPosition></zs:record></zs:records><zs:echoedSearchRetrieveRequest><zs:version>1.1</zs:version><zs:query>bath.isbn=9780521119900</zs:query><zs:maximumRecords>1</zs:maximumRecords><zs:recordPacking>xml</zs:recordPacking></zs:echoedSearchRetrieveRequest></zs:searchRetrieveResponse>

@@ -1,0 +1,5 @@
+<div class="alert alert-{{ alertType.type }}{{ dismissable ? ' alert-dismissible' : '' }}" role="alert">
+  <span class="visually-hidden">{{ alertType.altText }}</span>
+  <div>{{ content }}</div>
+  <button *ngIf="dismissable" type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+</div>

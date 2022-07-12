@@ -1,0 +1,43 @@
+{
+  "name": "unity-catalog",
+  "version": "0.1.0",
+  "description": "A personal bibliographic catalog.",
+  "main": "server/app.ts",
+  "scripts": {
+    "build": "ng build",
+    "data-source": "tsc data-source.ts",
+    "migrate": "typeorm schema:log && typeorm schema:sync && typeorm migration:run",
+    "ng": "ng",
+    "app": "tsc ./server/app.ts",
+    "prettier": "prettier -w .",
+    "start": "ts-node src/index.ts",
+    "test": "ng test",
+    "typeorm": "typeorm-ts-node-commonjs",
+    "watch": "ng build --watch --configuration development"
+  },
+  "private": true,
+  "license": "GPL-2.0-only",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/D29F4/unity-catalog.git"
+  },
+  "dependencies": {
+    "app-root-path": "^3.0.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-session": "^1.17.3",
+    "helmet": "^5.1.0",
+    "mysql": "^2.18.1",
+    "reflect-metadata": "^0.1.13",
+    "typeorm": "^0.3.6",
+    "typeorm-naming-strategies": "^4.1.0",
+    "winston": "^3.8.1"
+  },
+  "devDependencies": {
+    "@tsconfig/node16": "^1.0.3",
+    "@types/express": "^4.17.13",
+    "@types/jasmine": "~4.0.0",
+    "@types/node": "^18.0.0",
+    "typescript": "~4.7.2"
+  }
+}

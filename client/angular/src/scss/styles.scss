@@ -1,0 +1,106 @@
+/*  styles.scss */
+
+//
+//  Bootstrap functions
+//
+//@import "../../../../node_modules/bootstrap/scss/functions";
+@import "functions";
+
+//
+//  Default variable overrides
+//
+
+$gray-100: #F9F9F9;
+$gray-200: #E9E9E9;
+$gray-300: #D9D9D9;
+$gray-400: #C9C9C9;
+$gray-500: #ACACAC;
+$gray-600: #696969;
+$gray-700: #494949;
+$gray-800: #363636;
+$gray-900: #232323;
+
+$pink:    #FC8C8C;
+$red:     #992649;
+$orange:  #DC6F13;
+$yellow:  #A98900;
+$green:   #567956;
+$teal:    #39B99C;
+$cyan:    #0989AC;
+$blue:    #364689;
+$indigo:  #5610D3;
+$purple:  #6F43C0;
+
+//$primary: $blue;
+$info: $gray-600;
+
+$enable-rounded:              false;
+$enable-transitions:          false;
+
+$grid-gutter-width:           1.2rem;
+
+$font-family-sans-serif:      system-ui, -apple-system, "Helvetica Neue", Arial, "DejaVu Sans", "Noto Sans", "Segoe UI", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+$font-family-monospace:       "DejaVu Sans Mono", Menlo, "Noto Sans Mono", Consolas, Monaco, "Liberation Mono", SFMono-Regular, "Courier New", monospace;
+
+
+//
+//  Bootstrap variables
+//
+@import "variables";
+
+//
+//  Default map overrides
+//
+
+
+//
+//  Remainder of required Bootstrap components
+//
+@import "maps";
+@import "mixins";
+@import "root";
+
+//
+//  Optional Bootstrap components
+//
+@import "utilities";
+@import "reboot";
+@import "type";
+//@import "images";
+@import "containers";
+@import "grid";
+@import "tables";
+@import "forms";
+@import "buttons";
+//@import "transitions";
+@import "dropdown";
+///////////////////////////////////@import "button-group";
+@import "nav";
+@import "navbar";
+///////////////////////////////////@import "card";
+//@import "accordion";
+@import "breadcrumb";
+@import "pagination";
+//@import "badge";
+@import "alert";
+///////////////////////////////////@import "progress";
+///////////////////////////////////@import "list-group";
+@import "close";
+//@import "toasts";
+//@import "modal";
+//@import "tooltip";
+//@import "popover";
+//@import "carousel";
+//@import "spinners";
+//@import "offcanvas";
+///////////////////////////////////@import "placeholders";
+@import "helpers";
+
+//
+//  "Optionally include utilities API last to generate classes based on the Sass map in `_utilities.scss`"
+//
+//@import "utilities/api";
+
+//
+//  Additional custom code
+//

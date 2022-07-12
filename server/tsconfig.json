@@ -1,0 +1,12 @@
+{
+  "extends": "../tsconfig.json"
+  "compilerOptions": {
+    "paths": {
+      "^database/*": ["./server/database/*"],
+      "^entity/*": ["./server/database/entity/*"],
+      "^interface/*": ["./shared/interface/*"],
+      "^service/*": ["./server/service/*"],
+      "^utility/*": ["./server/utility/*"]
+    }
+  }
+}

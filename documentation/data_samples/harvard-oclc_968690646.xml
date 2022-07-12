@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<results xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:HarvardDRS="http://hul.harvard.edu/ois/xml/ns/HarvardDRS" xmlns="http://api.lib.harvard.edu/v2/item" xmlns:sets="http://hul.harvard.edu/ois/xml/ns/sets" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:librarycloud="http://hul.harvard.edu/ois/xml/ns/librarycloud" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <pagination>
+  <maxPageableSet>100000</maxPageableSet>
+  <numFound>1</numFound>
+  <query>identifier=9780385352567</query>
+  <limit>10</limit>
+  <start>0</start></pagination>
+  <items>
+<mods:mods>
+    <mods:titleInfo>
+      <mods:nonSort>The  </mods:nonSort>
+      <mods:title>river of consciousness</mods:title>
+    </mods:titleInfo>
+    <mods:name type="personal">
+      <mods:namePart>Sacks, Oliver</mods:namePart>
+      <mods:namePart type="date">1933-2015</mods:namePart>
+      <mods:role>
+        <mods:roleTerm type="text">creator</mods:roleTerm>
+      </mods:role>
+      <mods:role>
+        <mods:roleTerm type="text">author.</mods:roleTerm>
+      </mods:role>
+    </mods:name>
+    <mods:typeOfResource>text</mods:typeOfResource>
+    <mods:genre authority="marcgt">bibliography</mods:genre>
+    <mods:genre authority="rdacontent">text</mods:genre>
+    <mods:genre authority="fast">Essays</mods:genre>
+    <mods:genre authority="lcgft">Essays</mods:genre>
+    <mods:genre authority="2">Popular Work</mods:genre>
+    <mods:genre authority="2">Essay</mods:genre>
+    <mods:originInfo>
+      <mods:place>
+      <mods:placeTerm authority="marccountry" type="code">nyu</mods:placeTerm>
+      <mods:placeTerm authority="marccountry" type="text">New York (State)</mods:placeTerm></mods:place>
+      <mods:dateIssued encoding="marc">2017</mods:dateIssued>
+      <mods:copyrightDate encoding="marc">2017</mods:copyrightDate>
+      <mods:edition>First edition.</mods:edition>
+      <mods:issuance>monographic</mods:issuance>
+    </mods:originInfo>
+    <mods:originInfo>
+    <mods:place>
+    <mods:placeTerm type="text">New York :</mods:placeTerm></mods:place>
+    <mods:publisher>Alfred A. Knopf,</mods:publisher>
+    <mods:dateIssued>2017.</mods:dateIssued></mods:originInfo>
+    <mods:language>
+    <mods:languageTerm authority="iso639-2b" type="code">eng</mods:languageTerm>
+    <mods:languageTerm authority="iso639-2b" type="text">English</mods:languageTerm></mods:language>
+    <mods:physicalDescription>
+    <mods:form authority="marcform">print</mods:form>
+    <mods:extent>x, 237 pages ; 22 cm</mods:extent>
+    <mods:form type="media" authority="rdamedia">unmediated</mods:form>
+    <mods:form type="carrier" authority="rdacarrier">volume</mods:form></mods:physicalDescription>
+    <mods:abstract type="Summary">"Two weeks before his death, Oliver Sacks outlined the contents of The River of Consciousness, the last book he would oversee. The best-selling author of On the Move, Musicophilia, and The Man Who Mistook His Wife for a Hat, Sacks is known for his illuminating case histories about people living with neurological conditions at the far borderlands of human experience. But his grasp of science was not restricted to neuroscience or medicine; he was fascinated by the issues, ideas, and questions of all the sciences. That wide-ranging expertise and passion informs the perspective of this book, in which he interrogates the nature not only of human experience but of all life. In The River of Consciousness, Dr. Sacks takes on evolution, botany, chemistry, medicine, neuroscience, and the arts, and calls upon his great scientific and creative heroes--above all, Darwin, Freud, and William James. For Sacks, these thinkers were constant companions from an early age; the questions they explored--the meaning of evolution, the roots of creativity, and the nature of consciousness--lie at the heart of science and of this book. The River of Consciousness demonstrates Sacks's unparalleled ability to make unexpected connections, his sheer joy in knowledge, and his unceasing, timeless endeavor to understand what makes us human."--Dust jacket flap.</mods:abstract>
+    <mods:tableOfContents>Darwin and the meaning of flowers -- Speed -- Sentience : the mental lives of plants and worms -- The other road : Freud as neurologist -- The fallibility of memory -- Mishearings -- The creative self -- A general feeling of disorder -- The river of consciousness -- Scotoma : forgetting and neglect in science.</mods:tableOfContents>
+    <mods:note type="statement of responsibility">Oliver Sacks.</mods:note>
+    <mods:note>"A Borzoi book."</mods:note>
+    <mods:note type="bibliography">Includes bibliographical references (pages 219-228) and index.</mods:note>
+    <mods:subject authority="mesh">
+    <mods:topic>Consciousness</mods:topic>
+    </mods:subject>
+    <mods:subject authority="lcsh">
+    <mods:topic>Consciousness</mods:topic>
+    </mods:subject>
+    <mods:subject authority="lcsh">
+    <mods:topic>Neuropsychology</mods:topic></mods:subject>
+    <mods:subject authority="lcsh">
+    <mods:topic>Creative ability</mods:topic></mods:subject>
+    <mods:subject authority="bisacsh">
+    <mods:topic>PSYCHOLOGY / Cognitive Neuroscience &amp; Cognitive Neuropsychology</mods:topic></mods:subject>
+    <mods:subject authority="fast">
+    <mods:topic>Consciousness</mods:topic></mods:subject>
+    <mods:subject authority="fast">
+    <mods:topic>Creative ability</mods:topic></mods:subject>
+    <mods:subject authority="fast">
+    <mods:topic>Neuropsychology</mods:topic></mods:subject>
+    <mods:subject>
+    <mods:topic>Creative ability</mods:topic></mods:subject>
+    <mods:subject>
+    <mods:topic>Consciousness</mods:topic></mods:subject>
+    <mods:classification authority="lcc">QP411 .S23 2017</mods:classification>
+    <mods:classification authority="nlm">WL 705 S121r 2017</mods:classification>
+    <mods:classification edition="23" authority="ddc">612.8/233</mods:classification>
+    <mods:relatedItem type="otherFormat" displayLabel="Online version:" otherType="Online version:">
+    <mods:titleInfo>
+    <mods:title>River of consciousness</mods:title></mods:titleInfo>
+    <mods:name>
+    <mods:namePart>Sacks, Oliver, 1933-2015.</mods:namePart></mods:name>
+    <mods:originInfo>
+    <mods:publisher>New York : Alfred A. Knopf, 2017</mods:publisher></mods:originInfo>
+    <mods:identifier type="local">(DLC)  2017001699</mods:identifier>
+    <mods:identifier type="local">(OCoLC)969200922</mods:identifier></mods:relatedItem>
+    <mods:identifier type="isbn">9780385352567</mods:identifier>
+    <mods:identifier type="isbn">0385352565</mods:identifier>
+    <mods:identifier type="isbn" invalid="yes">9780385352574</mods:identifier>
+    <mods:identifier type="lccn">^^2017000815</mods:identifier>
+    <mods:identifier type="oclc">968690646</mods:identifier>
+    <mods:relatedItem otherType="HOLLIS record">
+    <mods:location>
+    <mods:url>https://id.lib.harvard.edu/alma/990151883170203941/catalog</mods:url></mods:location></mods:relatedItem>
+    <mods:location>
+    <mods:physicalLocation valueURI="http://isni.org/isni/000000041937001X" displayLabel="Harvard repository" type="repository">Francis A. Countway Library of Medicine</mods:physicalLocation>
+    <mods:shelfLocator>WL 705 S121r 2017</mods:shelfLocator></mods:location>
+    <mods:location>
+    <mods:physicalLocation valueURI="http://id.loc.gov/rwo/agents/no2014094889" displayLabel="Harvard repository" type="repository">Widener Library, Harvard University</mods:physicalLocation>
+    <mods:shelfLocator>QP411 .S23 2017</mods:shelfLocator></mods:location>
+    <mods:location>
+    <mods:physicalLocation valueURI="http://isni.org/isni/0000000463633307" displayLabel="Harvard repository" type="repository">Lamont Library, Harvard University</mods:physicalLocation>
+    <mods:shelfLocator>QP411 .S23 2017</mods:shelfLocator></mods:location>
+    <mods:location/>
+    <mods:location/>
+    <mods:extension>
+    <librarycloud:librarycloud xmlns:ext="http://exslt.org/common" xmlns:originalDocument="http://hul.harvard.edu/ois/xml/ns/originalDocument" xmlns:processingDate="http://hul.harvard.edu/ois/xml/ns/processingDate" xmlns:usage="http://lib.harvard.edu/usagedata" xmlns:priorrecordids="http://hul.harvard.edu/ois/xml/ns/priorrecordids" xmlns:availableTo="http://hul.harvard.edu/ois/xml/ns/availableTo" xmlns:HarvardRepositories="http://hul.harvard.edu/ois/xml/ns/HarvardRepositories" xmlns:digitalFormats="http://hul.harvard.edu/ois/xml/ns/digitalFormats">
+    <librarycloud:HarvardRepositories>
+    <librarycloud:HarvardRepository>Lamont</librarycloud:HarvardRepository>
+    <librarycloud:HarvardRepository>Countway Medicine</librarycloud:HarvardRepository>
+    <librarycloud:HarvardRepository>Widener</librarycloud:HarvardRepository>
+                  </librarycloud:HarvardRepositories>
+    <librarycloud:originalDocument>https://s3.amazonaws.com/harvard.librarycloud.marc/990151883170203941</librarycloud:originalDocument>
+    <librarycloud:priorrecordids>
+    <librarycloud:recordIdentifier source="MH:ALEPH">015188317</librarycloud:recordIdentifier>
+                  </librarycloud:priorrecordids>
+    <librarycloud:processingDate>2022-06-13T08:06Z</librarycloud:processingDate>
+               </librarycloud:librarycloud>
+            </mods:extension>
+    <mods:extension>
+
+    <sets:sets xmlns="http://www.loc.gov/mods/v3" xmlns:ext="http://exslt.org/common" xmlns:originalDocument="http://hul.harvard.edu/ois/xml/ns/originalDocument" xmlns:processingDate="http://hul.harvard.edu/ois/xml/ns/processingDate" xmlns:usage="http://lib.harvard.edu/usagedata" xmlns:priorrecordids="http://hul.harvard.edu/ois/xml/ns/priorrecordids" xmlns:availableTo="http://hul.harvard.edu/ois/xml/ns/availableTo" xmlns:HarvardRepositories="http://hul.harvard.edu/ois/xml/ns/HarvardRepositories" xmlns:digitalFormats="http://hul.harvard.edu/ois/xml/ns/digitalFormats"/>
+            </mods:extension>
+    <mods:recordInfo>
+    <mods:descriptionStandard>rda</mods:descriptionStandard>
+    <mods:recordContentSource authority="marcorg">DLC</mods:recordContentSource>
+    <mods:recordCreationDate encoding="marc">170110</mods:recordCreationDate>
+    <mods:recordChangeDate encoding="iso8601">20180504</mods:recordChangeDate>
+    <mods:recordIdentifier source="MH:ALMA">990151883170203941</mods:recordIdentifier>
+    <mods:recordOrigin>Converted from MARCXML to MODS version 3.6 using MARC21slim2MODS3-6.xsl
+        (Revision 1.117 2017/02/14)</mods:recordOrigin>
+    <mods:languageOfCataloging>
+    <mods:languageTerm authority="iso639-2b" type="code">eng</mods:languageTerm></mods:languageOfCataloging></mods:recordInfo>
+</mods:mods>
+  </items>
+</results>
