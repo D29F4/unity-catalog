@@ -1,14 +1,13 @@
-import DataTypeInterface from '^interface/general/DataType';
-import EventInterface from '^interface/general/Event';
-import { QueryInterface } from '^interface/general/QueryInterface';
-import UserInterface from '^interface/access/User';
-
+import { DataTypeInterface } from '^interface/general/DataType';
+import { EventInterface } from '^interface/general/Event';
+import { QueryInterface } from '^interface/general/Query';
+import { UserInterface } from '^interface/access/User';
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 /**
  *  An entry in the application log.
  */
-export interface LogEntryInterface
-{
+export interface LogEntryInterface {
   id: number;
 
   /** The `Event` represented by the entry. */
@@ -24,7 +23,7 @@ export interface LogEntryInterface
   detail?: {
     label: string;
     content: string;
-  };
+  }[];
 
   /** General commentary on the entry. */
   comment?: string;
@@ -35,19 +34,16 @@ export interface LogEntryInterface
    *  A null value here would indicate an action performed by application
    *  logic, not a normal user.
    */
-  user?: UserInterface;
+  user?: UserInterface | null;
 
   /** The datetime of the event represented by the entry. */
   eventDttm?: Date;
 }
 
-
-
 /**
  *  A submission to write a `LogEntry`.
  */
-export interface LogEntryWriteInterface
-{
+export interface LogEntryWriteInterface {
   /** The UID of the `Event` represented by the entry. */
   event: string;
 
@@ -70,13 +66,10 @@ export interface LogEntryWriteInterface
   user?: number;
 }
 
-
-
 /**
  *  Query parameters: log entries.
  */
-export interface LogEntryQueryInterface
-{
+export interface LogEntryQueryInterface {
   /** The ID of the `Event`. */
   event?: number;
 
@@ -116,15 +109,12 @@ export interface LogEntryQueryInterface
   query: QueryInterface;
 }
 
-
-
 /**
  *  The result of a log query.
  */
-export interface LogEntryResultsInterface
-{
+export interface LogEntryResultsInterface {
   /** The query results. */
-  results: LogEntryInterface[];
+  results: any[];
 
   /** The total number of rows found by the query. */
   totalCount: number;

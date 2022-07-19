@@ -8,7 +8,6 @@ import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
 import { RouteNotFoundComponent } from './route-not-found/route-not-found.component';
 
-
 @NgModule({
   declarations: [
     AlertComponent,
@@ -16,10 +15,7 @@ import { RouteNotFoundComponent } from './route-not-found/route-not-found.compon
     HeaderComponent,
     RouteNotFoundComponent,
   ],
-  imports: [
-    CommonModule,
-    SharedRoutingModule,
-  ],
+  imports: [CommonModule, SharedRoutingModule],
   exports: [
     AlertComponent,
     FooterComponent,
@@ -27,4 +23,4 @@ import { RouteNotFoundComponent } from './route-not-found/route-not-found.compon
     RouteNotFoundComponent,
   ],
 })
-export class SharedModule { }
+export class SharedModule {}

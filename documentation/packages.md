@@ -1,106 +1,100 @@
-#  Packages
+# Packages
 
 Reference listing of installed Node.js packages to try to keep these things
 straight.
 
-
 <!-- ~~~~~~~~~~~~~~~~~~~~ Server ~~~~~~~~~~~~~~~~~~~~ -->
-##  Server
 
-###  Production dependencies
+## Server
 
-####  Configuration
+### Production dependencies
 
-* dotenv (for .env access)
+#### Configuration
 
-####  Convenience
+- dotenv (for .env access)
 
-* app-root-path
+#### Convenience
 
-####  Database ORM
+- app-root-path
+
+#### Database ORM
 
 Installed by `typeorm`:
 
-* mysql
-* reflect-metadata
-* typeorm
+- mysql
+- reflect-metadata
+- typeorm
 
 Other:
 
-* typeorm-naming-strategies
+- typeorm-naming-strategies
 
-####  Logging
+#### Logging
 
-* winston
+- winston
 
-####  Web framework
+#### Web framework
 
-* express
-* express-session
-* helmet
+- express
+- express-session
+- helmet
 
+### Development dependencies
 
+#### Code formatting
 
-###  Development dependencies
+- prettier
 
-####  Code formatting
+#### Language
 
-* prettier
+- @tsconfig/node16 (standardized base tsconfig.json)
+- typescript
 
-####  Language
+#### Linting
 
-* @tsconfig/node16 (standardized base tsconfig.json)
-* typescript
+- ...
 
-####  Linting
+#### Process
 
-* ...
+- concurrently (running development processes)
 
-####  Typing
+#### Typing
 
 Various `@types` packages for dependencies.
 
-
-
-
 <!-- ~~~~~~~~~~~~~~~~~~~~ Client ~~~~~~~~~~~~~~~~~~~~ -->
-##  Client
 
+## Client
 
+### Production dependencies
 
-###  Production dependencies
-
-####  Framework
+#### Framework
 
 Installed by `angular`:
 
-* Various `@angular` packages.
-* rxjs
-* tslib
-* zone.js
+- Various `@angular` packages.
+- rxjs
+- tslib
+- zone.js
 
-####  Testing
+#### Testing
 
-* jasmine-core
-* karma
-* karma-*
+- jasmine-core
+- karma
+- karma-\*
 
-####  User interface
+#### User interface
 
-* bootstrap
+- bootstrap
 
+## Development dependencies
 
+### Language
 
-##  Development dependencies
+- typescript
 
-###  Language
-
-* typescript
-
-###  Typing
+### Typing
 
 Various `@types` packages for dependencies.
-
-
 
 <!-- |EOF -->

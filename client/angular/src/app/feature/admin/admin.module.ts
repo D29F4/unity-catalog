@@ -7,7 +7,6 @@ import { AccessModule } from './access/access.module';
 import { ConfigModule } from './config/config.module';
 import { ActivityModule } from './activity/activity.module';
 
-
 @NgModule({
   declarations: [],
   imports: [
@@ -18,6 +17,6 @@ import { ActivityModule } from './activity/activity.module';
     AccessModule,
     ConfigModule,
     ActivityModule,
-  ]
+  ],
 })
-export class AdminModule { }
+export class AdminModule {}

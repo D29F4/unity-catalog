@@ -1,10 +1,18 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+//
+import { LogComponent } from './log/log.component';
 
-const routes: Routes = [];
+const routes: Routes = [
+  //  Log
+  {
+    path: '**',
+    component: LogComponent,
+  },
+];
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class ActivityRoutingModule { }
+export class ActivityRoutingModule {}

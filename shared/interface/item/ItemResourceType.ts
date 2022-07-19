@@ -12,8 +12,7 @@
  *    value may be supplied (addition of authority, authorityURI, valueURI
  *    and xml:lang to typeOfResource element)
  */
-export default interface ItemResourceTypeInterface
-{
+export interface ItemResourceTypeInterface {
   id: number;
 
   /** The unique identifier. */

@@ -2,52 +2,44 @@ import {
   Column,
   CreateDateColumn,
   Entity,
+  JoinColumn,
   ManyToOne,
   PrimaryGeneratedColumn,
 } from 'typeorm';
-//
+//---------------------------------------------------------------------------
 import { LogEntryInterface } from '^interface/general/LogEntry';
-import DataType from '^entity/general/DataType';
-import Event from '^entity/general/Event';
-import User from '^entity/general/User';
-
+import { DataType } from '^entity/general/DataType';
+import { Event } from '^entity/general/Event';
+import { User } from '^entity/access/User';
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 @Entity({
   orderBy: { eventDttm: 'ASC' },
 })
-@Unique()
-export default class LogEntry implements LogEntryInterface
-{
+export class LogEntry implements LogEntryInterface {
   @PrimaryGeneratedColumn()
   id: number;
 
-  @ManyToOne(
-    () => Event,
-    (event) => event.logEntry,
-    {nullable: false}
-  )
+  @ManyToOne(() => Event, { nullable: false })
+  @JoinColumn({ name: 'event' })
   event: Event;
 
-  @ManyToOne(
-    () => DataType,
-    (dataType) => dataType.logEntry
-  )
+  @ManyToOne(() => DataType)
+  @JoinColumn({ name: 'dataType' })
   dataType: DataType;
 
   @Column({ unsigned: true })
   operandId: number;
 
   @Column()
-  detail: JSON;
+  detail: { label: string; content: string }[];
 
   @Column()
   comment: string;
 
-  @ManyToOne(
-    () => User,
-    (user) => user.logEntry
-  )
-  user: User;
+  @ManyToOne(() => User, { nullable: true })
+  @JoinColumn({ name: 'user' })
+  user: User | null;
 
   @CreateDateColumn()
   eventDttm: Date;

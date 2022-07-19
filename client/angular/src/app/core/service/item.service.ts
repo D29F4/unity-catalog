@@ -3,11 +3,8 @@ import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class ItemService {
-
-  constructor(
-    protected http: HttpClient
-  ) { }
+  constructor(protected http: HttpClient) {}
 }

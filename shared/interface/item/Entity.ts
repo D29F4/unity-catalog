@@ -1,4 +1,5 @@
-import EntityTypeInterface from '^interface/item/EntityType';
+import { EntityTypeInterface } from '^interface/item/EntityType';
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 /**
  *  A person, group, or other agent identified as an author, editor, or other
@@ -12,8 +13,7 @@ import EntityTypeInterface from '^interface/item/EntityType';
  *  Information about the entity's role in any particular work is currently
  *  not sought.
  */
-export default interface EntityInterface
-{
+export interface EntityInterface {
   id: number;
 
   /**

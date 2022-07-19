@@ -5,16 +5,15 @@ import {
   PrimaryGeneratedColumn,
   Unique,
 } from 'typeorm';
-//
-import EntityTypeInterface from '^interface/item/EntityType';
-
+//---------------------------------------------------------------------------
+import { EntityTypeInterface } from '^interface/item/EntityType';
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 @Entity({
   orderBy: { name: 'ASC' },
 })
 @Unique(['name'])
-export default class EntityType implements EntityTypeInterface
-{
+export class EntityType implements EntityTypeInterface {
   @PrimaryGeneratedColumn()
   id: number;
 

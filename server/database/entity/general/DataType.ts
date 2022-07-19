@@ -1,17 +1,13 @@
-import {
-  Column,
-  Entity,
-  PrimaryGeneratedColumn,
-} from 'typeorm';
-//
-import DataTypeInterface from '^interface/general/DataType';
-
+import { Column, Entity, PrimaryGeneratedColumn } from 'typeorm';
+//---------------------------------------------------------------------------
+import { DataTypeInterface } from '^interface/general/DataType';
+import { LogEntry } from '^entity/general/LogEntry';
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 @Entity({
   orderBy: { name: 'ASC' },
 })
-export default class DataType implements DataTypeInterface
-{
+export class DataType implements DataTypeInterface {
   @PrimaryGeneratedColumn()
   id: number;
 

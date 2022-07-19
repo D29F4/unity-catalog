@@ -1,19 +1,13 @@
-import {
-  Column,
-  Entity,
-  PrimaryGeneratedColumn,
-  Unique,
-} from 'typeorm';
-//
-import ItemResourceTypeInterface from '^interface/item/ItemResourceType';
-
+import { Column, Entity, PrimaryGeneratedColumn, Unique } from 'typeorm';
+//---------------------------------------------------------------------------
+import { ItemResourceTypeInterface } from '^interface/item/ItemResourceType';
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 @Entity({
   orderBy: { uid: 'ASC' },
 })
 @Unique(['uid'])
-export default class ItemResourceType implements ItemResourceTypeInterface
-{
+export class ItemResourceType implements ItemResourceTypeInterface {
   @PrimaryGeneratedColumn()
   id: number;
 

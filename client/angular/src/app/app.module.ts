@@ -11,11 +11,8 @@ import { AdminModule } from './admin/admin.module';
 import { FeatureModule } from './feature/feature.module';
 import { SharedModule } from './shared/shared.module';
 
-
 @NgModule({
-  declarations: [
-    AppComponent,
-  ],
+  declarations: [AppComponent],
   imports: [
     BrowserModule,
     // HttpClientModule,
@@ -27,6 +24,6 @@ import { SharedModule } from './shared/shared.module';
     SharedModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

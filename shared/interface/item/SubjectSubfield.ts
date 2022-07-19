@@ -3,8 +3,7 @@
  *
  *  Examples from the LoC: "topic", "geographic", "temporal".
  */
-export default interface SubjectSubfieldInterface
-{
+export interface SubjectSubfieldInterface {
   id: number;
 
   /** The name of the subfield. */

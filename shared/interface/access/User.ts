@@ -1,11 +1,10 @@
 import { QueryInterface } from '^interface/general/Query';
-
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 /**
  *  A user of the application.
  */
-export interface UserInterface
-{
+export interface UserInterface {
   id: number;
 
   /** The unique screen/login name for the user. */
@@ -53,16 +52,10 @@ export interface UserInterface
   deactivateUser?: UserInterface;
 }
 
-
-
 /**
  *  Query parameters: users.
  */
-export interface UserQueryInterface
-{
-  /** Whether or not the user is active and able to access the application. */
-  active?: boolean;
-
+export interface UserQueryInterface {
   /** The unique screen/login name for the user. */
   username?: string;
 
@@ -80,6 +73,9 @@ export interface UserQueryInterface
 
   /** The user's Web address. */
   uri?: string;
+
+  /** Whether or not the user is active and able to access the application. */
+  active?: boolean;
 
   /** The ID of the user who created the record. */
   createUser?: number;

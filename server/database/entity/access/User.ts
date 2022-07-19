@@ -7,9 +7,9 @@ import {
   Unique,
   UpdateDateColumn,
 } from 'typeorm';
-//
-import UserInterface from '^interface/access/User';
-
+//---------------------------------------------------------------------------
+import { UserInterface } from '^interface/access/User';
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 @Entity({
   orderBy: {
@@ -20,8 +20,7 @@ import UserInterface from '^interface/access/User';
   },
 })
 @Unique(['username'])
-export default class User implements UserInterface
-{
+export class User implements UserInterface {
   @PrimaryGeneratedColumn()
   id: number;
 
@@ -52,27 +51,18 @@ export default class User implements UserInterface
   @CreateDateColumn()
   createDttm: Date;
 
-  @ManyToOne(
-    () => User,
-    (user) => user.createUser
-  )
+  @ManyToOne(() => User, (user: User) => user.createUser)
   createUser: User;
 
   @UpdateDateColumn()
   updateDttm: Date;
 
-  @ManyToOne(
-    () => User,
-    (user) => user.updateUser
-  )
+  @ManyToOne(() => User, (user: User) => user.updateUser)
   updateUser: User;
 
   @Column()
   deactivateDttm: Date;
 
-  @ManyToOne(
-    () => User,
-    (user) => user.deactivateUser
-  )
+  @ManyToOne(() => User, (user: User) => user.deactivateUser)
   deactivateUser: User;
 }

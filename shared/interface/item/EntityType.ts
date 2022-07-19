@@ -6,8 +6,7 @@
  *  The LoC, e.g., has types such as "personal", "corporate", and
  *  "conference".
  */
-export default interface EntityTypeInterface
-{
+export interface EntityTypeInterface {
   id: number;
 
   /** The type's unique name. */

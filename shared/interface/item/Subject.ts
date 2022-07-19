@@ -1,5 +1,6 @@
-import ItemInterface from '^interface/item/Item';
-import SubjectSubdivisionInterface from '^interface/item/SubjectSubdivision';
+import { ItemInterface } from '^interface/item/Item';
+import { SubjectSubdivisionMapInterface } from '^interface/item/SubjectSubdivisionMap';
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 /**
  *  An authority record which represents a "subject" or category associated
@@ -129,41 +130,15 @@ import SubjectSubdivisionInterface from '^interface/item/SubjectSubdivision';
  *  entry.  (Note also that such records, here and at the top level when
  *  indicating authorship, need not contain "date"-type <namePart>s.)
  */
-export default interface SubjectInterface
-{
+export interface SubjectInterface {
   id: number;
 
   /** The (ordered) subdivisions of this subject. */
-  subjectSubdivisions: SubjectSubdivisionInterface;
-
-  /** The sort order of the subject within the `Item`. */
-  order: number;
+  subjectSubdivisionMap: SubjectSubdivisionMapInterface[];
 
   /** The `Item` to which this subject belongs. */
   item: ItemInterface;
-}
 
-
-
-/*
- *  An association of `Subject`s and `SubjectSubdivision`s.
-export interface SubjectSubdivisionMapInterface
-{
-  id: number;
- */
-
-  /** The ID of the subject. */
-//  subjectId: number;
-
-  /** The ID of the subdivision. */
-//  subjectSubdivisionId: number;
-
-  /** The sort order of the subdivision within the subject. */
-/*
+  /** The sort order of the subject within the `Item`. */
   order: number;
-
-  subject: SubjectInterface;
-
-  subjectSubdivision: SubjectSubdivisionInterface;
 }
-*/

@@ -1,8 +1,7 @@
 /**
  *  A publisher of an `Item`.
  */
-export default interface PublisherInterface
-{
+export interface PublisherInterface {
   id: number;
 
   /**

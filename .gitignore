@@ -5,6 +5,7 @@
 
 #  General
 *~
+cache/
 tmp/
 temp/
 todo.txt
@@ -17,6 +18,8 @@ todo.txt
 #  Building
 build/
 dist/
+
+#  Packages
 node_modules/
 
 #  Logs

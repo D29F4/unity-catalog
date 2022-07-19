@@ -1,10 +1,10 @@
-import { MigrationInterface, QueryRunner } from 'typeorm'
-//
-import { dataSource } from '^database/data-source';
-//
-import Event from '^entity/general/Event';
-import DataType from '^entity/general/entity/DataType';
-
+import { MigrationInterface, QueryRunner } from 'typeorm';
+//---------------------------------------------------------------------------
+import dataSource from '^database/data-source';
+//---------------------------------------------------------------------------
+import { Event } from '^entity/general/Event';
+import { DataType } from '^entity/general/DataType';
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 /*
  *  Seed general setup tables for application:
@@ -13,12 +13,10 @@ import DataType from '^entity/general/entity/DataType';
  *    * Event
  */
 export class Migration_0000000001 implements MigrationInterface {
-
   /**
    *  Migration: up
    */
   async up(queryRunner: QueryRunner): Promise<void> {
-
     /*
      *  Seed `DataType`.
      */
@@ -27,7 +25,7 @@ export class Migration_0000000001 implements MigrationInterface {
       ['Item', 'Item'],
       ['ItemSource', 'Data source for items'],
       ['ItemUserData', 'User/item metadata'],
-      ['ItemOwnershipFate', 'Fate of user\'s item'],
+      ['ItemOwnershipFate', "Fate of user's item"],
       ['LccClass', 'LCC class'],
       ['LccSubclass', 'LCC subclass'],
       ['LogEntry', 'An entry in the application log'],
@@ -37,7 +35,7 @@ export class Migration_0000000001 implements MigrationInterface {
     //  Repository
     const dataTypeRep = dataSource.getRepository(DataType);
 
-    dataTypeSeeds.forEach((seed) => {
+    dataTypeSeeds.forEach(async (seed) => {
       const dataType = new DataType();
 
       dataType.uid = seed[0];
@@ -45,7 +43,6 @@ export class Migration_0000000001 implements MigrationInterface {
 
       await dataTypeRep.insert(dataType);
     });
-
 
     /*
      *  Seed `Event`.
@@ -62,7 +59,7 @@ export class Migration_0000000001 implements MigrationInterface {
     //  Repository
     const eventRep = dataSource.getRepository(Event);
 
-    eventSeeds.forEach((seed) => {
+    eventSeeds.forEach(async (seed) => {
       const event = new Event();
 
       event.uid = seed[0];
@@ -72,19 +69,12 @@ export class Migration_0000000001 implements MigrationInterface {
     });
   }
 
-
-
   /**
    *  Migration: down
    */
   async down(queryRunner: QueryRunner): Promise<void> {
-
     //  Truncate tables
-    await queryRunner.query(
-      'TRUNCATE TABLE `event`',
-    );
-    await queryRunner.query(
-      'TRUNCATE TABLE `data_type`',
-    );
+    await queryRunner.query('TRUNCATE TABLE `event`');
+    await queryRunner.query('TRUNCATE TABLE `data_type`');
   }
 }

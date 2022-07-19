@@ -3,8 +3,7 @@
  *
  *  Examples from the LoC: "Biography", "Great Britain", "20th century".
  */
-export default interface SubjectHeadingInterface
-{
+export interface SubjectHeadingInterface {
   id: number;
 
   /** The name of the heading. */

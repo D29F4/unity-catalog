@@ -1,19 +1,13 @@
-import {
-  Column,
-  Entity,
-  PrimaryGeneratedColumn,
-  Unique,
-} from 'typeorm';
-//
-import PublisherInterface from '^interface/item/Publisher';
-
+import { Column, Entity, PrimaryGeneratedColumn, Unique } from 'typeorm';
+//---------------------------------------------------------------------------
+import { PublisherInterface } from '^interface/item/Publisher';
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 @Entity({
   orderBy: { name: 'ASC' },
 })
 @Unique(['name'])
-export default class Publisher implements PublisherInterface
-{
+export class Publisher implements PublisherInterface {
   @PrimaryGeneratedColumn()
   id: number;
 

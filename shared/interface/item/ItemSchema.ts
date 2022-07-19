@@ -9,8 +9,7 @@
  *    * The application's API functionality will need to recognize the `uid`
  *      in order to properly perform queries.
  */
-export default interface ItemSchemaInterface
-{
+export interface ItemSchemaInterface {
   id: number;
 
   /** A unique identifier. */

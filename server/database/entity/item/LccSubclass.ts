@@ -5,17 +5,16 @@ import {
   PrimaryGeneratedColumn,
   Unique,
 } from 'typeorm';
-//
-import LccSubclassInterface from '^interface/item/LccClass';
-import LccClass from '^entity/item/LccClass';
-
+//---------------------------------------------------------------------------
+import { LccSubclassInterface } from '^interface/item/LccSubclass';
+import { LccClass } from '^entity/item/LccClass';
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 @Entity({
   orderBy: { name: 'ASC' },
 })
 @Unique(['name'])
-export default class LccSubclass implements LccSubclassInterface
-{
+export class LccSubclass implements LccSubclassInterface {
   @PrimaryGeneratedColumn()
   id: number;
 
@@ -29,10 +28,8 @@ export default class LccSubclass implements LccSubclassInterface
   @Column({ nullable: false })
   description: string;
 
-  @ManyToOne(
-    () => LccClass,
-    (lccClass) => lccClass.lccSubclass,
-    {nullable: false}
-  )
+  @ManyToOne(() => LccClass, (lccClass: LccClass) => lccClass.lccSubclass, {
+    nullable: false,
+  })
   lccClass: LccClass;
 }

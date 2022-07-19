@@ -1,4 +1,5 @@
-import ItemInterface from '^interface/item/Item';
+import { ItemInterface } from '^interface/item/Item';
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 /**
  *  ISBN codes attached to `Item`s.
@@ -6,8 +7,7 @@ import ItemInterface from '^interface/item/Item';
  *  ISBNs exist on their own table because `ItemSource`s like the LoC may
  *  associate more than one ISBN with a record.
  */
-export default interface IsbnInterface
-{
+export interface IsbnInterface {
   id: number;
 
   /** The item with which the ISBN is associated. */

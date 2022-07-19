@@ -1,23 +1,34 @@
 import {
   Column,
   Entity,
+  JoinColumn,
   ManyToOne,
   OneToMany,
   PrimaryGeneratedColumn,
 } from 'typeorm';
-//
-import SubjectInterface from '^interface/item/Subject';
-import Item from '^entity/item/Item';
-import SubjectSubdivisionMap from '^entity/item/SubjectSubdivisionMap';
-
+//---------------------------------------------------------------------------
+import { SubjectInterface } from '^interface/item/Subject';
+import { Item } from '^entity/item/Item';
+import { SubjectSubdivisionMap } from '^entity/item/SubjectSubdivisionMap';
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 @Entity({
   orderBy: { order: 'ASC' },
 })
-export default class Subject implements SubjectInterface
-{
+export class Subject implements SubjectInterface {
   @PrimaryGeneratedColumn()
   id: number;
+
+  @OneToMany(
+    () => SubjectSubdivisionMap,
+    (subjectSubdivisionMap: SubjectSubdivisionMap) =>
+      subjectSubdivisionMap.subject
+  )
+  subjectSubdivisionMap: SubjectSubdivisionMap[];
+
+  @ManyToOne(() => Item, { nullable: false })
+  @JoinColumn({ name: 'item' })
+  item: Item;
 
   @Column({
     unsigned: true,
@@ -26,17 +37,4 @@ export default class Subject implements SubjectInterface
     default: 0,
   })
   order: number;
-
-  @OneToMany(
-    () => SubjectSubdivisionMap,
-    (subjectSubdivisionMap) => subjectSubdivisionMap.subject
-  )
-  subjectSubdivisionMap: SubjectSubdivisionMap[];
-
-  @ManyToOne(
-    () => Item,
-    (item) => item.subject,
-    {nullable: false}
-  )
-  item: Item;
 }

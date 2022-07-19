@@ -5,7 +5,6 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { FeatureRoutingModule } from './feature-routing.module';
 import { ItemModule } from './item/item.module';
 
-
 @NgModule({
   declarations: [],
   imports: [
@@ -14,6 +13,6 @@ import { ItemModule } from './item/item.module';
     //
     FeatureRoutingModule,
     ItemModule,
-  ]
+  ],
 })
-export class FeatureModule { }
+export class FeatureModule {}

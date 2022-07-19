@@ -2,15 +2,18 @@ import {
   Column,
   CreateDateColumn,
   Entity,
+  JoinColumn,
   ManyToOne,
+  OneToMany,
   PrimaryGeneratedColumn,
   Unique,
   UpdateDateColumn,
 } from 'typeorm';
-//
-import ItemSourceInterface from '^interface/item/ItemSource';
-import ItemSchema from '^entity/item/ItemSchema';
-
+//---------------------------------------------------------------------------
+import { ItemSourceInterface } from '^interface/item/ItemSource';
+import { Item } from '^entity/item/Item';
+import { ItemSchema } from '^entity/item/ItemSchema';
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 @Entity({
   orderBy: {
@@ -18,8 +21,7 @@ import ItemSchema from '^entity/item/ItemSchema';
   },
 })
 @Unique(['name'])
-export default class ItemSource implements ItemSourceInterface
-{
+export class ItemSource implements ItemSourceInterface {
   @PrimaryGeneratedColumn()
   id: number;
 
@@ -27,16 +29,16 @@ export default class ItemSource implements ItemSourceInterface
   name: string;
 
   @Column()
-  description: string;
+  description: string | null;
 
   @Column()
-  uriHome: string;
+  uriHome: string | null;
 
   @Column()
-  uriApiDoc: string;
+  uriApiDoc: string | null;
 
   @Column()
-  uriApiBase: string;
+  uriApiBase: string | null;
 
   @Column({
     nullable: false,
@@ -56,10 +58,10 @@ export default class ItemSource implements ItemSourceInterface
   @UpdateDateColumn()
   updateDttm: Date;
 
-  @ManyToOne(
-    () => ItemSchema,
-    (itemSchema) => itemSchema.itemSource,
-    {nullable: false},
-  )
+  @ManyToOne(() => ItemSchema, { nullable: false })
+  @JoinColumn({ name: 'itemSchema' })
   itemSchema: ItemSchema;
+
+  @OneToMany(() => Item, (item: Item) => item.source)
+  item: Item[];
 }

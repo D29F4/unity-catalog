@@ -6,16 +6,15 @@ import {
   Unique,
   UpdateDateColumn,
 } from 'typeorm';
-import ItemSchemaInterface from '^interface/item/ItemSchema';
-import ItemSource from '^entity/item/Item';
-
+//---------------------------------------------------------------------------
+import { ItemSchemaInterface } from '^interface/item/ItemSchema';
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 @Entity({
   orderBy: { name: 'ASC' },
 })
 @Unique(['uid', 'name'])
-export default class ItemSchema implements ItemSchemaInterface
-{
+export class ItemSchema implements ItemSchemaInterface {
   @PrimaryGeneratedColumn()
   id: number;
 

@@ -1,12 +1,12 @@
-import ItemInterface from '^interface/item/Item';
-import ItemOwnershipFateInterface from '^interface/item/ItemOwnershipFate';
-import UserInterface from '^interface/access/User';
+import { ItemInterface } from '^interface/item/Item';
+import { ItemOwnershipFateInterface } from '^interface/item/ItemOwnershipFate';
+import { UserInterface } from '^interface/access/User';
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 /**
  *  A `User`'s personal metadata attached to an `Item`.
  */
-export default interface ItemUserDataInterface
-{
+export interface ItemUserDataInterface {
   id: number;
 
   /** The item in question. */
@@ -27,7 +27,7 @@ export default interface ItemUserDataInterface
    *  (A value separate from `ownershipEndDt` is convenient for querying and
    *  sorting.)
    */
-  isOwned: boolean;
+  owned: boolean;
 
   /**
    *  How the user came to no longer own the item if once but no longer in

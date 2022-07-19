@@ -1,6 +1,7 @@
-import EntityInterface from '^interface/item/Entity';
-import SubjectHeadingInterface from '^interface/item/SubjectHeading';
-import SubjectSubfieldInterface from '^interface/item/SubjectSubfield';
+import { EntityInterface } from '^interface/item/Entity';
+import { SubjectHeadingInterface } from '^interface/item/SubjectHeading';
+import { SubjectSubfieldInterface } from '^interface/item/SubjectSubfield';
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 /**
  *  A combination of `SubjectSubfield`s and `SubjectHeading`s.
@@ -15,8 +16,7 @@ import SubjectSubfieldInterface from '^interface/item/SubjectSubfield';
  *  "name" is a valid subfield and will point to an `Entity`
  *  instead of provide an ordinary heading.
  */
-export default interface SubjectSubdivisionInterface
-{
+export interface SubjectSubdivisionInterface {
   id: number;
 
   /** The subfield. */

@@ -4,11 +4,11 @@ import { RouterModule, Routes } from '@angular/router';
 import { RouteNotFoundComponent } from './shared/route-not-found/route-not-found.component';
 
 const routes: Routes = [
-
   //  Features
   {
     path: '',
-    loadChildren: () => import('./feature/feature.module').then(m => m.FeatureModule),
+    loadChildren: () =>
+      import('./feature/feature.module').then((m) => m.FeatureModule),
   },
 
   //  404/route not found
@@ -20,6 +20,6 @@ const routes: Routes = [
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}

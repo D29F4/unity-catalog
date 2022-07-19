@@ -2,29 +2,30 @@ import {
   Column,
   Entity,
   JoinColumn,
+  ManyToOne,
   OneToOne,
   PrimaryGeneratedColumn,
   Unique,
-} from "typeorm";
-import ItemUserDataInterface from '^interface/item/ItemUserData';
-import Item from '^entity/item/Item';
-import ItemOwnershipFate from '^entity/item/ItemOwnershipFate';
-import User from '^entity/access/User';
-
+} from 'typeorm';
+//---------------------------------------------------------------------------
+import { ItemUserDataInterface } from '^interface/item/ItemUserData';
+import { Item } from '^entity/item/Item';
+import { ItemOwnershipFate } from '^entity/item/ItemOwnershipFate';
+import { User } from '^entity/access/User';
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 @Entity()
-export default class ItemUserData implements ItemUserDataInterface
-{
+export class ItemUserData implements ItemUserDataInterface {
   @PrimaryGeneratedColumn()
   id: number;
-
-  @OneToOne(() => User)
-  @JoinColumn()
-  user: User;
 
   @OneToOne(() => Item)
   @JoinColumn()
   item: Item;
+
+  @OneToOne(() => User)
+  @JoinColumn()
+  user: User;
 
   @Column()
   ownershipStartDt: Date;
@@ -36,12 +37,10 @@ export default class ItemUserData implements ItemUserDataInterface
     nullable: false,
     default: false,
   })
-  isOwned: boolean;
+  owned: boolean;
 
-  @ManyToOne(
-    () => ItemOwnershipFate,
-    (itemOwnershipFate) => itemOwnershipFate.itemUserData
-  )
+  @ManyToOne(() => ItemOwnershipFate)
+  @JoinColumn({ name: 'fate' })
   fate?: ItemOwnershipFate;
 
   @Column()
@@ -49,6 +48,9 @@ export default class ItemUserData implements ItemUserDataInterface
 
   @Column()
   notes: string;
+
+  @Column()
+  uri: JSON;
 
   @Column()
   updatedDttm: Date;

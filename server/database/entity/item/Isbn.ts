@@ -1,29 +1,26 @@
 import {
   Column,
   Entity,
+  JoinColumn,
   ManyToOne,
   PrimaryGeneratedColumn,
   Unique,
 } from 'typeorm';
-//
-import IsbnInterface from '^interface/item/Isbn';
-import Item from '^entity/item/Item';
-
+//---------------------------------------------------------------------------
+import { IsbnInterface } from '^interface/item/Isbn';
+import { Item } from '^entity/item/Item';
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 @Entity({
   orderBy: { isbn: 'ASC' },
 })
 @Unique(['isbn'])
-export default class Isbn implements IsbnInterface
-{
+export class Isbn implements IsbnInterface {
   @PrimaryGeneratedColumn()
   id: number;
 
-  @ManyToOne(
-    () => Item,
-    (item) => item.isbn,
-    {nullable: false}
-  )
+  @ManyToOne(() => Item, { nullable: false })
+  @JoinColumn({ name: 'item' })
   item: Item;
 
   @Column({

@@ -2,7 +2,6 @@
  *  Parameters useful when issuing queries.
  */
 export interface QueryInterface {
-
   /**
    *  Sorting prescription.
    *    attribute: the attribute to order
@@ -20,13 +19,10 @@ export interface QueryInterface {
   page: number;
 }
 
-
-
 /**
  *  Parameters for paginating query results.
  */
 export interface PaginationInterface {
-
   /** The total number of results. */
   total: number;
 

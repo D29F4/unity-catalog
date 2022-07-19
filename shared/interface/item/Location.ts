@@ -2,8 +2,7 @@
  *  A geographical place which may be associated with a publication or its
  *  publisher.
  */
-export default interface LocationInterface
-{
+export interface LocationInterface {
   id: number;
 
   /**

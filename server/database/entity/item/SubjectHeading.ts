@@ -1,19 +1,13 @@
-import {
-  Column,
-  Entity,
-  PrimaryGeneratedColumn,
-  Unique,
-} from 'typeorm';
-//
-import SubjectHeadingInterface from '^interface/item/SubjectHeading';
-
+import { Column, Entity, PrimaryGeneratedColumn, Unique } from 'typeorm';
+//---------------------------------------------------------------------------
+import { SubjectHeadingInterface } from '^interface/item/SubjectHeading';
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 @Entity({
   orderBy: { name: 'ASC' },
 })
 @Unique(['name'])
-export default class SubjectHeading implements SubjectHeadingInterface
-{
+export class SubjectHeading implements SubjectHeadingInterface {
   @PrimaryGeneratedColumn()
   id: number;
 

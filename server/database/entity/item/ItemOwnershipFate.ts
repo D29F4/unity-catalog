@@ -5,17 +5,17 @@ import {
   ManyToOne,
   OneToOne,
   PrimaryGeneratedColumn,
+  Unique,
 } from 'typeorm';
-//
-import ItemOwnershipFateInterface from '^interface/item/ItemOwnershipFate';
-
+//---------------------------------------------------------------------------
+import { ItemOwnershipFateInterface } from '^interface/item/ItemOwnershipFate';
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 @Entity({
   orderBy: { name: 'ASC' },
 })
 @Unique(['name'])
-export default class ItemOwnershipFate implements ItemOwnershipFateInterface
-{
+export class ItemOwnershipFate implements ItemOwnershipFateInterface {
   @PrimaryGeneratedColumn()
   id: number;
 

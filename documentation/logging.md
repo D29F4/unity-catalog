@@ -1,7 +1,6 @@
-#  Application Logging
+# Application Logging
 
-
-##  Severity levels
+## Severity levels
 
 The application uses winston's
 [default logging levels](https://github.com/winstonjs/winston#logging-levels).
@@ -16,8 +15,7 @@ debug    5
 silly    6
 ```
 
-
-##  Usage
+## Usage
 
 Logging calls must contain at least `level` and a `message` values.
 
@@ -34,13 +32,13 @@ logger.log({
   level: 'info',
   message: 'Pass an object and this works',
   additional: 'properties',
-  are: 'passed along'
+  are: 'passed along',
 });
 
 logger.info({
   message: 'Use a helper method if you want',
   additional: 'properties',
-  are: 'passed along'
+  are: 'passed along',
 });
 
 // ***************
@@ -49,12 +47,12 @@ logger.info({
 
 logger.log('info', 'Pass a message and this works', {
   additional: 'properties',
-  are: 'passed along'
+  are: 'passed along',
 });
 
 logger.info('Use a helper method if you want', {
   additional: 'properties',
-  are: 'passed along'
+  are: 'passed along',
 });
 
 // ***************
@@ -75,7 +73,7 @@ logger.info('Found %s at %s', 'error', new Date());
 logger.info('Found %s at %s', 'error', new Error('chill winston'));
 logger.info('Found %s at %s', 'error', /WUT/);
 logger.info('Found %s at %s', 'error', true);
-logger.info('Found %s at %s', 'error', 100.00);
+logger.info('Found %s at %s', 'error', 100.0);
 logger.info('Found %s at %s', 'error', ['1, 2, 3']);
 
 // ***************

@@ -1,14 +1,16 @@
-import AbstractItemInterface from '^interface/item/AbstractItem';
-import LocationInterface from '^interface/item/Location';
-import PublisherInterface from '^interface/item/Publisher';
+import { AbstractItemInterface } from '^interface/item/AbstractItem';
+import { LccClassInterface } from '^interface/item/LccClass';
+import { LccSubclassInterface } from '^interface/item/LccSubclass';
+import { LocationInterface } from '^interface/item/Location';
+import { PublisherInterface } from '^interface/item/Publisher';
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 /**
  *  The bibliographic record for a work.
  *
  *  XML elements in comments refer to the corresponding MODS structure.
  */
-export default interface ItemInterface extends AbstractItemInterface
-{
+export interface ItemInterface extends AbstractItemInterface {
   // id: number;
 
   /**
@@ -24,10 +26,10 @@ export default interface ItemInterface extends AbstractItemInterface
   oclc: string;
 
   /** The item's LCC class. */
-  lccClass: LccClassInterface;
+  //  lccClass: LccClassInterface;
 
   /** The item's LCC subclass. */
-  lccSubclass: LccSubclassInterface;
+  //  lccSubclass: LccSubclassInterface;
 
   /**
    *  The Library of Congress call code.
@@ -90,7 +92,7 @@ export default interface ItemInterface extends AbstractItemInterface
   /**
    *    <originInfo><edition>
    */
-  edition: string
+  edition: string;
 
   /*
    *    <physicalDescription><form>
@@ -104,8 +106,8 @@ export default interface ItemInterface extends AbstractItemInterface
   extent: string;
 
   /** The item's publisher. */
-  publisher: PublisherInterface;
+  //  publisher: PublisherInterface;
 
   /** The location of the item's publisher or publication. */
-  location: LocationInterface;
+  //  location: LocationInterface;
 }

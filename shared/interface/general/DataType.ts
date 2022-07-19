@@ -7,8 +7,7 @@
  *
  *  Mainly expected to be used as contextual information in logging.
  */
-export default interface DataTypeInterface
-{
+export interface DataTypeInterface {
   id: number;
 
   /** The class name of the data type. */

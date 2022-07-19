@@ -1,47 +1,42 @@
 import {
   Column,
-  Entity,
+  Entity as TypeOrmEntity,
+  JoinColumn,
+  ManyToOne,
   OneToMany,
   PrimaryGeneratedColumn,
 } from 'typeorm';
-//
-import SubjectSubdivisionInterface from '^interface/item/SubjectSubdivision';
-import Entity from '^entity/item/Entity';
-import SubjectHeading from '^entity/item/SubjectHeading';
-import SubjectSubdivisionMap from '^entity/item/SubjectSubdivisionMap';
-import SubjectSubfield from '^entity/item/SubjectSubfield';
+//---------------------------------------------------------------------------
+import { SubjectSubdivisionInterface } from '^interface/item/SubjectSubdivision';
+import { Entity } from '^entity/item/Entity';
+import { SubjectHeading } from '^entity/item/SubjectHeading';
+import { SubjectSubdivisionMap } from '^entity/item/SubjectSubdivisionMap';
+import { SubjectSubfield } from '^entity/item/SubjectSubfield';
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-
-@Entity({
+@TypeOrmEntity({
   orderBy: { order: 'ASC' },
 })
-export default class SubjectSubdivision implements SubjectSubdivisionInterface
-{
+export class SubjectSubdivision implements SubjectSubdivisionInterface {
   @PrimaryGeneratedColumn()
   id: number;
 
-  @ManyToOne(
-    () => SubjectSubfield,
-    (subfield) => subfield.subjectSubdivision,
-    {nullable: false}
-  )
+  @ManyToOne(() => SubjectSubfield, { nullable: false })
+  @JoinColumn({ name: 'subfield' })
   subfield: SubjectSubfield;
 
-  @ManyToOne(
-    () => SubjectHeading,
-    (heading) => heading.subjectSubdivision
-  )
+  @ManyToOne(() => SubjectHeading)
+  @JoinColumn({ name: 'heading' })
   heading: SubjectHeading;
 
-  @ManyToOne(
-    () => Entity,
-    (entity) => entity.subjectSubdivision
-  )
+  @ManyToOne(() => Entity)
+  @JoinColumn({ name: 'entity' })
   entity: Entity;
 
   @OneToMany(
     () => SubjectSubdivisionMap,
-    (subjectSubdivisionMap) => subjectSubdivisionMap.subjectSubdivision
+    (subjectSubdivisionMap: SubjectSubdivisionMap) =>
+      subjectSubdivisionMap.subjectSubdivision
   )
   subjectSubdivisionMap: SubjectSubdivisionMap[];
 }

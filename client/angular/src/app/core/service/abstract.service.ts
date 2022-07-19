@@ -1,7 +1,6 @@
 export abstract class AbstractService {
-
-  constructor() { }
+  constructor() {}
 
   //  Initial API path
-  const apiPathComponents = ['/api'];
+  apiPathComponents = ['/api'];
 }

@@ -4,8 +4,7 @@
  *
  *  Expected to be used in logging.
  */
-export default interface EventInterface
-{
+export interface EventInterface {
   id: number;
 
   /** A unique identifier. */

@@ -1,19 +1,19 @@
 import {
   Column,
   Entity,
+  OneToMany,
   PrimaryGeneratedColumn,
   Unique,
 } from 'typeorm';
-//
-import SubjectSubfieldInterface from '^interface/item/SubjectSubfield';
-
+//---------------------------------------------------------------------------
+import { SubjectSubfieldInterface } from '^interface/item/SubjectSubfield';
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 @Entity({
   orderBy: { name: 'ASC' },
 })
 @Unique(['name', 'isEntity'])
-export default class SubjectSubfield implements SubjectSubfieldInterface
-{
+export class SubjectSubfield implements SubjectSubfieldInterface {
   @PrimaryGeneratedColumn()
   id: number;
 

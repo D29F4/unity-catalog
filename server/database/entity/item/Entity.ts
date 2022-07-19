@@ -1,24 +1,24 @@
 import {
   Column,
-  Entity,
+  Entity as TypeOrmEntity,
+  JoinColumn,
   ManyToOne,
   PrimaryGeneratedColumn,
   Unique,
 } from 'typeorm';
-//
-import EntityInterface from '^interface/item/Entity';
-import EntityType from '^entity/item/EntityType';
+//---------------------------------------------------------------------------
+import { EntityInterface } from '^interface/item/Entity';
+import { EntityType } from '^entity/item/EntityType';
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-
-@Entity({
+@TypeOrmEntity({
   orderBy: {
     name: 'ASC',
     dates: 'ASC',
   },
 })
 @Unique(['name', 'dates'])
-export default class Entity implements EntityInterface
-{
+export class Entity implements EntityInterface {
   @PrimaryGeneratedColumn()
   id: number;
 
@@ -40,9 +40,7 @@ export default class Entity implements EntityInterface
   })
   instance: number;
 
-  @ManyToOne(
-    () => EntityType,
-    (entityType) => entityType.entity
-  )
+  @ManyToOne(() => EntityType)
+  @JoinColumn({ name: 'entityType' })
   entityType: EntityType;
 }

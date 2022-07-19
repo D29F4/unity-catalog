@@ -5,12 +5,9 @@
   "compilerOptions": {
     "baseUrl": "./",
     "forceConsistentCasingInFileNames": true,
-    "lib": [
-      "es2020",
-      "dom"
-    ],
+    "lib": ["es2020", "dom"],
     "module": "es2020",
-    "outDir": "./dist/out-tsc",
+    "outDir": "../../dist/client",
     "paths": {
       "^interface/*": [
         "./src/app/core/interface/*",
@@ -20,6 +17,7 @@
     },
     "target": "es2020"
   },
+  "exclude": ["**/*.spec.ts"],
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
     "strictInjectionParameters": true,

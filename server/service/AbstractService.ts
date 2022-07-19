@@ -1,8 +1,7 @@
 /**
  *  Service for the application log.
  */
-export abstract class AbstractService
-{
+export abstract class AbstractService {
   /**
    *  Tests expression.
    *
@@ -13,6 +12,6 @@ export abstract class AbstractService
    *  @returns True if defined and truthlike.
    */
   exprDefined(expr: any): boolean {
-    return (typeof expr !== 'undefined' && expr);
+    return typeof expr !== 'undefined' && expr;
   }
 }

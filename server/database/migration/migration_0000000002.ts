@@ -1,11 +1,11 @@
-import { MigrationInterface, QueryRunner } from 'typeorm'
-//
-import { dataSource } from '^database/data-source';
-//
-import ItemOwnershipFate from '^entity/item/ItemOwnershipFate';
-import ItemSchema from '^entity/item/ItemSchema';
-import ItemSource from '^entity/item/ItemSource';
-
+import { MigrationInterface, QueryRunner } from 'typeorm';
+//---------------------------------------------------------------------------
+import dataSource from '^database/data-source';
+//---------------------------------------------------------------------------
+import { ItemOwnershipFate } from '^entity/item/ItemOwnershipFate';
+import { ItemSchema } from '^entity/item/ItemSchema';
+import { ItemSource } from '^entity/item/ItemSource';
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 /**
  *  Seed setup tables for entities related specifically to `Item`s:
@@ -15,12 +15,10 @@ import ItemSource from '^entity/item/ItemSource';
  *    * ItemSource
  */
 export class Migration_0000000002 implements MigrationInterface {
-
   /**
    *  Migration: up
    */
   async up(queryRunner: QueryRunner): Promise<void> {
-
     /*
      *  Seed `ItemOwnershipFate`.
      */
@@ -38,14 +36,13 @@ export class Migration_0000000002 implements MigrationInterface {
     const fateRep = dataSource.getRepository(ItemOwnershipFate);
 
     //  Insert
-    fateSeeds.forEach((seed) => {
+    fateSeeds.forEach(async (seed) => {
       const fate = new ItemOwnershipFate();
 
       fate.name = seed[0];
 
       await fateRep.insert(fate);
     });
-
 
     /*
      *  Seed `ItemSchema`.
@@ -58,7 +55,7 @@ export class Migration_0000000002 implements MigrationInterface {
     const schemaRep = dataSource.getRepository(ItemSchema);
 
     //  Insert
-    schemaSeeds.forEach((seed) => {
+    schemaSeeds.forEach(async (seed) => {
       const schema = new ItemSchema();
 
       schema.uid = seed[0];
@@ -68,19 +65,11 @@ export class Migration_0000000002 implements MigrationInterface {
       await schemaRep.insert(schema);
     });
 
-
     /*
      *  Seed `ItemSource`.
      */
     const sourceSeeds = [
-      [
-        'User (manual MODS entry)',
-        null,
-        null,
-        null,
-        null,
-        'mods',
-      ],
+      ['User (manual MODS entry)', null, null, null, null, 'mods'],
       [
         'Library of Congress',
         null,
@@ -111,7 +100,7 @@ export class Migration_0000000002 implements MigrationInterface {
     const itemSourceRep = dataSource.getRepository(ItemSource);
 
     //  Insert
-    sourceSeeds.forEach((seed) => {
+    sourceSeeds.forEach(async (seed) => {
       const itemSource = new ItemSource();
 
       itemSource.name = seed[0];
@@ -119,28 +108,19 @@ export class Migration_0000000002 implements MigrationInterface {
       itemSource.uriHome = seed[2];
       itemSource.uriApiDoc = seed[3];
       itemSource.uriApiBase = seed[4];
-      itemSource.itemSchema = schemaRep.findOne({ uid: seed[5] });
+      itemSource.itemSchema = await schemaRep.findOneBy({ name: seed[5] });
 
       await itemSourceRep.insert(itemSource);
     });
   }
 
-
-
   /**
    *  Migration: down
    */
   async down(queryRunner: QueryRunner): Promise<void> {
-
     //  Truncate tables
-    await queryRunner.query(
-      'TRUNCATE TABLE `item_source`',
-    );
-    await queryRunner.query(
-      'TRUNCATE TABLE `item_schema`',
-    );
-    await queryRunner.query(
-      'TRUNCATE TABLE `item_ownership_fate`',
-    );
+    await queryRunner.query('TRUNCATE TABLE `item_source`');
+    await queryRunner.query('TRUNCATE TABLE `item_schema`');
+    await queryRunner.query('TRUNCATE TABLE `item_ownership_fate`');
   }
 }

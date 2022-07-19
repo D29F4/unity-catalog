@@ -5,18 +5,13 @@ import { ItemRoutingModule } from './item-routing.module';
 //
 import { ItemWorkspaceComponent } from './item-workspace/item-workspace.component';
 
-
 @NgModule({
-  declarations: [
-    ItemWorkspaceComponent,
-  ],
+  declarations: [ItemWorkspaceComponent],
   imports: [
     CommonModule,
     //
     ItemRoutingModule,
   ],
-  exports: [
-    ItemWorkspaceComponent,
-  ],
+  exports: [ItemWorkspaceComponent],
 })
-export class ItemModule { }
+export class ItemModule {}

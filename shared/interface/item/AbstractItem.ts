@@ -1,12 +1,12 @@
-import ItemResourceTypeInterface from '^interface/item/ItemResourceType';
-import ItemSourceInterface from '^interface/item/ItemSource';
-import UserInterface from '^interface/access/User';
+import { ItemResourceTypeInterface } from '^interface/item/ItemResourceType';
+import { ItemSourceInterface } from '^interface/item/ItemSource';
+import { UserInterface } from '^interface/access/User';
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 /**
  *  The abstract form of an item.
  */
-export default abstract interface AbstractItemInterface
-{
+export interface AbstractItemInterface {
   id: number;
 
   /** The resource type of the item. */

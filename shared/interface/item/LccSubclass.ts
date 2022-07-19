@@ -1,11 +1,11 @@
-import LccClass from '^interface/item/LccClass';
+import { LccClassInterface } from '^interface/item/LccClass';
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 /**
  *  Library of Congress Classification subclasses.
  */
-export interface LccSubclassInterface
-{
-  id: string;
+export interface LccSubclassInterface {
+  id: number;
 
   /** The name/code of the subclass. */
   name: string;
