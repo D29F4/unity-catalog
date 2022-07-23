@@ -1,10 +1,10 @@
 import { MigrationInterface, QueryRunner } from 'typeorm';
 //---------------------------------------------------------------------------
-import dataSource from '^database/data-source';
+import dataSource from '../../database/data-source';
 //---------------------------------------------------------------------------
-import { ItemOwnershipFate } from '^entity/item/ItemOwnershipFate';
-import { ItemSchema } from '^entity/item/ItemSchema';
-import { ItemSource } from '^entity/item/ItemSource';
+import { ItemOwnershipFate } from '../../database/entity/item/ItemOwnershipFate';
+import { ItemSchema } from '../../database/entity/item/ItemSchema';
+import { ItemSource } from '../../database/entity/item/ItemSource';
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 /**

@@ -1,0 +1,45 @@
+<div class="m-4">
+
+  <h2>User</h2>
+
+  <button *ngIf="!mode" type="button" class="btn btn-sm btn-primary" (click)="userEdit()">Edit</button>
+
+  <form [formGroup]="userForm" (ngSubmit)="onSubmit()">
+
+    <div class="mb-4">
+      <label for="username" class="form-label">User name</label>
+      <input type="text" [ngClass]="mode ? 'form-control' : 'form-control-plaintext'" id="username" formControlName="username" />
+    </div>
+
+    <div class="mb-4">
+      <label for="nameFirst" class="form-label">First name</label>
+      <input type="text" [ngClass]="mode ? 'form-control' : 'form-control-plaintext'" id="nameFirst" formControlName="nameFirst" />
+    </div>
+
+    <div class="mb-4">
+      <label for="nameLast" class="form-label">Last name</label>
+      <input type="text" [ngClass]="mode ? 'form-control' : 'form-control-plaintext'" id="nameLast" formControlName="nameLast" />
+    </div>
+
+    <div class="mb-4">
+      <label for="nameMiddle" class="form-label">Middle name</label>
+      <input type="text" [ngClass]="mode ? 'form-control' : 'form-control-plaintext'" id="nameMiddle" formControlName="nameMiddle" />
+    </div>
+
+    <div class="mb-4">
+      <label for="emailAddress" class="form-label">E-mail address</label>
+      <input type="email" [ngClass]="mode ? 'form-control' : 'form-control-plaintext'" id="emailAddress" formControlName="emailAddress" />
+    </div>
+
+    <div class="mb-4">
+      <label for="uri" class="form-label">URI</label>
+      <input type="text" [ngClass]="mode ? 'form-control' : 'form-control-plaintext'" id="uri" formControlName="uri" />
+    </div>
+
+    <p>Form Status: <code>{{ userForm.status }}</code></p> <!-- //|TEST -->
+
+    <button *ngIf="mode" type="submit" class="btn btn-secondary">Save</button>
+
+  </form>
+
+</div>

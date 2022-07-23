@@ -1,6 +1,6 @@
 import { Column, Entity, PrimaryGeneratedColumn, Unique } from 'typeorm';
 //---------------------------------------------------------------------------
-import { ItemResourceTypeInterface } from '^interface/item/ItemResourceType';
+import { ItemResourceTypeInterface } from '../../../../shared/interface/item/ItemResourceType';
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 @Entity({

@@ -1,6 +1,6 @@
 import { Column, Entity, PrimaryGeneratedColumn, Unique } from 'typeorm';
 //---------------------------------------------------------------------------
-import { LocationInterface } from '^interface/item/Location';
+import { LocationInterface } from '../../../../shared/interface/item/Location';
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 @Entity({

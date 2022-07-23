@@ -7,8 +7,8 @@ import {
   Unique,
 } from 'typeorm';
 //---------------------------------------------------------------------------
-import { EntityInterface } from '^interface/item/Entity';
-import { EntityType } from '^entity/item/EntityType';
+import { EntityInterface } from '../../../../shared/interface/item/Entity';
+import { EntityType } from './EntityType';
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 @TypeOrmEntity({
@@ -41,6 +41,6 @@ export class Entity implements EntityInterface {
   instance: number;
 
   @ManyToOne(() => EntityType)
-  @JoinColumn({ name: 'entityType' })
+  //@JoinColumn({ name: 'entity_type' })
   entityType: EntityType;
 }

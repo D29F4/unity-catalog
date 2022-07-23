@@ -1,6 +1,6 @@
 import { Column, Entity, PrimaryGeneratedColumn, Unique } from 'typeorm';
 //---------------------------------------------------------------------------
-import { SubjectHeadingInterface } from '^interface/item/SubjectHeading';
+import { SubjectHeadingInterface } from '../../../../shared/interface/item/SubjectHeading';
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 @Entity({

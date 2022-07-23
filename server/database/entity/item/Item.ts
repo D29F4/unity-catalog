@@ -1,15 +1,43 @@
-import { Column, Entity, ManyToOne } from 'typeorm';
+import {
+  Column,
+  Entity,
+  CreateDateColumn,
+  JoinColumn,
+  ManyToOne,
+  OneToMany,
+  PrimaryGeneratedColumn,
+  UpdateDateColumn,
+} from 'typeorm';
 //---------------------------------------------------------------------------
-import { ItemInterface } from '^interface/item/Item';
-import { AbstractItem } from '^entity/item/AbstractItem';
-import { LccClass } from '^entity/item/LccClass';
-import { LccSubclass } from '^entity/item/LccSubclass';
-import { Location } from '^entity/item/Location';
-import { Publisher } from '^entity/item/Publisher';
+import { ItemInterface } from '../../../../shared/interface/item/Item';
+import { Isbn } from './Isbn';
+import { ItemResourceType } from './ItemResourceType';
+import { ItemSource } from './ItemSource';
+import { LccClass } from './LccClass';
+import { LccSubclass } from './LccSubclass';
+import { Location } from './Location';
+import { Publisher } from './Publisher';
+import { User } from '../access/User';
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 @Entity()
-export class Item extends AbstractItem implements ItemInterface {
+export class Item implements ItemInterface {
+  @PrimaryGeneratedColumn()
+  id: number;
+
+  @ManyToOne(
+    () => ItemResourceType,
+    { nullable: false }
+  )
+  resourceType: ItemResourceType;
+
+  @ManyToOne(
+    () => ItemSource,
+    (itemSource) => itemSource.item,
+    { nullable: false }
+  )
+  source: ItemSource;
+
   @Column()
   lccn: string;
 
@@ -38,8 +66,8 @@ export class Item extends AbstractItem implements ItemInterface {
   @Column()
   titleUniform: string;
 
-  @Column()
-  titleAlt: JSON;
+  @Column('json')
+  titleAlt: string;
 
   @Column()
   statementOfResponsibility: string;
@@ -59,4 +87,22 @@ export class Item extends AbstractItem implements ItemInterface {
   //  publisher: Publisher;
 
   //  location: Location;
+
+  @OneToMany(
+    () => Isbn,
+    (isbn: Isbn) => isbn.item
+  )
+  isbn: Isbn[];
+
+  @CreateDateColumn()
+  createDttm: Date;
+
+  @ManyToOne(() => User)
+  createUser: User;
+
+  @UpdateDateColumn()
+  updateDttm: Date;
+
+  @ManyToOne(() => User)
+  updateUser: User;
 }

@@ -2,16 +2,10 @@
   "extends": "../tsconfig.json",
   "compilerOptions": {
     "baseUrl": ".",
-    "outDir": "../dist",
-    "paths": {
-      "^controller/*": ["./controller/*"],
-      "^database/*": ["./database/*"],
-      "^entity/*": ["./database/entity/*"],
-      "^interface/*": ["../shared/interface/*"],
-      "^logger": ["./utility/Logger"],
-      "^service/*": ["./service/*"],
-      "^utility/*": ["./utility/*"]
-    }
+    "outDir": "../dist"
   },
-  "include": ["./**/*", "../shared/**/*"]
+  "include": [
+    "./**/*",
+    "../shared/**/*"
+  ]
 }

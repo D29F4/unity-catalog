@@ -1,6 +1,14 @@
+//import { environment } from '@environments/environment';
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+/**
+ *  Abstract service.
+ */
 export abstract class AbstractService {
+
   constructor() {}
 
-  //  Initial API path
-  apiPathComponents = ['/api'];
+  //  Base API path
+  uriApiBase = '/api'; // environment.uriApiBase;
 }

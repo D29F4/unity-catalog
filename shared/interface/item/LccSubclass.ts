@@ -1,4 +1,4 @@
-import { LccClassInterface } from '^interface/item/LccClass';
+import { LccClassInterface } from './LccClass';
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 /**

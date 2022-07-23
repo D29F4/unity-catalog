@@ -1,6 +1,6 @@
 import { Column, Entity, PrimaryGeneratedColumn, Unique } from 'typeorm';
 //---------------------------------------------------------------------------
-import { PublisherInterface } from '^interface/item/Publisher';
+import { PublisherInterface } from '../../../../shared/interface/item/Publisher';
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 @Entity({

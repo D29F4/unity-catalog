@@ -8,7 +8,7 @@ import {
   Unique,
 } from 'typeorm';
 //---------------------------------------------------------------------------
-import { ItemOwnershipFateInterface } from '^interface/item/ItemOwnershipFate';
+import { ItemOwnershipFateInterface } from '../../../../shared/interface/item/ItemOwnershipFate';
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 @Entity({

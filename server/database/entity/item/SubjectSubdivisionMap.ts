@@ -1,14 +1,14 @@
 import {
   Column,
   Entity,
-  JoinColumn,
+  //JoinColumn,
   ManyToOne,
   PrimaryGeneratedColumn,
 } from 'typeorm';
 //---------------------------------------------------------------------------
-import { SubjectSubdivisionMapInterface } from '^interface/item/SubjectSubdivisionMap';
-import { Subject } from '^entity/item/Subject';
-import { SubjectSubdivision } from '^entity/item/SubjectSubdivision';
+import { SubjectSubdivisionMapInterface } from '../../../../shared/interface/item/SubjectSubdivisionMap';
+import { Subject } from './Subject';
+import { SubjectSubdivision } from './SubjectSubdivision';
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 /**
@@ -35,7 +35,7 @@ export class SubjectSubdivisionMap implements SubjectSubdivisionMapInterface {
   // subjectSubdivisionId: number;
 
   @ManyToOne(() => Subject)
-  @JoinColumn({ name: 'subject' })
+  //@JoinColumn({ name: 'subject' })
   subject: Subject;
 
   @ManyToOne(
@@ -47,7 +47,6 @@ export class SubjectSubdivisionMap implements SubjectSubdivisionMapInterface {
 
   @Column({
     unsigned: true,
-    length: 2,
     nullable: false,
     default: 0,
   })

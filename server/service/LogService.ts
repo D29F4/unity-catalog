@@ -1,25 +1,28 @@
 import { getRepository } from 'typeorm';
 //---------------------------------------------------------------------------
-import dataSource from '^database/data-source';
+import dataSource from '../database/data-source';
 //---------------------------------------------------------------------------
 import {
   LogEntryQueryInterface,
   LogEntryResultsInterface,
   LogEntryWriteInterface,
-} from '^interface/general/LogEntry';
-import { DataType } from '^entity/general/DataType';
-import { Event } from '^entity/general/Event';
-import { LogEntry } from '^entity/general/LogEntry';
-import { User } from '^entity/access/User';
+} from '../../shared/interface/general/LogEntry';
+import { DataType } from '../database/entity/general/DataType';
+import { Event } from '../database/entity/general/Event';
+import { LogEntry } from '../database/entity/general/LogEntry';
+import { User } from '../database/entity/access/User';
 //---------------------------------------------------------------------------
-import { AbstractService } from '^service/AbstractService';
+import { AbstractService } from './AbstractService';
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 
 /**
  *  Service for the application log.
  */
-export default class LogService extends AbstractService {
+class LogService extends AbstractService {
+
   logEntryRp = dataSource.getRepository(LogEntry);
+
 
   /**
    *  Get events present in log.
@@ -27,7 +30,7 @@ export default class LogService extends AbstractService {
    *
    *  @returns `Event`[]
    */
-  async getLogEvents(): Promise<Event[]> {
+  async logEventsGet(): Promise<Event[]> {
     return await getRepository(Event)
       .createQueryBuilder('event')
       .leftJoin('event.logEntry', 'logEntry')
@@ -36,13 +39,15 @@ export default class LogService extends AbstractService {
       .getMany();
   }
 
+
+
   /**
    *  Get performing users present in log.
    *  (To populate query form.)
    *
    *  @returns `User`[]
    */
-  async getLogUsers(): Promise<User[]> {
+  async logUsersGet(): Promise<User[]> {
     return await getRepository(User)
       .createQueryBuilder('user')
       .leftJoin('user.logEntry', 'logEntry')
@@ -51,13 +56,15 @@ export default class LogService extends AbstractService {
       .getMany();
   }
 
+
+
   /**
    *  Get data types present in log.
    *  (To populate query form.)
    *
    *  @returns `DataType`[]
    */
-  async getLogDataTypes(): Promise<DataType[]> {
+  async logDataTypesGet(): Promise<DataType[]> {
     return await getRepository(DataType)
       .createQueryBuilder('dataType')
       .leftJoin('dataType.logEntry', 'logEntry')
@@ -66,15 +73,18 @@ export default class LogService extends AbstractService {
       .getMany();
   }
 
+
+
   /**
    *  Query the log by search parameters.
    *
    *  @param params - Search parameters.
    *  @returns `LogEntry`[]
    */
-  async queryLogEntry(
+  async logEntryQuery(
     params: LogEntryQueryInterface
   ): Promise<LogEntryResultsInterface> {
+
     const qb = getRepository(LogEntry)
       .createQueryBuilder('log')
       .leftJoinAndSelect('log.event', 'event')
@@ -114,23 +124,26 @@ export default class LogService extends AbstractService {
     return { results: await qb.getMany(), totalCount: await qb.getCount() };
   }
 
+
+
   /**
    *  Write a log entry.
    *
    *  @param submission - The submitted log entry.
    *  @returns `LogEntry`
    */
-  async writeLogEntry(submission: LogEntryWriteInterface): Promise<LogEntry> {
+  async logEntryWrite(submission: LogEntryWriteInterface): Promise<LogEntry> {
+
     const logEntry = new LogEntry();
 
     //  Get expected parameters by UID
     //
     // (Note: using simple arrays (['dataType', DataType]) causes complaints that the element 0s are 'typeof X'.
     for (const param of [
-      { attr: 'dataType', class: DataType },
-      { attr: 'event', class: Event },
+      { attr: 'dataType', class: DataType, required: false },
+      { attr: 'event', class: Event, required: true },
     ]) {
-      if (typeof logEntry[param.attr] !== 'undefined') {
+      if (typeof submission[param.attr] !== 'undefined' || param.required) {
         logEntry[param.attr] = await dataSource
           .getRepository(param.class)
           .findOneBy({
@@ -140,9 +153,7 @@ export default class LogService extends AbstractService {
 
         if (!logEntry[param.attr]) {
           throw new Error(
-            `Entity for ${param.attr} not found; UID requested: ${
-              submission[param.attr]
-            }`
+            `Entity for ${param.attr} not found; UID requested: ${submission[param.attr]}`
           );
         }
       }
@@ -170,3 +181,6 @@ export default class LogService extends AbstractService {
     return await this.logEntryRp.save(logEntry);
   }
 }
+
+
+export default new LogService();

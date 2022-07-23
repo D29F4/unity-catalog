@@ -1,6 +1,6 @@
-import { ItemInterface } from '^interface/item/Item';
-import { ItemOwnershipFateInterface } from '^interface/item/ItemOwnershipFate';
-import { UserInterface } from '^interface/access/User';
+import { ItemInterface } from './Item';
+import { ItemOwnershipFateInterface } from './ItemOwnershipFate';
+import { UserInterface } from '../access/User';
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 /**
@@ -48,7 +48,7 @@ export interface ItemUserDataInterface {
   notes: string;
 
   /** One or more URIs associated with the item. */
-  uri: JSON;
+  uri: string;
 
   /** The datetime of the record's last update. */
   updatedDttm: Date;

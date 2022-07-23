@@ -7,7 +7,7 @@ import {
   UpdateDateColumn,
 } from 'typeorm';
 //---------------------------------------------------------------------------
-import { ItemSchemaInterface } from '^interface/item/ItemSchema';
+import { ItemSchemaInterface } from '../../../../shared/interface/item/ItemSchema';
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 @Entity({

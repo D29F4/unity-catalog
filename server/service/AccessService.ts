@@ -1,29 +1,33 @@
 import { getRepository } from 'typeorm';
 //---------------------------------------------------------------------------
-import dataSource from '^database/data-source';
+import dataSource from '../database/data-source';
 //---------------------------------------------------------------------------
-import { UserQueryInterface } from '^interface/access/User';
-import { User } from '^entity/access/User';
+import { UserUpdateInterface, UserQueryInterface } from '../../shared/interface/access/User';
+import { User } from '../database/entity/access/User';
 //---------------------------------------------------------------------------
-import { AbstractService } from '^service/AbstractService';
+import { AbstractService } from './AbstractService';
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 
 /**
  *  Service for privilege-control.
  */
-export default class AccessService {
+class AccessService {
+
   UserRp = dataSource.getRepository(User);
+
 
   /**
    *  Get an individual user.
    *
-   *  @param userId - User ID
+   *  @param id - User ID
    *  @returns `User` | null
    */
-  async getUser(userId: number): Promise<User | null> {
-    const user: User | null = await this.UserRp.findOneBy({ id: userId });
-    return user;
+  async userGet(id: number): Promise<User | null> {
+    return await this.UserRp.findOneBy({ id: id });
   }
+
+
 
   /**
    *  Get users by search parameters.
@@ -32,7 +36,9 @@ export default class AccessService {
    *  @returns `User`[] | null
    */
   //async getUsers(params: UserQueryInterface): Promise<User[]> {
-  async getUsers(params: UserQueryInterface) {}
+  async usersGet(params: UserQueryInterface) {}
+
+
 
   /**
    *  Create a user.
@@ -40,19 +46,21 @@ export default class AccessService {
    *  @param submission - The new `User`.
    *  @returns `User`
    */
-  async createUser(submission: User): Promise<User> {
+  async userCreate(submission: User): Promise<User> {
     //  Query for existing user
-    const duplicate = await this.UserRp.findOneBy({
+    const duplicate: User|null = await this.UserRp.findOneBy({
       username: submission.username,
     });
     if (duplicate) {
       //|FIX Handle error
     }
 
-    const user: User | null = await this.UserRp.save(submission);
+    const user: User|null = await this.UserRp.save(submission);
 
     return user;
   }
+
+
 
   /**
    *  Update a user.
@@ -60,9 +68,10 @@ export default class AccessService {
    *  @param submission - The `User` to be updated.
    *  @returns User ID
    */
-  async updateUser(submission: User): Promise<number> {
+  async userUpdate(submission: UserUpdateInterface): Promise<User> {
+
     //  Ensure existence of user
-    const extantUser: User | null = await this.UserRp.findOneBy({
+    const extantUser: User|null = await this.UserRp.findOneBy({
       id: submission.id,
     });
     if (!extantUser) {
@@ -70,8 +79,25 @@ export default class AccessService {
     }
 
     //  Update
-    const user = await this.UserRp.save(submission);
-
-    return user.id;
+    return await this.UserRp.save(submission);
   }
+
+
+
+  /**
+   *  Delete (that is: delete) a user.
+   *
+   *  @param id - The ID of the `User` to deactivate.
+   *  @returns Boolean indicating success
+   */
+  async userDelete(id: number): Promise<boolean> {
+    //  Make user inactive
+    const result = await this.UserRp.update(id, { active: false });
+    //|FIX
+    return true;
+  }
+
 }
+
+
+export default new AccessService();

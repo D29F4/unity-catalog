@@ -2,49 +2,52 @@
 const appRootPath = require('app-root-path');
 const path = require('path');
 import * as dotenv from 'dotenv';
-//dotenv.config({ path: [appRootPath, 'config', '.env'].join('/') });
-dotenv.config({ path: path.join(appRootPath, 'config', '.env') });
+dotenv.config({ path: path.join(appRootPath.path, 'config', '.env') });
 import { Request, Response } from 'express';
 const express = require('express');
 const session = require('express-session');
 import helmet from 'helmet';
 //---------------------------------------------------------------------------
-import dataSource from '^database/data-source';
-import logger from '^logger';
+import dataSource from './database/data-source';
+import logger from './utility/Logger';
 //---------------------------------------------------------------------------
-import { LogEntryWriteInterface } from '^interface/general/LogEntry';
-import { User } from '^entity/access/User';
+import { LogEntryWriteInterface } from '../shared/interface/general/LogEntry';
+import { User } from './database/entity/access/User';
 //---------------------------------------------------------------------------
-const logService = require('^service/LogService');
+const logService = require('./service/LogService');
 //---------------------------------------------------------------------------
-import accessController from '^controller/AccessController';
+import accessController from './controller/AccessController';
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 
 (async () => {
   //  Logging
-  logger.info('Start');
+  const logStart = ['app.ts'];
+  logger.info(logStart.concat(['Start']));
 
   //  Expect environment variables
   if (!process.env.ENV) {
     throw new Error('Unable to access environment variables.');
   }
 
-  //---------------------------------------------------------------------------
-  //  Confirm database connection(s)
-  //---------------------------------------------------------------------------
+
+  /*
+   *  Confirm database connection(s)
+   */
   const dsInitMsg = 'Data source initialization';
   await dataSource
     .initialize()
     .then(() => {
-      logger.info(`${dsInitMsg}: success.`);
+      logger.info(logStart.concat(dsInitMsg, 'result: success'));
     })
     .catch((err: Error) => {
-      throw new Error(`${dsInitMsg}: failure. ${err}`);
+      throw new Error(logStart.concat(dsInitMsg, 'failure', err.message).toString());
     });
 
-  //---------------------------------------------------------------------------
-  //  The Express application
-  //---------------------------------------------------------------------------
+
+  /*
+   *  The Express application
+   */
   const app = express();
 
   //  Middleware
@@ -68,9 +71,10 @@ import accessController from '^controller/AccessController';
   //  Static serving of client
   //app.use('/', express.static(path.join(appRootPath, 'client', 'angular', 'index.js'));
 
-  //---------------------------------------------------------------------------
-  //  User
-  //---------------------------------------------------------------------------
+
+  /*
+   *  User
+   */
   //  Login
   //  (Currently not requiring authentication.  A /login route, etc. would be
   //  included in such an implementation.)
@@ -97,14 +101,24 @@ import accessController from '^controller/AccessController';
     //     // //  Log event
     //     // const logEntry: LogEntryWriteInterface = {
     //     // };
-    //     logger.info(`User login: ID ${req.session.user.id}`);
+    //     logger.info(logStart.concat('User login', `ID: req.session.user.id`));
     //   });
     // });
   });
 
-  //---------------------------------------------------------------------------
-  //  Listen
-  //---------------------------------------------------------------------------
+
+  /*
+   *  Error-handling
+   */
+  app.use((err, req, res, next) => {
+    logger.error(err.stack);
+    res.status(500).send('500/Server error: ' + err.message);
+  })
+
+
+  /*
+   *  Listen
+   */
   const expressPort =
     typeof process.env.EXPRESS_PORT !== 'undefined'
       ? parseInt(process.env.EXPRESS_PORT, 10)
@@ -113,12 +127,12 @@ import accessController from '^controller/AccessController';
   const listenMsg = ['Listening', `Port ${expressPort}`];
   app
     .listen(expressPort, () => {
-      logger.info(`${listenMsg}: success.`);
+      logger.info(logStart.concat(listenMsg, 'result: success'));
     })
     .on('error', (err: Error) => {
-      throw new Error(`${listenMsg}: failure. ${err}`);
+      throw new Error(logStart.concat(listenMsg, 'result: failure', err.message).toString());
     });
 
   //  Logging
-  logger.info('End');
+  logger.info(logStart.concat('End'));
 })();

@@ -3,12 +3,13 @@ const path = require('path');
 const { config, createLogger, format, transports } = require('winston');
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+
 /*
  *  Logging with winston
  *
  *  See also application documentation on logging.
  */
-const pathToLog = [appRootPath, 'var', 'log'];
+const pathToLog = [appRootPath.path, 'var', 'log'];
 
 const logger = createLogger({
   //  Output format
@@ -43,9 +44,11 @@ const logger = createLogger({
   exitOnError: false,
 });
 
-//---------------------------------------------------------------------------
-//  Environment-specific transports
-//---------------------------------------------------------------------------
+
+
+/*
+ *  Environment-specific transports
+ */
 if (process.env.ENV !== 'production') {
   logger.add(
     //  Console
@@ -69,5 +72,6 @@ if (process.env.ENV !== 'production') {
     })
   );
 }
+
 
 export default logger;

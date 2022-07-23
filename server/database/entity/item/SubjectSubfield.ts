@@ -1,12 +1,11 @@
 import {
   Column,
   Entity,
-  OneToMany,
   PrimaryGeneratedColumn,
   Unique,
 } from 'typeorm';
 //---------------------------------------------------------------------------
-import { SubjectSubfieldInterface } from '^interface/item/SubjectSubfield';
+import { SubjectSubfieldInterface } from '../../../../shared/interface/item/SubjectSubfield';
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 @Entity({

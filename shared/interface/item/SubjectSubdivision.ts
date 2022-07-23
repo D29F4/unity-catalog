@@ -1,6 +1,6 @@
-import { EntityInterface } from '^interface/item/Entity';
-import { SubjectHeadingInterface } from '^interface/item/SubjectHeading';
-import { SubjectSubfieldInterface } from '^interface/item/SubjectSubfield';
+import { EntityInterface } from './Entity';
+import { SubjectHeadingInterface } from './SubjectHeading';
+import { SubjectSubfieldInterface } from './SubjectSubfield';
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 /**

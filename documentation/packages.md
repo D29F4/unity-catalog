@@ -21,7 +21,7 @@ straight.
 
 Installed by `typeorm`:
 
-- mysql
+- mysql2 (replacing the default mysql)
 - reflect-metadata
 - typeorm
 
@@ -33,17 +33,26 @@ Other:
 
 - winston
 
+#### Process management
+
+- pm2
+
 #### Web framework
 
 - express
 - express-session
 - helmet
 
+
 ### Development dependencies
 
-#### Code formatting
+#### Convenience
 
-- prettier
+We would like some sane means of specifying path aliases for imports.  Some
+packages claim to do what TypeScript emptily promises with the `paths` option
+in the tsConfig compilerOptions.  Endless amounts of time and energy have
+been spent on trying to get something to work with no useful results.  Import
+paths will therefore remain unwieldy and inconvenient.
 
 #### Language
 
@@ -87,13 +96,13 @@ Installed by `angular`:
 
 - bootstrap
 
-## Development dependencies
+### Development dependencies
 
-### Language
+#### Language
 
 - typescript
 
-### Typing
+#### Typing
 
 Various `@types` packages for dependencies.
 

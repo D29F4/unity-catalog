@@ -1,7 +1,7 @@
 import { Column, Entity, PrimaryGeneratedColumn } from 'typeorm';
 //---------------------------------------------------------------------------
-import { DataTypeInterface } from '^interface/general/DataType';
-import { LogEntry } from '^entity/general/LogEntry';
+import { DataTypeInterface } from '../../../../shared/interface/general/DataType';
+import { LogEntry } from './LogEntry';
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 @Entity({
@@ -23,6 +23,9 @@ export class DataType implements DataTypeInterface {
   })
   name: string;
 
-  @Column({ nullable: false })
+  @Column({
+    nullable: false,
+    default: true,
+  })
   active: boolean;
 }

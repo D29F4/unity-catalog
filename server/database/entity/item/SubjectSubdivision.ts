@@ -1,17 +1,17 @@
 import {
   Column,
   Entity as TypeOrmEntity,
-  JoinColumn,
+  //JoinColumn,
   ManyToOne,
   OneToMany,
   PrimaryGeneratedColumn,
 } from 'typeorm';
 //---------------------------------------------------------------------------
-import { SubjectSubdivisionInterface } from '^interface/item/SubjectSubdivision';
-import { Entity } from '^entity/item/Entity';
-import { SubjectHeading } from '^entity/item/SubjectHeading';
-import { SubjectSubdivisionMap } from '^entity/item/SubjectSubdivisionMap';
-import { SubjectSubfield } from '^entity/item/SubjectSubfield';
+import { SubjectSubdivisionInterface } from '../../../../shared/interface/item/SubjectSubdivision';
+import { Entity } from './Entity';
+import { SubjectHeading } from './SubjectHeading';
+import { SubjectSubdivisionMap } from './SubjectSubdivisionMap';
+import { SubjectSubfield } from './SubjectSubfield';
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 @TypeOrmEntity({
@@ -22,15 +22,15 @@ export class SubjectSubdivision implements SubjectSubdivisionInterface {
   id: number;
 
   @ManyToOne(() => SubjectSubfield, { nullable: false })
-  @JoinColumn({ name: 'subfield' })
+  //@JoinColumn({ name: 'subfield' })
   subfield: SubjectSubfield;
 
   @ManyToOne(() => SubjectHeading)
-  @JoinColumn({ name: 'heading' })
+  //@JoinColumn({ name: 'heading' })
   heading: SubjectHeading;
 
   @ManyToOne(() => Entity)
-  @JoinColumn({ name: 'entity' })
+  //@JoinColumn({ name: 'entity' })
   entity: Entity;
 
   @OneToMany(

@@ -1,9 +1,9 @@
 import { MigrationInterface, QueryRunner } from 'typeorm';
 //---------------------------------------------------------------------------
-import dataSource from '^database/data-source';
+import dataSource from '../../database/data-source';
 //---------------------------------------------------------------------------
-import { Event } from '^entity/general/Event';
-import { DataType } from '^entity/general/DataType';
+import { Event } from '../../database/entity/general/Event';
+import { DataType } from '../../database/entity/general/DataType';
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 /*

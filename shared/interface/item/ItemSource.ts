@@ -1,5 +1,5 @@
-import { ItemSchemaInterface } from '^interface/item/ItemSchema';
-import { ItemInterface } from '^interface/item/Item';
+import { ItemSchemaInterface } from './ItemSchema';
+import { ItemInterface } from './Item';
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 /**

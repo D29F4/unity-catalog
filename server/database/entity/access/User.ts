@@ -8,7 +8,7 @@ import {
   UpdateDateColumn,
 } from 'typeorm';
 //---------------------------------------------------------------------------
-import { UserInterface } from '^interface/access/User';
+import { UserInterface } from '../../../../shared/interface/access/User';
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 @Entity({
@@ -27,19 +27,19 @@ export class User implements UserInterface {
   @Column({ nullable: false })
   username: string;
 
-  @Column()
-  nameFirst: string;
-
-  @Column()
+  @Column({ default: null })
   nameLast: string;
 
-  @Column()
+  @Column({ default: null })
+  nameFirst: string;
+
+  @Column({ default: null })
   nameMiddle: string;
 
-  @Column()
+  @Column({ default: null })
   emailAddress: string;
 
-  @Column()
+  @Column({ default: null })
   uri: string;
 
   @Column({
@@ -51,18 +51,27 @@ export class User implements UserInterface {
   @CreateDateColumn()
   createDttm: Date;
 
-  @ManyToOne(() => User, (user: User) => user.createUser)
+  @ManyToOne(
+    () => User,
+    (user: User) => user.createUser
+  )
   createUser: User;
 
-  @UpdateDateColumn()
+  @UpdateDateColumn({ default: null })
   updateDttm: Date;
 
-  @ManyToOne(() => User, (user: User) => user.updateUser)
+  @ManyToOne(
+    () => User,
+    (user: User) => user.updateUser
+  )
   updateUser: User;
 
-  @Column()
+  @Column({ default: null })
   deactivateDttm: Date;
 
-  @ManyToOne(() => User, (user: User) => user.deactivateUser)
+  @ManyToOne(
+    () => User,
+    (user: User) => user.deactivateUser
+  )
   deactivateUser: User;
 }

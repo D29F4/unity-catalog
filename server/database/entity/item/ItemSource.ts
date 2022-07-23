@@ -10,9 +10,9 @@ import {
   UpdateDateColumn,
 } from 'typeorm';
 //---------------------------------------------------------------------------
-import { ItemSourceInterface } from '^interface/item/ItemSource';
-import { Item } from '^entity/item/Item';
-import { ItemSchema } from '^entity/item/ItemSchema';
+import { ItemSourceInterface } from '../../../../shared/interface/item/ItemSource';
+import { Item } from './Item';
+import { ItemSchema } from './ItemSchema';
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 @Entity({
@@ -58,10 +58,15 @@ export class ItemSource implements ItemSourceInterface {
   @UpdateDateColumn()
   updateDttm: Date;
 
-  @ManyToOne(() => ItemSchema, { nullable: false })
-  @JoinColumn({ name: 'itemSchema' })
+  @ManyToOne(
+    () => ItemSchema,
+    { nullable: false }
+  )
   itemSchema: ItemSchema;
 
-  @OneToMany(() => Item, (item: Item) => item.source)
+  @OneToMany(
+    () => Item,
+    (item: Item) => item.source
+  )
   item: Item[];
 }

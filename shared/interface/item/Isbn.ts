@@ -1,4 +1,4 @@
-import { ItemInterface } from '^interface/item/Item';
+import { ItemInterface } from './Item';
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 /**

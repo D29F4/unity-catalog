@@ -1,16 +1,5 @@
-<div
-  class="alert alert-{{ alertType.type }}{{
-    dismissable ? ' alert-dismissible' : ''
-  }}"
-  role="alert"
->
-  <span class="visually-hidden">{{ alertType.altText }}</span>
-  <div>{{ content }}</div>
-  <button
-    *ngIf="dismissable"
-    type="button"
-    class="btn-close"
-    data-bs-dismiss="alert"
-    aria-label="Close"
-  ></button>
+<div class="alert alert-{{ alert.alertType.level }}" [ngClass]="{'alert-dismissible': alert.dismissable}" role="alert">
+  <span class="visually-hidden" [innerHTML]="alert.alertType.altText"></span>
+  <div [innerHTML]="alert.content"></div>
+  <button *ngIf="alert.dismissable" type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
 </div>

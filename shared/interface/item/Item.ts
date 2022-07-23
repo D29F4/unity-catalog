@@ -1,8 +1,11 @@
-import { AbstractItemInterface } from '^interface/item/AbstractItem';
-import { LccClassInterface } from '^interface/item/LccClass';
-import { LccSubclassInterface } from '^interface/item/LccSubclass';
-import { LocationInterface } from '^interface/item/Location';
-import { PublisherInterface } from '^interface/item/Publisher';
+import { IsbnInterface } from './Isbn';
+import { ItemResourceTypeInterface } from './ItemResourceType';
+import { ItemSourceInterface } from './ItemSource';
+import { LccClassInterface } from './LccClass';
+import { LccSubclassInterface } from './LccSubclass';
+import { LocationInterface } from './Location';
+import { PublisherInterface } from './Publisher';
+import { UserInterface } from '../access/User';
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 /**
@@ -10,8 +13,14 @@ import { PublisherInterface } from '^interface/item/Publisher';
  *
  *  XML elements in comments refer to the corresponding MODS structure.
  */
-export interface ItemInterface extends AbstractItemInterface {
-  // id: number;
+export interface ItemInterface {
+  id: number;
+
+  /** The resource type of the item. */
+  resourceType: ItemResourceTypeInterface;
+
+  /** The source of the item data. */
+  source: ItemSourceInterface;
 
   /**
    *  The Library of Congress call number.
@@ -71,7 +80,7 @@ export interface ItemInterface extends AbstractItemInterface {
    *  LoC records may contain multiple such elements.  For our purposes they
    *  are collected into a single field (rendered as a JSON array).
    */
-  titleAlt: JSON;
+  titleAlt: string;
 
   /**
    *    <note type="statement of responsibility">
@@ -110,4 +119,19 @@ export interface ItemInterface extends AbstractItemInterface {
 
   /** The location of the item's publisher or publication. */
   //  location: LocationInterface;
+
+  /** One or more ISBNs associated with the item. */
+  isbn: IsbnInterface[];
+
+  /** The datetime of the record's creation. */
+  createDttm: Date;
+
+  /** The User who created the record. */
+  createUser: UserInterface;
+
+  /** The datetime of the record's last update. */
+  updateDttm: Date;
+
+  /** The User who made the last update. */
+  updateUser: UserInterface;
 }

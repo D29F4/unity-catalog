@@ -209,7 +209,7 @@ client can and does maintain functionally-specific interfaces as well.
 
 ### Components
 
-The primary application stack
+The primary application stack:
 
 - [Angular](https://angular.io/) (client-side framework)
 - [Bootstrap](https://getbootstrap.com/) (UI framework)

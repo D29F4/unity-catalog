@@ -1,7 +1,7 @@
 import { Column, Entity, PrimaryGeneratedColumn, Unique } from 'typeorm';
 //---------------------------------------------------------------------------
-import { EventInterface } from '^interface/general/Event';
-import { LogEntry } from '^entity/general/LogEntry';
+import { EventInterface } from '../../../../shared/interface/general/Event';
+import { LogEntry } from './LogEntry';
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 @Entity({
@@ -18,6 +18,9 @@ export class Event implements EventInterface {
   @Column({ nullable: false })
   name: string;
 
-  @Column({ nullable: false })
+  @Column({
+    nullable: false,
+    default: true,
+  })
   active: boolean;
 }

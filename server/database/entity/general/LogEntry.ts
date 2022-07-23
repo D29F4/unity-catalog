@@ -2,15 +2,15 @@ import {
   Column,
   CreateDateColumn,
   Entity,
-  JoinColumn,
+  //JoinColumn,
   ManyToOne,
   PrimaryGeneratedColumn,
 } from 'typeorm';
 //---------------------------------------------------------------------------
-import { LogEntryInterface } from '^interface/general/LogEntry';
-import { DataType } from '^entity/general/DataType';
-import { Event } from '^entity/general/Event';
-import { User } from '^entity/access/User';
+import { LogEntryInterface } from '../../../../shared/interface/general/LogEntry';
+import { DataType } from './DataType';
+import { Event } from './Event';
+import { User } from '../access/User';
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 @Entity({
@@ -21,24 +21,32 @@ export class LogEntry implements LogEntryInterface {
   id: number;
 
   @ManyToOne(() => Event, { nullable: false })
-  @JoinColumn({ name: 'event' })
+  //@JoinColumn({ name: 'event' })
   event: Event;
 
   @ManyToOne(() => DataType)
-  @JoinColumn({ name: 'dataType' })
+  //@JoinColumn({ name: 'data_type' })
   dataType: DataType;
 
   @Column({ unsigned: true })
   operandId: number;
 
-  @Column()
-  detail: { label: string; content: string }[];
+  @Column({
+    type: 'json',
+    nullable: true,
+    default: null,
+  })
+  detail: string;
+  //detail: { label: string; content: string }[]; //|FIX
 
-  @Column()
+  @Column({
+    nullable: true,
+    default: null,
+  })
   comment: string;
 
   @ManyToOne(() => User, { nullable: true })
-  @JoinColumn({ name: 'user' })
+  //@JoinColumn({ name: 'user' })
   user: User | null;
 
   @CreateDateColumn()

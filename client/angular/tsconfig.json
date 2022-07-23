@@ -5,7 +5,10 @@
   "compilerOptions": {
     "baseUrl": "./",
     "forceConsistentCasingInFileNames": true,
-    "lib": ["es2020", "dom"],
+    "lib": [
+      "es2020",
+      "dom"
+    ],
     "module": "es2020",
     "outDir": "../../dist/client",
     "paths": {
@@ -13,11 +16,15 @@
         "./src/app/core/interface/*",
         "../../shared/interface/*"
       ],
-      "^service/*": ["./src/app/core/service/*"]
+      "^service/*": [
+        "./src/app/core/service/*"
+      ]
     },
     "target": "es2020"
   },
-  "exclude": ["**/*.spec.ts"],
+  "exclude": [
+    "**/*.spec.ts"
+  ],
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
     "strictInjectionParameters": true,

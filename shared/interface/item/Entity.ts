@@ -1,4 +1,4 @@
-import { EntityTypeInterface } from '^interface/item/EntityType';
+import { EntityTypeInterface } from './EntityType';
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 /**

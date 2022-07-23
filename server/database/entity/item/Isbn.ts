@@ -1,14 +1,13 @@
 import {
   Column,
   Entity,
-  JoinColumn,
   ManyToOne,
   PrimaryGeneratedColumn,
   Unique,
 } from 'typeorm';
 //---------------------------------------------------------------------------
-import { IsbnInterface } from '^interface/item/Isbn';
-import { Item } from '^entity/item/Item';
+import { IsbnInterface } from '../../../../shared/interface/item/Isbn';
+import { Item } from './Item';
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 @Entity({
@@ -19,8 +18,10 @@ export class Isbn implements IsbnInterface {
   @PrimaryGeneratedColumn()
   id: number;
 
-  @ManyToOne(() => Item, { nullable: false })
-  @JoinColumn({ name: 'item' })
+  @ManyToOne(
+    () => Item,
+    { nullable: false }
+  )
   item: Item;
 
   @Column({

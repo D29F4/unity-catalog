@@ -6,8 +6,8 @@ import {
   Unique,
 } from 'typeorm';
 //---------------------------------------------------------------------------
-import { LccSubclassInterface } from '^interface/item/LccSubclass';
-import { LccClass } from '^entity/item/LccClass';
+import { LccSubclassInterface } from '../../../../shared/interface/item/LccSubclass';
+import { LccClass } from './LccClass';
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 @Entity({

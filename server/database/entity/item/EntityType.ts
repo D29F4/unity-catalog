@@ -1,12 +1,11 @@
 import {
   Column,
   Entity,
-  OneToMany,
   PrimaryGeneratedColumn,
   Unique,
 } from 'typeorm';
 //---------------------------------------------------------------------------
-import { EntityTypeInterface } from '^interface/item/EntityType';
+import { EntityTypeInterface } from '../../../../shared/interface/item/EntityType';
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 @Entity({

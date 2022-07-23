@@ -1,5 +1,5 @@
-import { ItemInterface } from '^interface/item/Item';
-import { SubjectSubdivisionMapInterface } from '^interface/item/SubjectSubdivisionMap';
+import { ItemInterface } from './Item';
+import { SubjectSubdivisionMapInterface } from './SubjectSubdivisionMap';
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 /**

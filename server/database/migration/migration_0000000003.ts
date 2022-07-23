@@ -1,9 +1,9 @@
 import { MigrationInterface, QueryRunner } from 'typeorm';
 //---------------------------------------------------------------------------
-import dataSource from '^database/data-source';
+import dataSource from '../../database/data-source';
 //---------------------------------------------------------------------------
-import { LccClass } from '^entity/item/LccClass';
-import { LccSubclass } from '^entity/item/LccSubclass';
+import { LccClass } from '../../database/entity/item/LccClass';
+import { LccSubclass } from '../../database/entity/item/LccSubclass';
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 /**

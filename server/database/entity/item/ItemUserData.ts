@@ -8,10 +8,10 @@ import {
   Unique,
 } from 'typeorm';
 //---------------------------------------------------------------------------
-import { ItemUserDataInterface } from '^interface/item/ItemUserData';
-import { Item } from '^entity/item/Item';
-import { ItemOwnershipFate } from '^entity/item/ItemOwnershipFate';
-import { User } from '^entity/access/User';
+import { ItemUserDataInterface } from '../../../../shared/interface/item/ItemUserData';
+import { Item } from './Item';
+import { ItemOwnershipFate } from './ItemOwnershipFate';
+import { User } from '../access/User';
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 @Entity()
@@ -40,7 +40,7 @@ export class ItemUserData implements ItemUserDataInterface {
   owned: boolean;
 
   @ManyToOne(() => ItemOwnershipFate)
-  @JoinColumn({ name: 'fate' })
+  //@JoinColumn({ name: 'fate' })
   fate?: ItemOwnershipFate;
 
   @Column()
@@ -49,8 +49,8 @@ export class ItemUserData implements ItemUserDataInterface {
   @Column()
   notes: string;
 
-  @Column()
-  uri: JSON;
+  @Column('json')
+  uri: string;
 
   @Column()
   updatedDttm: Date;
